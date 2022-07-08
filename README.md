@@ -1,0 +1,1 @@
+# gadget-medics-wordpress-docker
