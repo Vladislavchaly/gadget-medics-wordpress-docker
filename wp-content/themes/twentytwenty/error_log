@@ -1,0 +1,4 @@
+[27-Apr-2022 05:28:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/gadgeto0/public_html/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/gadgeto0/public_html/wp-content/themes/twentytwenty/index.php on line 17

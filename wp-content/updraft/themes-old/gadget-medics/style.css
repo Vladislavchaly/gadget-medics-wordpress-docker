@@ -1,0 +1,19 @@
+/*
+Theme Name: Gadget medics
+Author: Codehunt
+
+*/
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+
+.screen-reader-response, .wpcf7-not-valid-tip,.wpcf7-response-output{
+    display: none !important;
+}
+.wpcf7-not-valid{
+    border-color: red !important;
+}
+.romw-reviews .swiper-button-prev, .romw-reviews .swiper-button-next, .romw-reviews .swiper-pagination {
+    display: none !important;
+}

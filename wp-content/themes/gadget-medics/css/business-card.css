@@ -1,0 +1,258 @@
+/*business card*/
+
+* {
+    box-sizing: border-box;
+}
+
+body , p {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 414px;
+    margin: 0 auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    font-size: 14px;
+}
+
+.headerPart {
+    background: #FC6464;
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+.headerInfo {
+    text-align: center;
+    color: white;
+    margin-bottom:40px;
+}
+
+.headerActions {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.circle{
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.circle.colorful{
+    background-color:#ffe8e8;
+}
+
+.circle img{
+    width: 15px;
+}
+
+.headerActions div p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.bgCircle {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.bgCircle:before {
+    content: '';
+    width: 500%;
+    height: 100%;
+    position: absolute;
+    background-color: #fc6464;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc(-100% + 340px);
+    z-index: -1;
+}
+
+.bodyPart{
+    padding: 60px 40px 0 40px;
+    margin-top: 20px;
+}
+
+.bodyItem{
+    display:flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.bodyItem a{
+    display:flex;
+    align-items: center;
+}
+
+.bodyItem p{
+    color: #908F9C;
+    font-size: 13px;
+}
+
+.bodyItem p strong{
+    color: #191826;
+}
+
+.number{
+    margin-left: 20px;
+}
+
+.redcolor{
+    color: #fc6464;
+}
+
+a.redcolor strong{
+    font-size: 13px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.socialMedia h3{
+    font-size: 15px
+}
+
+.circleFacebook{
+    background-color: transparent;
+    border: 1px solid #4267B2;
+    margin-right: 20px;
+}
+
+.circleInstagram{
+    background-color: transparent;
+    border: 1px solid #D62976;
+}
+
+.socialMedia img{
+    width: 15px;
+    height: 15px;
+}
+
+.social{
+    padding: 40px;
+    position:relative;
+    padding-bottom: 0;
+    margin-bottom: 40px;
+}
+
+.mb0{
+    margin-bottom: 0;
+}
+
+.buttons {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn:first-child {
+    margin-bottom: 10px;
+}
+
+.btn.btn-primary {
+    background-color: #3a3768;
+}
+
+.btn.btn-danger {
+    background-color: #fc6464;
+}
+
+.modal {
+    background-color: #3a3768;
+    padding: 40px;
+    transition: bottom .3s ease-in-out;
+    position: fixed;
+    bottom: -100%;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.modal.active {
+    bottom: 0;
+    left: 0;
+}
+
+.modal .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal .title span:before, .modal .title span:after {
+    content: '';
+    width: 18px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+}
+
+.modal .title h5 {
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.modal .title span:before {
+    transform: rotate(45deg);
+}
+
+.modal .title span:after {
+    transform: rotate(-45deg);
+    margin-top: -1px;
+}
+
+.modal ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.modal ul li a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.modal ul li img {
+    margin-right: 20px;
+}
+
+.modal ul li p {
+    color: #fff;
+}
+.headerInfo img {
+    max-width: 86px;
+    border-radius: 55px;
+}

@@ -1,0 +1,23 @@
+<svg width="44" height="56" viewBox="0 0 44 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M15.293 8.23775V4.64464C15.293 2.71662 16.8308 1.13916 18.7104 1.13916H25.2891C27.1687 1.13916 28.7066 2.71662 28.7066 4.64464V8.32539" stroke="#FC6464" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.9573 13.0579C32.8932 13.0579 41.8641 22.1721 41.8641 33.3896C41.8641 44.6948 32.8932 53.809 21.9573 53.809C11.0214 53.809 2.13592 44.6948 2.13592 33.3896C2.13592 22.1721 11.0214 13.0579 21.9573 13.0579ZM21.9573 10.8669C9.82524 10.8669 0 20.9452 0 33.3896C0 45.8341 9.82524 55.9123 21.9573 55.9123C34.0893 55.9123 43.9146 45.8341 43.9146 33.3896C44 20.9452 34.0893 10.8669 21.9573 10.8669Z" fill="#FC6464"/>
+<path d="M36.4814 10.5164C38.9591 12.1815 41.095 14.1971 42.8892 16.4757" stroke="#FC6464" stroke-width="2.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M21.957 18.6665V28.5695" stroke="#FC6464" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M21.957 38.1218V41.8026" stroke="#FC6464" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M21.957 49.7776V54.1594" stroke="#FC6464" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M42.2914 33.3896H38.0195" stroke="#FC6464" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M6.06579 33.3896H1.79395" stroke="#FC6464" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M36.7378 48.5506L33.3203 45.0452" stroke="#FC6464" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M10.7651 21.7337L7.34766 18.1406" stroke="#FC6464" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M21.9572 29.9717C23.8368 29.9717 25.2893 31.5491 25.2893 33.3895C25.2893 35.3175 23.7514 36.8074 21.9572 36.8074C20.0776 36.8074 18.6252 35.2299 18.6252 33.3895C18.6252 31.5491 20.163 29.9717 21.9572 29.9717ZM21.9572 27.7808C18.9669 27.7808 16.4893 30.3222 16.4893 33.3895C16.4893 36.4568 18.9669 38.9983 21.9572 38.9983C24.9475 38.9983 27.4252 36.4568 27.4252 33.3895C27.4252 30.3222 25.0329 27.7808 21.9572 27.7808Z" fill="#FC6464"/>
+<path d="M21.957 5.95923V12.0938" stroke="#FC6464" stroke-width="2.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M7.17676 48.463L10.5942 44.9575" stroke="#FC6464" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M33.3203 21.8214L36.8232 18.3159" stroke="#FC6464" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="44" height="56" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,5068 @@
+# Translation of SEOPress - SEOPress Pro in Russian
+# This file is distributed under the same license as the SEOPress - SEOPress Pro package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-30 13:19:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: SEOPress - SEOPress Pro\n"
+
+#: inc/admin/admin-metaboxes-schemas.php:1366
+msgid "Eg: OfflineEventAttendanceMode"
+msgstr "Например: OfflineEventAttendanceMode"
+
+#: inc/admin/admin-metaboxes-schemas.php:1358
+msgid "Eg: EventCancelled"
+msgstr "Например: EventCancelled"
+
+#: inc/admin/admin-metaboxes.php:1317
+msgid "Mixed event"
+msgstr "Смешаное мероприятие"
+
+#: inc/admin/admin-metaboxes.php:1316
+msgid "Online event"
+msgstr "Онлайн мероприятие"
+
+#: inc/admin/admin-metaboxes.php:1315
+msgid "Offline event"
+msgstr "Офлайн мероприятие"
+
+#: inc/admin/admin-metaboxes.php:1312 inc/admin/admin-metaboxes.php:1314
+msgid "Select your event attendance mode"
+msgstr "Выберите способ посещения мероприятия"
+
+#: inc/admin/admin-metaboxes.php:1308
+msgid "Event scheduled"
+msgstr "Событие запланировано"
+
+#: inc/admin/admin-metaboxes.php:1307
+msgid "Event rescheduled"
+msgstr "Мероприятие перенесено"
+
+#: inc/admin/admin-metaboxes.php:1306
+msgid "Event postponed"
+msgstr "Мероприятие отложено"
+
+#: inc/admin/admin-metaboxes.php:1305
+msgid "Event moved online"
+msgstr "Мероприятие перенесено в онлайн"
+
+#: inc/admin/admin-metaboxes.php:1304
+msgid "Event cancelled"
+msgstr "Мероприятие отменено"
+
+#: inc/admin/admin-metaboxes.php:1303
+msgid "Select a status event"
+msgstr "Выберите статус мероприятия"
+
+#: inc/admin/admin-metaboxes.php:1301
+msgid "Select your event status"
+msgstr "Выберите статус вашего мероприятия"
+
+#: inc/admin/admin-metaboxes.php:1198 inc/admin/admin-metaboxes.php:1199
+#: inc/admin/admin-metaboxes-schemas.php:1267
+msgid "Previous start time"
+msgstr "Предыдущее время начала"
+
+#: inc/admin/admin-metaboxes.php:1193 inc/admin/admin-metaboxes.php:1194
+#: inc/admin/admin-metaboxes-schemas.php:1259
+#: inc/admin/admin-metaboxes-schemas.php:1260
+msgid "Previous start date"
+msgstr "Предыдущая дата начала"
+
+#: inc/admin/schemas.php:1240 inc/admin/admin-metaboxes-schemas.php:1367
+msgid "Possible values: \"OfflineEventAttendanceMode\", \"OnlineEventAttendanceMode\", \"MixedEventAttendanceMode\""
+msgstr "Возможные значения: \"OfflineEventAttendanceMode\", \"OnlineEventAttendanceMode\", \"MixedEventAttendanceMode\""
+
+#: inc/admin/schemas.php:1238 inc/admin/admin-metaboxes-schemas.php:1365
+#: inc/admin/admin-metaboxes-schemas.php:1366
+msgid "Event attendance mode"
+msgstr "Способ посещения мероприятия"
+
+#: inc/admin/schemas.php:1234 inc/admin/admin-metaboxes-schemas.php:1359
+msgid "Possible values: \"EventCancelled\", \"EventMovedOnline\", \"EventPostponed\", \"EventRescheduled\", \"EventScheduled\""
+msgstr "Возможные значения: \"EventCancelled\", \"EventMovedOnline\", \"EventPostponed\", \"EventRescheduled\", \"EventScheduled\""
+
+#: inc/admin/schemas.php:1232 inc/admin/admin-metaboxes-schemas.php:1357
+#: inc/admin/admin-metaboxes-schemas.php:1358
+msgid "Event status"
+msgstr "Статус мероприятия"
+
+#: inc/admin/schemas.php:1172 inc/admin/admin-metaboxes-schemas.php:1266
+msgid "Previous Start time"
+msgstr "Предыдущее время начала"
+
+#: inc/admin/schemas.php:1167
+msgid "Previous Start date"
+msgstr "Предыдущая дата начала"
+
+#: inc/admin/admin-metaboxes.php:607 inc/admin/admin.php:474
+#: inc/admin/admin.php:2002
+msgid "Cuisine served"
+msgstr "Кухня на стол"
+
+#: inc/admin/admin.php:1539
+msgid "This feature is completely independent of user tracking. For example, statistical data will be collected even if you have not entered your API keys below."
+msgstr "Эта функция полностью независима от отслеживания пользователей. Например, статистические данные будут собираться, даже если вы не вводили свои API ключи ниже."
+
+#: inc/admin/redirections.php:444
+msgid "Last time loaded"
+msgstr "Время последней загрузки"
+
+#: inc/admin/redirections.php:340
+msgid "%s redirection disabled."
+msgid_plural "%s redirections disabled."
+msgstr[0] "%s перенаправление отключено."
+msgstr[1] "%s перенаправления отключено."
+msgstr[2] "%s перенаправлений отключено."
+
+#: inc/admin/redirections.php:304
+msgid "%s redirections enabled."
+msgid_plural "%s redirections enabled."
+msgstr[0] "%s перенаправление включено."
+msgstr[1] "%s перенаправления включено."
+msgstr[2] "%s перенаправлений включено."
+
+#: inc/admin/redirections.php:68
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr "Рубрика"
+
+#: inc/admin/redirections.php:67
+msgctxt "Taxonomy General Name"
+msgid "Categories"
+msgstr "Рубрики"
+
+#: inc/admin/redirections.php:13
+msgctxt "Post Type Singular Name"
+msgid "404 / 301"
+msgstr "404 / 301"
+
+#: inc/admin/redirections.php:12
+msgctxt "Post Type General Name"
+msgid "404 / 301"
+msgstr "404 / 301"
+
+#: inc/admin/backlinks.php:14
+msgctxt "Post Type Singular Name"
+msgid "Backlinks"
+msgstr "Обратные ссылки"
+
+#: inc/admin/backlinks.php:13
+msgctxt "Post Type General Name"
+msgid "Backlinks"
+msgstr "Обратные ссылки"
+
+#: inc/admin/admin-metaboxes.php:608
+msgid "The type of cuisine the restaurant serves."
+msgstr "Тип кухни, который подает ресторан."
+
+#: inc/admin/admin-metaboxes.php:608 inc/admin/admin.php:2002
+msgid "eg: French, Italian, Indian, American"
+msgstr "например: французская, итальянская, индийская, американская"
+
+#: inc/admin/bot.php:13
+msgctxt "Post Type Singular Name"
+msgid "Broken links"
+msgstr "Неработающие ссылки"
+
+#: inc/admin/bot.php:12
+msgctxt "Post Type General Name"
+msgid "Broken links"
+msgstr "Неработающие ссылки"
+
+#: inc/admin/schemas.php:572
+msgid "Add a rule"
+msgstr "Добавить правило"
+
+#: inc/admin/schemas.php:207 inc/admin/schemas.php:209
+#: inc/admin/schemas.php:570
+msgid "or"
+msgstr "или"
+
+#: inc/admin/schemas.php:198 inc/admin/schemas.php:201
+#: inc/admin/schemas.php:206
+msgid "and"
+msgstr "и"
+
+#: inc/admin/schemas.php:48
+msgctxt "Post Type Singular Name"
+msgid "Schema"
+msgstr "Схема"
+
+#: inc/admin/schemas.php:47
+msgctxt "Post Type General Name"
+msgid "Schemas"
+msgstr "Схемы"
+
+#: inc/admin/schemas.php:26
+msgid "Post Type"
+msgstr "Тип записи"
+
+#: inc/admin/schemas.php:14
+msgid "is NOT equal to"
+msgstr "НЕ равно"
+
+#: inc/admin/schemas.php:14
+msgid "is equal to"
+msgstr "равно"
+
+#. translators: %d: posts count
+#: inc/admin/import/class-csv-controller.php:603
+msgid "Failed to import %s metadata"
+msgid_plural "Failed to import %s metadata"
+msgstr[0] "Не удалось импортировать метаданные %s"
+msgstr[1] "Не удалось импортировать метаданные %s"
+msgstr[2] "Не удалось импортировать метаданные %s"
+
+#. translators: %d: posts count
+#: inc/admin/import/class-csv-controller.php:595
+msgid "%s metadata was skipped"
+msgid_plural "%s metadata were skipped"
+msgstr[0] "%s строку метаданных пропущено"
+msgstr[1] "%s строки метаданных пропущено"
+msgstr[2] "%s строк метаданных пропущено"
+
+#. translators: %d: posts count
+#: inc/admin/import/class-csv-controller.php:587
+msgid "%s metadata updated"
+msgid_plural "%s metadata updated"
+msgstr[0] "%s строку метаданных обновлено"
+msgstr[1] "%s строки метаданных обновлено"
+msgstr[2] "%s строк метаданных обновлено"
+
+#. translators: %d: posts count
+#: inc/admin/import/class-csv-controller.php:579
+msgid "%s metadata imported"
+msgid_plural "%s metadata imported"
+msgstr[0] "%s строку метаданных импортировано"
+msgstr[1] "%s строки метаданных импортировано"
+msgstr[2] "%s строк метаданных импортировано"
+
+#. Author of the plugin
+msgid "SEOPress"
+msgstr "SEOPress"
+
+#. Description of the plugin
+msgid "The PRO version of SEOPress. SEOPress required (free)."
+msgstr "Профессиональная версия SEOPress. Требуется SEOPress (бесплатно)."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.seopress.org/seopress-pro/"
+msgstr "https://www.seopress.org/seopress-pro/"
+
+#. Plugin Name of the plugin
+msgid "SEOPress PRO"
+msgstr "SEOPress PRO"
+
+#: inc/admin/admin.php:1235
+msgid "404 monitoring / Redirections"
+msgstr "404 мониторинг / Перенаправления"
+
+#: inc/admin/admin.php:1201
+msgid "Improve WooCommerce SEO. By enabling this feature, we‘ll automatically add <strong>product identifiers type</strong> and <strong>product identifiers value</strong> fields to the WooCommerce product metabox (barcode) for the Product schema."
+msgstr "Улучшите WooCommerce SEO. Включив эту функцию, мы автоматически добавим поля с <strong>типом идентификаторов товара</strong> и <strong>значением идентификаторов товара</strong> в метабокс товара (штрих-код) WooCommerce для схемы товара."
+
+#: inc/functions/options.php:81
+msgid "Please enable <strong>Structured Data Types metabox for your posts, pages and custom post types</strong> option in order to use automatic schemas. (SEO > PRO > Structured Data Types (schema.org)"
+msgstr "Пожалуйста, включите настройку <strong>метабокс Structured Data Types для ваших записей, страниц и пользовательских типов записей</strong> для использования автоматических схем. SEO > PRO > Структурированные типы данных (schema.org)"
+
+#: inc/functions/options-woocommerce-admin.php:56
+msgid "A valid product identifier to be used in the product schema (accepted types: gtin8 | gtin13 | gtin14 | mpn | isbn)"
+msgstr "Коретный идентификатор товара для использования в схеме товара (принимаются типы: gtin8 | gtin13 | gtin14 | mpn | isbn)"
+
+#: inc/admin/updater/plugin-licence.php:209
+msgid "An error occurred, please try again. Response code: "
+msgstr "Произошла ошибка, пожалуйста, попробуйте снова. Код ответа:"
+
+#: inc/admin/schemas.php:1470
+msgid "Learn more about the <strong>Review schema</strong> from the <a href=\"%s\" target=\"_blank\">Google official documentation website</a><span class=\"dashicons dashicons-external\"></span>"
+msgstr "Узнать больше о <strong>схеме Review</strong> на <a href=\"%s\" target=\"_blank\">сайте официальной документации Google</a><span class=\"dashicons dashicons-external\"></span>"
+
+#: inc/admin/schemas.php:1382
+msgid "Learn more about the <strong>Service schema</strong> from the <a href=\"%s\" target=\"_blank\">Schema.org official documentation website</a><span class=\"dashicons dashicons-external\"></span>"
+msgstr "Узнать больше о <strong>схеме Service</strong> на <a href=\"%s\" target=\"_blank\">сайте официальной документации Schema.org</a><span class=\"dashicons dashicons-external\"></span>"
+
+#: inc/admin/schemas.php:1347
+msgid "Learn more about the <strong>Software App schema</strong> from the <a href=\"%s\" target=\"_blank\">Google official documentation website</a><span class=\"dashicons dashicons-external\"></span>"
+msgstr "Узнать больше о <strong>схеме Software App</strong> на <a href=\"%s\" target=\"_blank\">сайте официальной документации Google</a><span class=\"dashicons dashicons-external\"></span>"
+
+#: inc/admin/schemas.php:1286
+msgid "WooCommerce is not enabled on your site. Some properties like <strong>aggregateRating</strong> and <strong>Review</strong> will not work out of the box."
+msgstr "На вашем сайте не включен WooCommerce. Некоторые свойства, например, <strong>aggregateRating</strong> и <strong>Review</strong> не будут работать из коробки."
+
+#: inc/admin/schemas.php:1282
+msgid "You have not deactivated the default WooCommerce structured data type from our <a href=\"%s\"><strong>PRO settings > WooCommerce tab</strong></a>. It's recommended to disable it to avoid any conflicts with your product schemas."
+msgstr "Вы не деактивировали тип структурированных данных, используемый в WooCommerce по умолчанию, в наших <a href=\"%s\"><strong>настройках PRO > WooCommerce</strong></a>. Рекомендуется отключить его во избежание конфликтов с вашими схемами товаров."
+
+#: inc/admin/schemas.php:1261
+msgid "Star ratings should be required, not optional"
+msgstr "Звездный рейтинг необходим, без вариантов"
+
+#: inc/admin/schemas.php:1258
+msgid "Enable star rating on reviews"
+msgstr "Включить звездный рейтинг для отзывов"
+
+#: inc/admin/schemas.php:1255
+msgid "Enable product reviews"
+msgstr "Включить отзывы на товары"
+
+#: inc/admin/schemas.php:1252
+msgid "Please activate these options from <strong>WC settings</strong>, <strong>Products</strong>, <a href=\"%s\"><strong>General tab</strong></a>:"
+msgstr "Пожалуйста, включите эти опции в<strong>настройках WC</strong>, <strong>Товары</strong>, <a href=\"%s\"><strong>вкладка Общие</strong></a>:"
+
+#: inc/admin/schemas.php:1251
+msgid "To automatically add <strong>aggregateRating</strong> and <strong>Review</strong> properties to your schema, you have to enable <strong>User Reviews</strong> from WooCommerce settings."
+msgstr "Для автоматического добавления свойств <strong>aggregateRating</strong> и <strong>Review</strong> в вашу схему вам необходимо включить <strong>отзывы пользователей</strong> в настройках WooCommerce."
+
+#: inc/admin/schemas.php:1245
+msgid "Learn more about the <strong>Product schema</strong> from the <a href=\"%s\" target=\"_blank\">Google official documentation website</a><span class=\"dashicons dashicons-external\"></span>"
+msgstr "Узнать больше о <strong>схеме Product</strong> на <a href=\"%s\" target=\"_blank\">сайте официальной документации Google</a><span class=\"dashicons dashicons-external\"></span>"
+
+#: inc/admin/schemas.php:1125
+msgid "Learn more about the <strong>Events schema</strong> from the <a href=\"%s\" target=\"_blank\">Google official documentation website</a><span class=\"dashicons dashicons-external\"></span>"
+msgstr "Узнать больше о <strong>схеме Events</strong> на <a href=\"%s\" target=\"_blank\">сайте официальной документации Google</a><span class=\"dashicons dashicons-external\"></span>"
+
+#: inc/admin/schemas.php:1097
+msgid "Learn more about the <strong>Video schema</strong> from the <a href=\"%s\" target=\"_blank\">Google official documentation website</a><span class=\"dashicons dashicons-external\"></span>"
+msgstr "Узнать больше о <strong>схеме Video</strong> на <a href=\"%s\" target=\"_blank\">сайте официальной документации Google</a><span class=\"dashicons dashicons-external\"></span>"
+
+#: inc/admin/schemas.php:1015
+msgid "Learn more about the <strong>Job Posting schema</strong> from the <a href=\"%s\" target=\"_blank\">Google official documentation website</a><span class=\"dashicons dashicons-external\"></span>"
+msgstr "Узнать больше о <strong>схеме Job Posting</strong> на <a href=\"%s\" target=\"_blank\">сайте официальной документации Google</a><span class=\"dashicons dashicons-external\"></span>"
+
+#: inc/admin/schemas.php:952
+msgid "Learn more about the <strong>Recipe schema</strong> from the <a href=\"%s\" target=\"_blank\">Google official documentation website</a><span class=\"dashicons dashicons-external\"></span>"
+msgstr "Узнать больше о <strong>схеме Recipe</strong> на <a href=\"%s\" target=\"_blank\">сайте официальной документации Google</a><span class=\"dashicons dashicons-external\"></span>"
+
+#: inc/admin/schemas.php:928
+msgid "Learn more about the <strong>Course schema</strong> from the <a href=\"%s\" target=\"_blank\">Google official documentation website</a><span class=\"dashicons dashicons-external\"></span>"
+msgstr "Узнать больше о <strong>схеме Course</strong> на <a href=\"%s\" target=\"_blank\">сайте официальной документации Google</a><span class=\"dashicons dashicons-external\"></span>"
+
+#: inc/admin/schemas.php:914
+msgid "Learn more about the <strong>FAQ schema</strong> from the <a href=\"%s\" target=\"_blank\">Google official documentation website</a><span class=\"dashicons dashicons-external\"></span>"
+msgstr "Узнать больше о <strong>схеме FAQ</strong> на <a href=\"%s\" target=\"_blank\">сайте официальной документации Google</a><span class=\"dashicons dashicons-external\"></span>"
+
+#: inc/admin/schemas.php:641
+msgid "Learn more about the <strong>Local Business schema</strong> from the <a href=\"%s\" target=\"_blank\">Google official documentation website</a><span class=\"dashicons dashicons-external\"></span>"
+msgstr "Узнать больше о <strong>схеме Local Business</strong> на <a href=\"%s\" target=\"_blank\">сайте официальной документации Google</a><span class=\"dashicons dashicons-external\"></span>"
+
+#: inc/admin/schemas.php:579
+msgid "Learn more about the <strong>Article schema</strong> from the <a href=\"%s\" target=\"_blank\">Google official documentation website</a><span class=\"dashicons dashicons-external\"></span>"
+msgstr "Узнать больше о <strong>схеме Article</strong> на <a href=\"%s\" target=\"_blank\">сайте официальной документации Google</a><span class=\"dashicons dashicons-external\"></span>"
+
+#: inc/admin/schemas.php:500
+msgid "Software Application "
+msgstr "Программное обеспечение"
+
+#: inc/admin/schemas.php:294
+msgid "Product Global Identifier"
+msgstr "Глобальный идентификатор товара"
+
+#: inc/admin/schemas.php:293
+msgid "Product Global Identifier type"
+msgstr "Тип глобального идентификатора товара"
+
+#: inc/admin/redirections.php:122
+msgid "Clean your 404"
+msgstr "Очистите вашу 404"
+
+#: inc/admin/import/class-csv-wizard.php:154
+msgid "Insufficient privileges to import metadata."
+msgstr "Недостаточно прав для импорта метаданных."
+
+#: inc/admin/import/class-csv-wizard.php:142
+msgid "Import <strong>metadata</strong> (title, meta description, social metas...) to your site via a csv file."
+msgstr "Импортировать <strong>метаданные</strong> (заголовок, описание мета, социальные метаданные...) на сайт с помощью файла csv."
+
+#: inc/admin/import/class-csv-wizard.php:142
+msgid "SEO metadata (CSV)"
+msgstr "Метаданные SEO (CSV)"
+
+#. translators: %d: metadata ID
+#: inc/admin/import/class-csv-importer.php:653
+msgid "ID %d"
+msgstr "ID %d"
+
+#: inc/admin/import/class-csv-controller.php:748
+msgid "nosnippet? (yes)"
+msgstr "nosnippet? (да)"
+
+#: inc/admin/import/class-csv-controller.php:747
+msgid "noarchive? (yes)"
+msgstr "noarchive? (да)"
+
+#: inc/admin/import/class-csv-controller.php:746
+msgid "noimageindex? (yes)"
+msgstr "noimageindex? (да)"
+
+#: inc/admin/import/class-csv-controller.php:745
+msgid "noodp? (yes)"
+msgstr "noodp? (да)"
+
+#: inc/admin/import/class-csv-controller.php:744
+msgid "nofollow? (yes)"
+msgstr "nofollow? (да)"
+
+#: inc/admin/import/class-csv-controller.php:743
+msgid "noindex? (yes)"
+msgstr "noindex? (да)"
+
+#: inc/admin/import/class-csv-controller.php:705
+#: inc/admin/import/class-csv-controller.php:750
+msgid "Target Keyword"
+msgstr "Целевое ключевое слово"
+
+#: inc/admin/import/class-csv-controller.php:704
+#: inc/admin/import/class-csv-controller.php:749
+msgid "Canonical URL"
+msgstr "Каноническая URL"
+
+#: inc/admin/import/class-csv-controller.php:703
+msgid "nosnippet"
+msgstr "nosnippet"
+
+#: inc/admin/import/class-csv-controller.php:702
+msgid "noarchive"
+msgstr "noarchive"
+
+#: inc/admin/import/class-csv-controller.php:701
+msgid "noimageindex"
+msgstr "noimageindex"
+
+#: inc/admin/import/class-csv-controller.php:700
+msgid "noodp"
+msgstr "noodp"
+
+#: inc/admin/import/class-csv-controller.php:699
+msgid "nofollow"
+msgstr "nofollow"
+
+#: inc/admin/import/class-csv-controller.php:697
+#: inc/admin/import/class-csv-controller.php:742
+msgid "Twitter thumbnail"
+msgstr "Миниатюра Twitter"
+
+#: inc/admin/import/class-csv-controller.php:696
+#: inc/admin/import/class-csv-controller.php:741
+msgid "Twitter description"
+msgstr "Описание Twitter"
+
+#: inc/admin/import/class-csv-controller.php:695
+#: inc/admin/import/class-csv-controller.php:740
+msgid "Twitter title"
+msgstr "Заголовок Twitter"
+
+#: inc/admin/import/class-csv-controller.php:694
+#: inc/admin/import/class-csv-controller.php:739
+msgid "Facebook thumbnail"
+msgstr "Миниатюра Facebook"
+
+#: inc/admin/import/class-csv-controller.php:693
+#: inc/admin/import/class-csv-controller.php:738
+msgid "Facebook description"
+msgstr "Описание Facebook"
+
+#: inc/admin/import/class-csv-controller.php:692
+#: inc/admin/import/class-csv-controller.php:737
+msgid "Facebook title"
+msgstr "Заголовок Facebook"
+
+#: inc/admin/import/class-csv-controller.php:690
+msgid "Meta Title"
+msgstr "Заголовок мета"
+
+#: inc/admin/import/class-csv-controller.php:689
+#: inc/admin/import/class-csv-controller.php:734
+msgid "ID"
+msgstr "ID"
+
+#: inc/admin/import/class-csv-controller.php:654
+msgid "View posts"
+msgstr "Просмотр записей"
+
+#: inc/admin/import/class-csv-controller.php:621
+msgid "Reason for failure"
+msgstr "Причина для отказа"
+
+#: inc/admin/import/class-csv-controller.php:620
+msgid "Post"
+msgstr "Запись"
+
+#: inc/admin/import/class-csv-controller.php:609
+msgid "View import log"
+msgstr "Просмотреть журнал импорта"
+
+#. translators: %d: import results
+#: inc/admin/import/class-csv-controller.php:568
+#: inc/admin/import/class-csv-controller.php:613
+msgid "Import complete!"
+msgstr "Импорт завершен!"
+
+#: inc/admin/import/class-csv-controller.php:545
+msgid "Your metadata are now being imported..."
+msgstr "Ваши метаданные импортированы..."
+
+#: inc/admin/import/class-csv-controller.php:544
+msgid "Importing"
+msgstr "Импортируем"
+
+#: inc/admin/import/class-csv-controller.php:516
+msgid "The file does not exist, please try again."
+msgstr "Файл не существует, пожалуйста, попробуйте снова."
+
+#: inc/admin/import/class-csv-controller.php:492
+msgid "Run the importer"
+msgstr "Запустить импорт"
+
+#: inc/admin/import/class-csv-controller.php:478
+msgid "Do not import"
+msgstr "Не импортировать"
+
+#: inc/admin/import/class-csv-controller.php:472
+msgid "Sample:"
+msgstr "Пример:"
+
+#: inc/admin/import/class-csv-controller.php:462
+msgid "Map to field"
+msgstr "Привязать к полю"
+
+#: inc/admin/import/class-csv-controller.php:461
+msgid "Column name"
+msgstr "Имя столбца"
+
+#: inc/admin/import/class-csv-controller.php:455
+msgid "Select fields from your CSV file to map against posts fields, or to ignore during import."
+msgstr "Выберите поля из файла CSV для привязки к полям записей или для игнорирования во время импорта."
+
+#: inc/admin/import/class-csv-controller.php:453
+msgid "Map CSV fields to post metas"
+msgstr "Привязать поля CSV к мета записи"
+
+#: inc/admin/import/class-csv-controller.php:444
+msgid "Upload a new file"
+msgstr "Загрузить новый файл"
+
+#: inc/admin/import/class-csv-controller.php:440
+msgid "The file is empty or using a different encoding than UTF-8, please try again with a new file."
+msgstr "Файл пуст или используется кодировка, отличная от UTF-8. Пожалуйста, попробуйте заново с другим файлом."
+
+#: inc/admin/import/class-csv-controller.php:420
+msgid "Please upload or provide the link to a valid CSV file."
+msgstr "Пожалуйста, загрузите или предоставьте ссылку на корректный файл CSV."
+
+#: inc/admin/import/class-csv-importer.php:389
+#: inc/admin/import/class-csv-controller.php:379
+#: inc/admin/import/class-csv-controller.php:415
+#: inc/admin/import/class-csv-controller.php:510
+msgid "Invalid file type. The importer supports CSV and TXT file formats."
+msgstr "Неверный тип файла. Импорт поддерживает форматы файлов CSV и TXT."
+
+#: inc/admin/import/class-csv-controller.php:375
+msgid "File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini."
+msgstr "Файл пуст. Пожалуйста, загрузите что-то более существенное. Эта ошибка также может означать, что в php.ini запрещены загрузки, либо значение post_max_size меньше, чем upload_max_filesize."
+
+#: inc/admin/import/class-csv-controller.php:339
+msgid "Next step"
+msgstr "Следующий шаг"
+
+#. translators: %s: maximum upload size
+#: inc/admin/import/class-csv-controller.php:327
+msgid "Maximum size: %s"
+msgstr "Максимальный размер: %s"
+
+#: inc/admin/import/class-csv-controller.php:315
+msgid "Choose a CSV file from your computer:"
+msgstr "Выберите файл CSV на вашем компьютере:"
+
+#: inc/admin/import/class-csv-controller.php:309
+msgid "Before you can upload your import file, you will need to fix the following error:"
+msgstr "Перед загрузкой этого файла вам необходимо исправить такую ошибку:"
+
+#: inc/admin/import/class-csv-controller.php:301
+msgid "Posts, pages or custom post types that do not exist will be skipped."
+msgstr "Несуществующие записи, страницы и типы пользовательских записей будут пропущены."
+
+#: inc/admin/import/class-csv-controller.php:300
+msgid "Existing posts that match by ID will be updated."
+msgstr "Существующие записи с совпадающим ID будут обновлены."
+
+#: inc/admin/import/class-csv-controller.php:299
+msgid "This tool allows you to import SEO metadata to your site from a CSV file (separator: \";\" )."
+msgstr "Этот инструмент позволяет импортировать метаданные SEO на ваш сайт из файла CSV (разделитель: \";\")."
+
+#: inc/admin/import/class-csv-controller.php:184
+msgid "Import metadata from a CSV file"
+msgstr "Импортировать метаданные из файла CSV"
+
+#: inc/admin/import/class-csv-controller.php:127
+msgid "Done!"
+msgstr "Завершено!"
+
+#: inc/admin/import/class-csv-controller.php:122
+msgid "Import"
+msgstr "Импорт"
+
+#: inc/admin/import/class-csv-controller.php:117
+msgid "Column mapping"
+msgstr "Привязка столбцов"
+
+#: inc/admin/import/class-csv-controller.php:112
+msgid "Upload CSV file"
+msgstr "Загрузить файл CSV"
+
+#: inc/admin/admin.php:3213
+msgid "Find your Dashicons CSS class name on the official website"
+msgstr "Вы можете найти имя класса Dashicons CSS на официальном сайте"
+
+#: inc/admin/admin.php:2874
+msgid "Clean manually your 404"
+msgstr "Очистить вручную 404"
+
+#: inc/admin/admin.php:2248
+msgid "If \"Remove default JSON-LD structured data (WooCommerce 3+)\" option is already checked, the breadcrumbs schema is already removed from your source code."
+msgstr "Если выбрана опция \"Убрать структурированные JSON-LD данные хлебных крошек по умолчанию (WooCommerce 3+)\", то схема хлебных уже удалена из исходного кода."
+
+#: inc/admin/admin.php:2246
+msgid "Remove default breadcrumbs JSON-LD structured data (WooCommerce 3+)"
+msgstr "Убрать структурированные JSON-LD данные хлебных крошек по умолчанию (WooCommerce 3+)"
+
+#: inc/admin/admin.php:2195 inc/admin/admin.php:2283
+msgid "Add product:price:currency meta for product"
+msgstr "Добавить мета товар:цена:валюта для товара"
+
+#: inc/admin/admin.php:2178 inc/admin/admin.php:2266
+msgid "Add product:price:amount meta for product"
+msgstr "Добавить мета товар:цена:количество для товара"
+
+#: inc/admin/admin.php:1482
+msgid "Our robots.txt file is virtual (like the default WordPress one). It means it‘s not physically present on your server. It‘s generated via URL rewriting."
+msgstr "Наш файл robots.txt виртуальный (как и по умолчанию для WordPress). Это значит, что он физически не присутствует на сервере, а генерируется методом перезаписи URL."
+
+#: inc/admin/admin.php:1480
+msgid "A robots.txt file consists of one or more rules. Each rule blocks (or or allows) access for a given crawler to a specified file path in that website."
+msgstr "Файл robots.txt состоит из одного или нескольких правил. Каждое правило блокирует или позволяет доступ для избранного паука к определенному пути на сайте."
+
+#: inc/admin/admin.php:1478
+msgid "A robots.txt file lives at the root of your site. So, for site %1$s, the robots.txt file lives at %1$s/robots.txt. robots.txt is a plain text file that follows the Robots Exclusion Standard."
+msgstr "Файл robots.txt находится в корне вашего сайта. Так, для сайта %1$s файл robots.txt располагается в %1$s/robots.txt. robots.txt — это обычный текстовый файл, следующий правилам Robots Exclusion Standard."
+
+#: inc/admin/admin.php:1426
+msgid "<a href=\"https://www.youtube.com/watch?v=G3_l5CDS8b8\" target=\"_blank\">Watch this video guide to easily integrate your breadcrumbs with your WordPress theme</a><span class=\"dashicons dashicons-external\"></span>"
+msgstr "<a href=\"https://www.youtube.com/watch?v=G3_l5CDS8b8\" target=\"_blank\">Посмотрите этот видеоурок, чтобы легко интегрировать хлебные крошки в вашу тему WordPress</a><span class=\"dashicons dashicons-external\"></span>"
+
+#: inc/admin/admin.php:1256
+msgid "Rewrite"
+msgstr "Перезаписать"
+
+#: inc/admin/admin.php:1245
+msgid "RSS feeds"
+msgstr "Ленты RSS"
+
+#: inc/admin/admin.php:1189
+msgid "Local Business data type for Google. This schema will be displayed on all pages of your site."
+msgstr "Тип данных Local Business для Google. Эта схема будет отображена на всех страницах вашего сайта."
+
+#: inc/admin/admin.php:638
+msgid "Add SiteNavigationElement schema to your main menu"
+msgstr "Добавить схему SiteNavigationElement к вашему главному меню"
+
+#: inc/admin/admin.php:555
+msgid "Remove WooCommerce breadcrumbs schemas only"
+msgstr "Убрать только схемы хлебных крошек WooCommerce "
+
+#: inc/admin/admin-metaboxes.php:1513
+msgid "Currency: USD, EUR..."
+msgstr "Валюта: USD, EUR..."
+
+#: inc/admin/admin-metaboxes.php:1466
+msgid "Mark up software application information so that Google can provide detailed service information in rich Search results."
+msgstr "Разметьте информацию о программном обеспечении, чтобы Google смог предоставить детальную информацию в расширенных результатах поиска."
+
+#: inc/admin/admin-metaboxes.php:1328
+msgid "<strong>Works best with WooCommerce: we automatically add aggregateRating properties from user reviews (you have to enable this option from WooCommerce settings).</strong>"
+msgstr "<strong>Лучше всего работает с WooCommerce: мы автоматически добавляем свойства aggregateRating из отзывов пользователей (вам необходимо включить эту опцию в настройках WooCommerce).</strong>"
+
+#: inc/admin/admin-metaboxes.php:1070
+msgid "eg: USD"
+msgstr "например: USD"
+
+#: inc/admin/admin-metaboxes.php:1065
+msgid "eg: 50.00"
+msgstr "например: 50.00"
+
+#: inc/admin/admin-metaboxes.php:1058
+msgid "Remote job"
+msgstr "Удаленная работа"
+
+#: inc/admin/admin-metaboxes.php:1024
+msgid "Default: Logo from your Knowledge Graph (SEO > Social Networks > Knowledge Graph)"
+msgstr "По умолчанию: Логотип из вашего графа знаний (SEO > Социальные сети > Граф знаний)"
+
+#: inc/admin/admin-metaboxes.php:1019
+msgid "Default: URL of your site"
+msgstr "По умолчанию: URL вашего сайта"
+
+#: inc/admin/schemas.php:1051 inc/admin/admin-metaboxes.php:1018
+msgid "Organization website"
+msgstr "Сайт организации"
+
+#: inc/admin/admin-metaboxes.php:1013
+msgid "Default: Organization name from your Knowledge Graph (SEO > Social Networks > Knowledge Graph)"
+msgstr "По умолчанию: Имя организации из вашего графа знаний (SEO > Социальные сети > Граф знаний)"
+
+#: inc/admin/admin-metaboxes.php:1008
+msgid "The hiring organization's value identifier value for the job"
+msgstr "Значение идентификатора ценности нанимающей организации для работы"
+
+#: inc/admin/admin-metaboxes.php:962
+msgid "Adding structured data makes your job postings eligible to appear in a special user experience in Google Search results."
+msgstr "Благодаря добавлению структурированных данных ваши объявления о вакансиях могут отображаться в расширенных результатах поиска Google."
+
+#: inc/admin/admin-metaboxes.php:295
+msgid "If you need help with schema, <a href=\"%s\">read our full tutorial</a>."
+msgstr "Если вам нужна помощь со схемой, <a href=\"%s\">прочтите полную инструкцию</a>."
+
+#: inc/admin/admin-metaboxes.php:276
+msgid "Software Application"
+msgstr "Software Application"
+
+#: inc/admin/schemas.php:495 inc/admin/admin-metaboxes.php:271
+msgid "Job"
+msgstr "Job"
+
+#: inc/admin/admin-metaboxes.php:1638
+#: inc/admin/admin-metaboxes-schemas.php:1689
+msgid "Organization"
+msgstr "Organization"
+
+#: inc/admin/admin-metaboxes.php:1637
+#: inc/admin/admin-metaboxes-schemas.php:1688
+msgid "MusicRecording"
+msgstr "MusicRecording"
+
+#: inc/admin/admin-metaboxes.php:1636
+#: inc/admin/admin-metaboxes-schemas.php:1687
+msgid "MusicPlaylist"
+msgstr "MusicPlaylist"
+
+#: inc/admin/admin-metaboxes.php:1635
+#: inc/admin/admin-metaboxes-schemas.php:1686
+msgid "MediaObject"
+msgstr "MediaObject"
+
+#: inc/admin/admin-metaboxes.php:1634
+#: inc/admin/admin-metaboxes-schemas.php:1685
+msgid "Game"
+msgstr "Game"
+
+#: inc/admin/admin-metaboxes.php:1633
+#: inc/admin/admin-metaboxes-schemas.php:1684
+msgid "Episode"
+msgstr "Episode"
+
+#: inc/admin/admin-metaboxes.php:1632
+#: inc/admin/admin-metaboxes-schemas.php:1683
+msgid "CreativeWorkSeries"
+msgstr "CreativeWorkSeries"
+
+#: inc/admin/admin-metaboxes.php:1631
+#: inc/admin/admin-metaboxes-schemas.php:1682
+msgid "CreativeWorkSeason"
+msgstr "CreativeWorkSeason"
+
+#: inc/admin/schemas.php:1479 inc/admin/admin-metaboxes.php:1629
+#: inc/admin/admin-metaboxes-schemas.php:1680
+msgid "Review item type"
+msgstr "Пересмотреть тип элемента"
+
+#: inc/admin/admin-metaboxes.php:1508
+#: inc/admin/admin-metaboxes-schemas.php:1649
+msgid "The price of your app (set \"0\" if the app is free of charge)"
+msgstr "Стоимость вашего приложения (установите \"0\" для бесплатного)"
+
+#: inc/admin/schemas.php:1366 inc/admin/admin-metaboxes.php:1507
+#: inc/admin/admin-metaboxes-schemas.php:1648
+msgid "Price of your app"
+msgstr "Стоимость вашего приложения"
+
+#: inc/admin/admin-metaboxes.php:1502
+#: inc/admin/admin-metaboxes-schemas.php:1641
+msgid "ReferenceApplication"
+msgstr "ReferenceApplication"
+
+#: inc/admin/admin-metaboxes.php:1501
+#: inc/admin/admin-metaboxes-schemas.php:1640
+msgid "UtilitiesApplication"
+msgstr "UtilitiesApplication"
+
+#: inc/admin/admin-metaboxes.php:1500
+#: inc/admin/admin-metaboxes-schemas.php:1639
+msgid "HomeApplication"
+msgstr "HomeApplication"
+
+#: inc/admin/admin-metaboxes.php:1499
+#: inc/admin/admin-metaboxes-schemas.php:1638
+msgid "MultimediaApplication"
+msgstr "MultimediaApplication"
+
+#: inc/admin/admin-metaboxes.php:1498
+#: inc/admin/admin-metaboxes-schemas.php:1637
+msgid "EntertainmentApplication"
+msgstr "EntertainmentApplication"
+
+#: inc/admin/admin-metaboxes.php:1497
+#: inc/admin/admin-metaboxes-schemas.php:1636
+msgid "DesktopEnhancementApplication"
+msgstr "DesktopEnhancementApplication"
+
+#: inc/admin/admin-metaboxes.php:1496
+#: inc/admin/admin-metaboxes-schemas.php:1635
+msgid "CommunicationApplication"
+msgstr "CommunicationApplication"
+
+#: inc/admin/admin-metaboxes.php:1495
+#: inc/admin/admin-metaboxes-schemas.php:1634
+msgid "BrowserApplication"
+msgstr "BrowserApplication"
+
+#: inc/admin/admin-metaboxes.php:1494
+#: inc/admin/admin-metaboxes-schemas.php:1633
+msgid "SecurityApplication"
+msgstr "SecurityApplication"
+
+#: inc/admin/admin-metaboxes.php:1493
+#: inc/admin/admin-metaboxes-schemas.php:1632
+msgid "FinanceApplication"
+msgstr "FinanceApplication"
+
+#: inc/admin/admin-metaboxes.php:1492
+#: inc/admin/admin-metaboxes-schemas.php:1631
+msgid "HealthApplication"
+msgstr "HealthApplication"
+
+#: inc/admin/admin-metaboxes.php:1491
+#: inc/admin/admin-metaboxes-schemas.php:1630
+msgid "EducationalApplication"
+msgstr "EducationalApplication"
+
+#: inc/admin/admin-metaboxes.php:1490
+#: inc/admin/admin-metaboxes-schemas.php:1629
+msgid "DriverApplication"
+msgstr "DriverApplication"
+
+#: inc/admin/admin-metaboxes.php:1489
+#: inc/admin/admin-metaboxes-schemas.php:1628
+msgid "DeveloperApplication"
+msgstr "DeveloperApplication"
+
+#: inc/admin/admin-metaboxes.php:1488
+#: inc/admin/admin-metaboxes-schemas.php:1627
+msgid "DesignApplication"
+msgstr "DesignApplication"
+
+#: inc/admin/admin-metaboxes.php:1487
+#: inc/admin/admin-metaboxes-schemas.php:1626
+msgid "BusinessApplication"
+msgstr "BusinessApplication"
+
+#: inc/admin/admin-metaboxes.php:1486
+#: inc/admin/admin-metaboxes-schemas.php:1625
+msgid "LifestyleApplication"
+msgstr "LifestyleApplication"
+
+#: inc/admin/admin-metaboxes.php:1485
+#: inc/admin/admin-metaboxes-schemas.php:1624
+msgid "SportsApplication"
+msgstr "SportsApplication"
+
+#: inc/admin/admin-metaboxes.php:1484
+#: inc/admin/admin-metaboxes-schemas.php:1623
+msgid "ShoppingApplication"
+msgstr "ShoppingApplication"
+
+#: inc/admin/admin-metaboxes.php:1483
+#: inc/admin/admin-metaboxes-schemas.php:1622
+msgid "TravelApplication"
+msgstr "TravelApplication"
+
+#: inc/admin/admin-metaboxes.php:1482
+#: inc/admin/admin-metaboxes-schemas.php:1621
+msgid "SocialNetworkingApplication"
+msgstr "SocialNetworkingApplication"
+
+#: inc/admin/admin-metaboxes.php:1481
+#: inc/admin/admin-metaboxes-schemas.php:1620
+msgid "GameApplication"
+msgstr "GameApplication"
+
+#: inc/admin/schemas.php:1361 inc/admin/admin-metaboxes.php:1479
+#: inc/admin/admin-metaboxes-schemas.php:1618
+msgid "Application category"
+msgstr "Рубрика приложения"
+
+#: inc/admin/admin-metaboxes.php:1476
+#: inc/admin/admin-metaboxes-schemas.php:1612
+msgid "The operating system(s) required to use the app"
+msgstr "Операционная система(ы) необходимые для работы приложения"
+
+#: inc/admin/schemas.php:1356 inc/admin/admin-metaboxes.php:1475
+#: inc/admin/admin-metaboxes.php:1476
+#: inc/admin/admin-metaboxes-schemas.php:1611
+#: inc/admin/admin-metaboxes-schemas.php:1612
+msgid "Operating system"
+msgstr "Операционная система"
+
+#: inc/admin/admin-metaboxes.php:1471
+#: inc/admin/admin-metaboxes-schemas.php:1605
+msgid "App name"
+msgstr "Имя приложения"
+
+#: inc/admin/admin-metaboxes.php:1471
+#: inc/admin/admin-metaboxes-schemas.php:1605
+msgid "The name of your app"
+msgstr "Имя вашего приложения"
+
+#: inc/admin/schemas.php:1351 inc/admin/admin-metaboxes.php:1470
+#: inc/admin/admin-metaboxes-schemas.php:1604
+msgid "Software name"
+msgstr "Название программного обеспечения"
+
+#: inc/admin/admin-metaboxes.php:1079
+#: inc/admin/admin-metaboxes-schemas.php:1153
+msgid "YEAR"
+msgstr "ГОД"
+
+#: inc/admin/admin-metaboxes.php:1078
+#: inc/admin/admin-metaboxes-schemas.php:1152
+msgid "MONTH"
+msgstr "МЕСЯЦ"
+
+#: inc/admin/admin-metaboxes.php:1077
+#: inc/admin/admin-metaboxes-schemas.php:1151
+msgid "WEEK"
+msgstr "НЕДЕЛЯ"
+
+#: inc/admin/admin-metaboxes.php:1076
+#: inc/admin/admin-metaboxes-schemas.php:1150
+msgid "DAY"
+msgstr "ДЕНЬ"
+
+#: inc/admin/admin-metaboxes.php:1075
+#: inc/admin/admin-metaboxes-schemas.php:1149
+msgid "HOUR"
+msgstr "ЧАС"
+
+#: inc/admin/schemas.php:1091 inc/admin/admin-metaboxes.php:1073
+#: inc/admin/admin-metaboxes-schemas.php:1147
+msgid "Select your unit text"
+msgstr "Выберите текст единицы измерения"
+
+#: inc/admin/schemas.php:1087 inc/admin/schemas.php:1371
+#: inc/admin/admin-metaboxes.php:1065 inc/admin/admin-metaboxes.php:1069
+#: inc/admin/admin-metaboxes.php:1070 inc/admin/admin-metaboxes.php:1512
+#: inc/admin/admin-metaboxes.php:1513
+#: inc/admin/admin-metaboxes-schemas.php:1140
+#: inc/admin/admin-metaboxes-schemas.php:1141
+#: inc/admin/admin-metaboxes-schemas.php:1655
+#: inc/admin/admin-metaboxes-schemas.php:1656
+msgid "Currency"
+msgstr "Валюта"
+
+#: inc/admin/admin-metaboxes-schemas.php:1134
+msgid "50"
+msgstr "50"
+
+#: inc/admin/schemas.php:1083 inc/admin/admin-metaboxes.php:1064
+#: inc/admin/admin-metaboxes-schemas.php:1133
+#: inc/admin/admin-metaboxes-schemas.php:1134
+msgid "Salary"
+msgstr "Зарплата"
+
+#: inc/admin/schemas.php:1079 inc/admin/admin-metaboxes.php:1057
+#: inc/admin/admin-metaboxes-schemas.php:1124
+#: inc/admin/admin-metaboxes-schemas.php:1125
+msgid "Remote job?"
+msgstr "Удаленная работа?"
+
+#: inc/admin/schemas.php:1067 inc/admin/admin-metaboxes.php:1042
+#: inc/admin/admin-metaboxes.php:1043
+#: inc/admin/admin-metaboxes-schemas.php:1103
+#: inc/admin/admin-metaboxes-schemas.php:1104
+msgid "Region"
+msgstr "Регион"
+
+#: inc/admin/schemas.php:1063 inc/admin/admin-metaboxes.php:1037
+#: inc/admin/admin-metaboxes.php:1038
+#: inc/admin/admin-metaboxes-schemas.php:1096
+#: inc/admin/admin-metaboxes-schemas.php:1097
+msgid "Locality address"
+msgstr "Адрес местонахождения"
+
+#: inc/admin/schemas.php:1059 inc/admin/admin-metaboxes.php:1032
+#: inc/admin/admin-metaboxes.php:1033
+#: inc/admin/admin-metaboxes-schemas.php:1089
+#: inc/admin/admin-metaboxes-schemas.php:1090
+msgid "Street address"
+msgstr "Улица"
+
+#: inc/admin/admin-metaboxes-schemas.php:1083
+msgid "The organization logo offering the job position."
+msgstr "Лого организации, разместившей вакансию."
+
+#: inc/admin/admin-metaboxes.php:1023 inc/admin/admin-metaboxes.php:1025
+#: inc/admin/admin-metaboxes-schemas.php:1082
+#: inc/admin/admin-metaboxes-schemas.php:1083
+msgid "Organization logo"
+msgstr "Лого организации"
+
+#: inc/admin/admin-metaboxes.php:1020
+#: inc/admin/admin-metaboxes-schemas.php:1076
+msgid "The organization website URL offering the job position."
+msgstr "Ссылка на сайт организации, разместившей вакансию."
+
+#: inc/admin/admin-metaboxes.php:1020
+#: inc/admin/admin-metaboxes-schemas.php:1075
+#: inc/admin/admin-metaboxes-schemas.php:1076
+msgid "Organization URL"
+msgstr "URL организации"
+
+#: inc/admin/admin-metaboxes.php:1014
+#: inc/admin/admin-metaboxes-schemas.php:1069
+msgid "The organization offering the job position. This should be the name of the company."
+msgstr "Организация, разместившей вакансию. Название организации."
+
+#: inc/admin/schemas.php:1047 inc/admin/admin-metaboxes.php:1012
+#: inc/admin/admin-metaboxes.php:1014
+#: inc/admin/admin-metaboxes-schemas.php:1068
+#: inc/admin/admin-metaboxes-schemas.php:1069
+msgid "Organization that hires"
+msgstr "Нанимающая организация"
+
+#: inc/admin/admin-metaboxes-schemas.php:1062
+msgid "The hiring organization's unique identifier value for the job"
+msgstr "Значение уникального идентификатора для нанимающей организации"
+
+#: inc/admin/schemas.php:1043 inc/admin/admin-metaboxes.php:1007
+#: inc/admin/admin-metaboxes.php:1008
+#: inc/admin/admin-metaboxes-schemas.php:1061
+#: inc/admin/admin-metaboxes-schemas.php:1062
+msgid "Identifier value"
+msgstr "Значение идентификатора"
+
+#: inc/admin/admin-metaboxes.php:1003
+#: inc/admin/admin-metaboxes-schemas.php:1055
+msgid "The hiring organization's unique identifier name for the job"
+msgstr "Название уникального идентификатора для нанимающей организации"
+
+#: inc/admin/schemas.php:1039 inc/admin/admin-metaboxes.php:1002
+#: inc/admin/admin-metaboxes.php:1003
+#: inc/admin/admin-metaboxes-schemas.php:1054
+#: inc/admin/admin-metaboxes-schemas.php:1055
+msgid "Identifier name"
+msgstr "Название идентификатора"
+
+#: inc/admin/admin-metaboxes.php:997 inc/admin/admin-metaboxes-schemas.php:1047
+msgid "OTHER"
+msgstr "OTHER"
+
+#: inc/admin/admin-metaboxes.php:996 inc/admin/admin-metaboxes-schemas.php:1046
+msgid "PER_DIEM"
+msgstr "PER_DIEM"
+
+#: inc/admin/admin-metaboxes.php:995 inc/admin/admin-metaboxes-schemas.php:1045
+msgid "VOLUNTEER"
+msgstr "VOLUNTEER"
+
+#: inc/admin/admin-metaboxes.php:994 inc/admin/admin-metaboxes-schemas.php:1044
+msgid "INTERN"
+msgstr "INTERN"
+
+#: inc/admin/admin-metaboxes.php:993 inc/admin/admin-metaboxes-schemas.php:1043
+msgid "TEMPORARY"
+msgstr "TEMPORARY"
+
+#: inc/admin/admin-metaboxes.php:992 inc/admin/admin-metaboxes-schemas.php:1042
+msgid "CONTRACTOR"
+msgstr "CONTRACTOR"
+
+#: inc/admin/admin-metaboxes.php:991 inc/admin/admin-metaboxes-schemas.php:1041
+msgid "PART TIME"
+msgstr "PART TIME"
+
+#: inc/admin/admin-metaboxes.php:990 inc/admin/admin-metaboxes-schemas.php:1040
+msgid "FULL TIME"
+msgstr "FULL TIME"
+
+#: inc/admin/admin-metaboxes.php:987 inc/admin/admin-metaboxes-schemas.php:1038
+msgid "Type of employment, You can include more than one employmentType property."
+msgstr "Вид занятости. Укажите одно или несколько значений свойства employmentType."
+
+#: inc/admin/schemas.php:1035 inc/admin/admin-metaboxes.php:986
+#: inc/admin/admin-metaboxes.php:987 inc/admin/admin-metaboxes-schemas.php:1037
+#: inc/admin/admin-metaboxes-schemas.php:1038
+msgid "Type of employment"
+msgstr "Вид занятости"
+
+#: inc/admin/admin-metaboxes.php:982 inc/admin/admin-metaboxes-schemas.php:1031
+msgid "The date when the job posting will expire in ISO 8601 format. For example, \"2017-02-24\" or \"2017-02-24T19:33:17+00:00\"."
+msgstr "Дата, когда истекает срок публикации задания в формате ISO 8601. Например, \"2017-02-24\" или \"2017-02-24T19:33:17+00:00\"."
+
+#: inc/admin/schemas.php:1031 inc/admin/admin-metaboxes.php:981
+#: inc/admin/admin-metaboxes.php:982 inc/admin/admin-metaboxes-schemas.php:1030
+#: inc/admin/admin-metaboxes-schemas.php:1031
+msgid "Expiration date"
+msgstr "Дата истечения"
+
+#: inc/admin/admin-metaboxes.php:977 inc/admin/admin-metaboxes-schemas.php:1024
+msgid "The original date that employer posted the job in ISO 8601 format. For example, \"2017-01-24\" or \"2017-01-24T19:33:17+00:00\"."
+msgstr "Первоначальная дата, когда работодатель разместил вакансию в формате ISO 8601. Например, \"2017-01-24\" или \"2017-01-24T19:33:17+00:00\"."
+
+#: inc/admin/schemas.php:1027 inc/admin/admin-metaboxes.php:976
+#: inc/admin/admin-metaboxes.php:977 inc/admin/admin-metaboxes-schemas.php:1023
+#: inc/admin/admin-metaboxes-schemas.php:1024
+msgid "Published date"
+msgstr "Дата публикации"
+
+#: inc/admin/admin-metaboxes.php:972 inc/admin/admin-metaboxes-schemas.php:1017
+msgid "The full description of the job in HTML format."
+msgstr "Полное описание вакансии в формате HTML."
+
+#: inc/admin/schemas.php:1023 inc/admin/admin-metaboxes.php:971
+#: inc/admin/admin-metaboxes.php:972 inc/admin/admin-metaboxes-schemas.php:1016
+#: inc/admin/admin-metaboxes-schemas.php:1017
+msgid "Job description"
+msgstr "Описание вакансии"
+
+#: inc/admin/admin-metaboxes.php:967 inc/admin/admin-metaboxes-schemas.php:1010
+msgid "The title of the job (not the title of the posting). For example, \"Software Engineer\" or \"Barista\"."
+msgstr "Название позиции (не заголовок публикации). Например, \"Разработчик ПО\" или \"Бариста\""
+
+#: inc/admin/schemas.php:1019 inc/admin/admin-metaboxes.php:966
+#: inc/admin/admin-metaboxes.php:967 inc/admin/admin-metaboxes-schemas.php:1009
+#: inc/admin/admin-metaboxes-schemas.php:1010
+msgid "Job title"
+msgstr "Название позиции"
+
+#: inc/admin/admin-metaboxes.php:344 inc/admin/admin-metaboxes-schemas.php:531
+msgid "Default value if empty: Post thumbnail (featured image)"
+msgstr "Значение по умолчанию, если пусто: миниатюра записи (избранное изображение)"
+
+#: inc/admin/admin-metaboxes.php:334 inc/admin/admin-metaboxes-schemas.php:523
+msgid "Default value if empty: Post title"
+msgstr "Значение по умолчанию, если пусто: заголовок записи"
+
+#: inc/admin/admin.php:2454
+msgid "To avoid duplicated schemas, don't enable this option if HTML Breadcrumbs is ON. We automatically add the JSON-LD to the head of your document using the wp_head hook. You don't need to manually call the breadcrumbs function."
+msgstr "Чтобы избежать дублирования схем, не включайте эту опцию, если хлебные крошки HTML активированы. Мы добавляем автоматически JSON-LD в заголовок вашего документа, используя хук wp_head. Вам не нужно вызывать функцию хлебных крошек вручную."
+
+#: inc/functions/options-breadcrumbs.php:593
+msgid "breadcrumb"
+msgstr "хлебные крошки"
+
+#: inc/admin/schemas.php:419
+msgid "Manual custom schema on each post"
+msgstr "Ручная пользовательская схема в каждой записи"
+
+#: inc/admin/schemas.php:418
+msgid "Manual custom schema"
+msgstr "Ручная пользовательская схема"
+
+#: inc/admin/admin.php:2435
+msgid "Enable HTML Breadcrumbs"
+msgstr "Включить хлебные крошки HTML"
+
+#: inc/admin/admin-metaboxes.php:1655
+msgid "Build your custom schema. Don't forget to include the script tag: %s"
+msgstr "Создайте свою пользовательскую схему. Не забудьте включить тег script: %s"
+
+#: inc/admin/schemas.php:598 inc/admin/admin-metaboxes.php:320
+msgid "Blog Posting"
+msgstr "Публикация блога"
+
+#: inc/admin/schemas.php:502 inc/admin/admin-metaboxes.php:278
+msgid "Custom"
+msgstr "Пользовательский"
+
+#: inc/admin/admin-metaboxes-schemas.php:1755
+msgid "Add a schema"
+msgstr "Добавить схему"
+
+#: inc/admin/admin-metaboxes-schemas.php:1753
+msgid "No automatic schema created for this content."
+msgstr "Для этого содержимого не создано автоматическую схему."
+
+#: inc/admin/admin-metaboxes.php:1660
+#: inc/admin/admin-metaboxes-schemas.php:1715
+msgid ""
+"eg: <script type=\"application/ld+json\">{\n"
+"                            \"@context\": \"https://schema.org/\",\n"
+"                            \"@type\": \"Review\",\n"
+"                            \"itemReviewed\": {\n"
+"                              \"@type\": \"Restaurant\",\n"
+"                              \"image\": \"http://www.example.com/seafood-restaurant.jpg\",\n"
+"                              \"name\": \"Legal Seafood\",\n"
+"                              \"servesCuisine\": \"Seafood\",\n"
+"                              \"telephone\": \"1234567\",\n"
+"                              \"address\" :{\n"
+"                                \"@type\": \"PostalAddress\",\n"
+"                                \"streetAddress\": \"123 William St\",\n"
+"                                \"addressLocality\": \"New York\",\n"
+"                                \"addressRegion\": \"NY\",\n"
+"                                \"postalCode\": \"10038\",\n"
+"                                \"addressCountry\": \"US\"\n"
+"                              }\n"
+"                            },\n"
+"                            \"reviewRating\": {\n"
+"                              \"@type\": \"Rating\",\n"
+"                              \"ratingValue\": \"4\"\n"
+"                            },\n"
+"                            \"name\": \"A good seafood place.\",\n"
+"                            \"author\": {\n"
+"                              \"@type\": \"Person\",\n"
+"                              \"name\": \"Bob Smith\"\n"
+"                            },\n"
+"                            \"reviewBody\": \"The seafood is great.\",\n"
+"                            \"publisher\": {\n"
+"                              \"@type\": \"Organization\",\n"
+"                              \"name\": \"Washington Times\"\n"
+"                            }\n"
+"                          }</script>"
+msgstr ""
+"Например: <script type=\"application/ld+json\">{\n"
+"                            \"@context\": \"https://schema.org/\",\n"
+"                            \"@type\": \"Review\",\n"
+"                            \"itemReviewed\": {\n"
+"                              \"@type\": \"Restaurant\",\n"
+"                              \"image\": \"http://www.example.com/seafood-restaurant.jpg\",\n"
+"                              \"name\": \"Legal Seafood\",\n"
+"                              \"servesCuisine\": \"Seafood\",\n"
+"                              \"telephone\": \"1234567\",\n"
+"                              \"address\" :{\n"
+"                                \"@type\": \"PostalAddress\",\n"
+"                                \"streetAddress\": \"123 William St\",\n"
+"                                \"addressLocality\": \"New York\",\n"
+"                                \"addressRegion\": \"NY\",\n"
+"                                \"postalCode\": \"10038\",\n"
+"                                \"addressCountry\": \"US\"\n"
+"                              }\n"
+"                            },\n"
+"                            \"reviewRating\": {\n"
+"                              \"@type\": \"Rating\",\n"
+"                              \"ratingValue\": \"4\"\n"
+"                            },\n"
+"                            \"name\": \"A good seafood place.\",\n"
+"                            \"author\": {\n"
+"                              \"@type\": \"Person\",\n"
+"                              \"name\": \"Bob Smith\"\n"
+"                            },\n"
+"                            \"reviewBody\": \"The seafood is great.\",\n"
+"                            \"publisher\": {\n"
+"                              \"@type\": \"Organization\",\n"
+"                              \"name\": \"Washington Times\"\n"
+"                            }\n"
+"                          }</script>"
+
+#: inc/admin/schemas.php:424 inc/admin/schemas.php:1496
+#: inc/admin/admin-metaboxes.php:1659 inc/admin/admin-metaboxes.php:1692
+#: inc/admin/admin-metaboxes-schemas.php:1714
+#: inc/admin/admin-metaboxes-schemas.php:1747
+msgid "Custom schema"
+msgstr "Пользовательская схема"
+
+#: inc/admin/schemas.php:1009 inc/admin/admin-metaboxes.php:956
+#: inc/admin/admin-metaboxes.php:957 inc/admin/admin-metaboxes-schemas.php:999
+msgid "Recipe instructions"
+msgstr "Описание рецепта"
+
+#: inc/admin/admin-metaboxes.php:957 inc/admin/admin-metaboxes-schemas.php:999
+msgid "eg: Heat oven to 425°F. Include only text on how to make the recipe and don't include other text such as \"Directions\", \"Watch the video\", \"Step 1\"."
+msgstr "Например: Разогреть духовку до 220°С. Содержит только текст, касающийся приготовления рецепта, и не содержит другого текста типа \"Руководство\", \"Посмотреть видео\", \"Шаг 1\"."
+
+#: inc/admin/admin-metaboxes-schemas.php:998
+msgid "Recipe instructions (one per line)"
+msgstr "Инструкции по рецепту (одна в строке)"
+
+#: inc/admin/schemas.php:1004 inc/admin/admin-metaboxes.php:951
+#: inc/admin/admin-metaboxes.php:952 inc/admin/admin-metaboxes-schemas.php:992
+msgid "Recipe ingredients"
+msgstr "Ингредиенты рецепта"
+
+#: inc/admin/admin-metaboxes.php:952 inc/admin/admin-metaboxes-schemas.php:992
+msgid "Ingredients used in the recipe. One ingredient per line. Include only the ingredient text that is necessary for making the recipe. Don't include unnecessary information, such as a definition of the ingredient."
+msgstr "Ингредиенты, которые используются в рецепте. Один ингредиент в строке. Влючает слово, обозначающее ингредиент, необходимый для приготовления рецепта. Не включает ненужную информацию, такую как описание ингредиента."
+
+#: inc/admin/admin-metaboxes-schemas.php:991
+msgid "Recipe ingredients (one per line)"
+msgstr "Ингредиенты рецепта (один в строке)"
+
+#: inc/admin/admin-metaboxes.php:947 inc/admin/admin-metaboxes-schemas.php:985
+msgid "The region associated with your recipe. For example, \"French\", Mediterranean\", or \"American\"."
+msgstr "Регион, который ассоциируется с вашим рецептом. Например: \"французская\", \"средиземноморская\" или \"американская\"."
+
+#: inc/admin/schemas.php:999 inc/admin/admin-metaboxes.php:946
+#: inc/admin/admin-metaboxes.php:947 inc/admin/admin-metaboxes-schemas.php:984
+#: inc/admin/admin-metaboxes-schemas.php:985
+msgid "Recipe cuisine"
+msgstr "Рецепт кухни"
+
+#: inc/admin/admin-metaboxes.php:942 inc/admin/admin-metaboxes-schemas.php:978
+msgid "Eg: winter apple pie, nutmeg crust (NOT recommended: dessert, American)"
+msgstr "Например: зимний яблочный пирог, корочка мускатного ореха (не рекомендовано: десерт, американский)"
+
+#: inc/admin/admin-metaboxes-schemas.php:977
+msgid "Keywords (separated by commas)"
+msgstr "Ключевые слова (разделенные запятыми)"
+
+#: inc/admin/admin-metaboxes-schemas.php:879
+msgid "Your answer"
+msgstr "Ваш ответ"
+
+#: inc/admin/admin-metaboxes-schemas.php:872
+msgid "Your question"
+msgstr "Ваш вопрос"
+
+#: inc/functions/bot/seopress-bot.php:142
+msgid "---Scan in progress (don't close this window)---"
+msgstr "---Сканирование в процессе (не закрывайте это окно)---"
+
+#: inc/functions/bot/seopress-bot.php:138
+msgid "Launch the bot!"
+msgstr "Запустить бота!"
+
+#: inc/admin/updater/plugin-licence.php:136
+msgid "Your license has been successfully activated!"
+msgstr "Ваше лицензия успешно активирована!"
+
+#: inc/admin/updater/plugin-licence.php:119
+msgid "License status"
+msgstr "Статус лицензии"
+
+#: inc/admin/updater/plugin-licence.php:83
+msgid "Download unauthorized? - Can‘t activate?"
+msgstr "Загрузить неавторизированный? - Не можете активировать?"
+
+#: inc/admin/updater/plugin-licence.php:80
+msgid "<li>1/ Paste your license key</li> <li>2/ Save changes</li> <li>3/ Activate License.</li> <li>That's it! Do NOT save changes after that!</li>"
+msgstr "<li>1/ Вставте ваш лицензионный код</li> <li>2/ Сохраните изменения </li> <li>3/ Активируйте лицензию.</li> <li>Вот и все! Не сохраняйте изменения после этого!</li>"
+
+#: inc/admin/updater/plugin-licence.php:79
+msgid "<strong>Steps to follow to activate your license:</strong>"
+msgstr "<strong>Шагов для активации вашей лицензии:</strong>"
+
+#: inc/admin/schemas.php:351
+msgid "Featured image / Product image"
+msgstr "Избранное изображение / Изображение товара"
+
+#: inc/admin/schemas.php:295
+msgid "Product category"
+msgstr "Категория товара"
+
+#: inc/admin/schemas.php:292
+msgid "SKU"
+msgstr "SKU"
+
+#: inc/admin/schemas.php:291
+msgid "Sale price dates \"To\""
+msgstr "Даты цены по распродаже \"До\""
+
+#: inc/admin/schemas.php:290
+msgid "Sale price dates \"From\""
+msgstr "Даты цены по распродаже \"С\""
+
+#: inc/admin/schemas.php:289
+msgid "Sale Price"
+msgstr "Цена по распродаже"
+
+#: inc/admin/schemas.php:288
+msgid "Regular Price"
+msgstr "Обычная цена"
+
+#: inc/admin/schemas.php:280
+msgid "Excerpt / Product short description"
+msgstr "Краткое описание / Краткое описание товара"
+
+#: inc/admin/schemas.php:279
+msgid "Post Title / Product title"
+msgstr "Заголовок записи / Заголовок товара"
+
+#: inc/admin/admin.php:2649
+msgid "Remove the static Shop page defined in the WooCommerce settings"
+msgstr "Удалить статическую страницу магазина, определенную в настройках WooCommerce"
+
+#: inc/admin/admin.php:2229
+msgid "Remove default JSON-LD structured data (WooCommerce 3+)"
+msgstr "Удалить по умолчанию структурированные данные JSON-LD (WooCommerce 3+)"
+
+#: inc/admin/admin.php:1635
+msgid "The higher the value, the more time it will take. Min 10. Default: 100"
+msgstr "Чем выше значение, тем больше времени это займет. Минимум 10. По умолчанию: 100"
+
+#: inc/admin/admin.php:1596
+msgid "Body page (extremely slow)"
+msgstr "Тело страницы (очень медленно)"
+
+#: inc/admin/admin.php:1596
+msgid "Post content"
+msgstr "Содержимое записи"
+
+#: inc/admin/admin.php:1409
+msgid "View my automatic schemas"
+msgstr "Просмотреть мои автоматические схемы"
+
+#: inc/admin/admin.php:735
+msgid "Remove Shop page"
+msgstr "Удалить страницу магазина"
+
+#: inc/admin/admin.php:547
+msgid "Remove WooCommerce Schemas"
+msgstr "Удалить схемы WooCommerce"
+
+#: inc/admin/admin.php:321
+msgid "Find links in"
+msgstr "Найдите ссылки в"
+
+#: inc/admin/admin-metaboxes.php:1566
+msgid "Provider mobility"
+msgstr "Мобильность поставщика"
+
+#: inc/admin/admin-metaboxes.php:1545
+msgid "Default: post thumbnail"
+msgstr "По умолчанию: миниатюра записи"
+
+#: inc/admin/admin-metaboxes.php:1540
+msgid "Default: post excerpt"
+msgstr "По умолчанию: краткое содержимое записи"
+
+#: inc/admin/admin-metaboxes.php:1534
+msgid "The type of your service"
+msgstr "Тип вашей услуги"
+
+#: inc/admin/admin-metaboxes.php:1529
+msgid "Default: post title"
+msgstr "По умолчанию: заголовок записи"
+
+#: inc/admin/admin-metaboxes.php:1523
+msgid "Add markup to your service pages so that Google can provide detailed service information in rich Search results."
+msgstr "Добавить разметку на страницу вашей услуги, чтобы Google смог предоставить подробную информацию об услуге в результатах расширенного поиска."
+
+#: inc/admin/admin-metaboxes.php:1391
+msgid "Select a taxonomy"
+msgstr "Выбрать таксономию"
+
+#: inc/admin/schemas.php:1328 inc/admin/admin-metaboxes.php:1385
+msgid "Product Brand"
+msgstr "Бренд товара"
+
+#: inc/admin/admin-metaboxes.php:1380
+msgid "Product Global Identifier value"
+msgstr "Значение глобального идентификатора товара"
+
+#: inc/functions/options-woocommerce-admin.php:24
+#: inc/admin/admin-metaboxes.php:1375
+msgid "isbn"
+msgstr "isbn"
+
+#: inc/functions/options-woocommerce-admin.php:23
+#: inc/admin/admin-metaboxes.php:1374
+msgid "mpn"
+msgstr "mpn"
+
+#: inc/functions/options-woocommerce-admin.php:22
+#: inc/admin/admin-metaboxes.php:1373
+msgid "gtin14"
+msgstr "gtin14"
+
+#: inc/functions/options-woocommerce-admin.php:21
+#: inc/admin/admin-metaboxes.php:1372
+msgid "gtin13"
+msgstr "gtin13"
+
+#: inc/functions/options-woocommerce-admin.php:20
+#: inc/admin/admin-metaboxes.php:1371
+msgid "gtin8"
+msgstr "gtin8"
+
+#: inc/admin/admin-metaboxes.php:1370
+msgid "Select a global identifier"
+msgstr "Выбрать глобальный идентификатор"
+
+#: inc/admin/schemas.php:499 inc/admin/admin-metaboxes.php:275
+msgid "Service"
+msgstr "Служба"
+
+#: inc/admin/admin-metaboxes.php:1616
+#: inc/admin/admin-metaboxes-schemas.php:1594
+msgid "The price range of your service"
+msgstr "Диапазон цен вашей услуги"
+
+#: inc/admin/admin-metaboxes.php:1611
+#: inc/admin/admin-metaboxes-schemas.php:1587
+msgid "The telephone of your service"
+msgstr "Телефон вашей услуги"
+
+#: inc/admin/admin-metaboxes.php:1606
+#: inc/admin/admin-metaboxes-schemas.php:1580
+msgid "The longitude of your service"
+msgstr "Долгота предоставления вашей услуги"
+
+#: inc/admin/admin-metaboxes.php:1601
+#: inc/admin/admin-metaboxes-schemas.php:1573
+msgid "The latitude of your service"
+msgstr "Широта предоставления вашей услуги"
+
+#: inc/admin/admin-metaboxes.php:1596
+#: inc/admin/admin-metaboxes-schemas.php:1566
+msgid "The country of your service"
+msgstr "Страна предоставления вашей услуги"
+
+#: inc/admin/admin-metaboxes.php:1591
+#: inc/admin/admin-metaboxes-schemas.php:1559
+msgid "The postal code of your service"
+msgstr "Почтовый код предоставления вашей услуги"
+
+#: inc/admin/admin-metaboxes.php:1586
+#: inc/admin/admin-metaboxes-schemas.php:1552
+msgid "The state of your service"
+msgstr "Штат предоставления вашей услуги"
+
+#: inc/admin/admin-metaboxes.php:1581
+#: inc/admin/admin-metaboxes-schemas.php:1545
+msgid "The city of your service"
+msgstr "Город предоставления вашей услуги"
+
+#: inc/admin/admin-metaboxes.php:1576
+#: inc/admin/admin-metaboxes-schemas.php:1538
+msgid "The street address of your service"
+msgstr "Адрес предоставления вашей услуги"
+
+#: inc/admin/admin-metaboxes.php:1571
+#: inc/admin/admin-metaboxes-schemas.php:1531
+msgid "The slogan of your service"
+msgstr "Слоган вашей услуги"
+
+#: inc/admin/schemas.php:1419 inc/admin/admin-metaboxes.php:1570
+#: inc/admin/admin-metaboxes.php:1571
+#: inc/admin/admin-metaboxes-schemas.php:1530
+#: inc/admin/admin-metaboxes-schemas.php:1531
+msgid "Slogan"
+msgstr "Слоган"
+
+#: inc/admin/admin-metaboxes.php:1566
+#: inc/admin/admin-metaboxes-schemas.php:1524
+msgid "The provider mobility of your service"
+msgstr "Мобильность поставщика вашей услуги"
+
+#: inc/admin/schemas.php:1415 inc/admin/admin-metaboxes.php:1565
+#: inc/admin/admin-metaboxes-schemas.php:1523
+#: inc/admin/admin-metaboxes-schemas.php:1524
+msgid "Provider mobility (static or dynamic)"
+msgstr "Мобильность поставщика (статическая или динамическая)"
+
+#: inc/admin/admin-metaboxes.php:1560
+#: inc/admin/admin-metaboxes-schemas.php:1517
+msgid "Select your location image"
+msgstr "Выберите изображение вашего местоположения"
+
+#: inc/admin/schemas.php:1411 inc/admin/admin-metaboxes.php:1559
+#: inc/admin/admin-metaboxes.php:1560
+#: inc/admin/admin-metaboxes-schemas.php:1516
+#: inc/admin/admin-metaboxes-schemas.php:1517
+msgid "Location image"
+msgstr "Изображение местоположения"
+
+#: inc/admin/admin-metaboxes.php:1556
+#: inc/admin/admin-metaboxes-schemas.php:1510
+msgid "The provider name of your service"
+msgstr "Название поставщика вашей услуги"
+
+#: inc/admin/schemas.php:1407 inc/admin/admin-metaboxes.php:1555
+#: inc/admin/admin-metaboxes.php:1556
+#: inc/admin/admin-metaboxes-schemas.php:1509
+#: inc/admin/admin-metaboxes-schemas.php:1510
+msgid "Provider name"
+msgstr "Название поставщика"
+
+#: inc/admin/admin-metaboxes.php:1551
+#: inc/admin/admin-metaboxes-schemas.php:1503
+msgid "The area served by your service"
+msgstr "Территория, на которой предоставляется ваша услуга"
+
+#: inc/admin/schemas.php:1403 inc/admin/admin-metaboxes.php:1550
+#: inc/admin/admin-metaboxes.php:1551
+#: inc/admin/admin-metaboxes-schemas.php:1502
+#: inc/admin/admin-metaboxes-schemas.php:1503
+msgid "Area served"
+msgstr "Территория предоставления услуги"
+
+#: inc/admin/admin-metaboxes.php:1539
+#: inc/admin/admin-metaboxes-schemas.php:1489
+msgid "The description of your service"
+msgstr "Описание вашей услуги"
+
+#: inc/admin/schemas.php:1395 inc/admin/admin-metaboxes.php:1538
+#: inc/admin/admin-metaboxes.php:1539
+#: inc/admin/admin-metaboxes-schemas.php:1488
+#: inc/admin/admin-metaboxes-schemas.php:1489
+msgid "Service description"
+msgstr "Описание услуги"
+
+#: inc/admin/admin-metaboxes-schemas.php:1482
+msgid "The type of service"
+msgstr "Тип услуги"
+
+#: inc/admin/schemas.php:1391 inc/admin/admin-metaboxes.php:1533
+#: inc/admin/admin-metaboxes.php:1534
+#: inc/admin/admin-metaboxes-schemas.php:1481
+#: inc/admin/admin-metaboxes-schemas.php:1482
+msgid "Service type"
+msgstr "Тип услуги"
+
+#: inc/admin/admin-metaboxes.php:1528
+#: inc/admin/admin-metaboxes-schemas.php:1475
+msgid "The name of your service"
+msgstr "Название вашей услуги"
+
+#: inc/admin/schemas.php:1386 inc/admin/admin-metaboxes.php:1527
+#: inc/admin/admin-metaboxes.php:1528
+#: inc/admin/admin-metaboxes-schemas.php:1474
+#: inc/admin/admin-metaboxes-schemas.php:1475
+msgid "Service name"
+msgstr "Название услуги"
+
+#: inc/admin/admin-metaboxes-schemas.php:1464
+msgid "Default: In Stock"
+msgstr "По умолчанию: в наличии"
+
+#: inc/admin/admin-metaboxes.php:1447
+#: inc/admin/admin-metaboxes-schemas.php:1456
+msgid "Default: new"
+msgstr "По умолчанию: новое"
+
+#: inc/admin/admin-metaboxes-schemas.php:1448
+msgid "Default: USD"
+msgstr "По умолчанию: USD"
+
+#: inc/admin/admin-metaboxes-schemas.php:1440
+msgid "eg: category"
+msgstr "Например: категория"
+
+#: inc/admin/admin-metaboxes-schemas.php:1439
+#: inc/admin/admin-metaboxes-schemas.php:1440
+msgid "Select a brand"
+msgstr "Выбрать бренд"
+
+#: inc/admin/admin-metaboxes.php:1381
+#: inc/admin/admin-metaboxes-schemas.php:1433
+msgid "Eg: 925872"
+msgstr "Например: 925872"
+
+#: inc/functions/options-woocommerce-admin.php:52 inc/admin/schemas.php:1323
+#: inc/admin/admin-metaboxes.php:1381
+#: inc/admin/admin-metaboxes-schemas.php:1432
+#: inc/admin/admin-metaboxes-schemas.php:1433
+msgid "Product Global Identifiers"
+msgstr "Глобальные идентификаторы товара"
+
+#: inc/admin/admin-metaboxes-schemas.php:1426
+msgid "Eg: gtin8"
+msgstr "Например: gtin8"
+
+#: inc/admin/schemas.php:1318 inc/admin/admin-metaboxes.php:1368
+#: inc/admin/admin-metaboxes-schemas.php:1425
+#: inc/admin/admin-metaboxes-schemas.php:1426
+msgid "Product Global Identifiers type"
+msgstr "Тип глобального идентификатора товара"
+
+#: inc/admin/admin-metaboxes.php:1364
+#: inc/admin/admin-metaboxes-schemas.php:1419
+msgid "Default: product SKU"
+msgstr "По умолчанию: SKU товара"
+
+#: inc/admin/admin-metaboxes.php:1363
+#: inc/admin/admin-metaboxes-schemas.php:1418
+msgid "Eg: 0446310786"
+msgstr "Например: 0446310786"
+
+#: inc/admin/schemas.php:1313 inc/admin/admin-metaboxes.php:1362
+#: inc/admin/admin-metaboxes.php:1363
+#: inc/admin/admin-metaboxes-schemas.php:1417
+#: inc/admin/admin-metaboxes-schemas.php:1418
+msgid "Product SKU"
+msgstr "SKU товара"
+
+#: inc/admin/admin-metaboxes.php:1358
+#: inc/admin/admin-metaboxes-schemas.php:1411
+msgid "Default: sale price dates To field"
+msgstr "По умолчанию: поле, даты цены распродажи до"
+
+#: inc/admin/schemas.php:1308 inc/admin/admin-metaboxes.php:1356
+#: inc/admin/admin-metaboxes.php:1357
+#: inc/admin/admin-metaboxes-schemas.php:1409
+#: inc/admin/admin-metaboxes-schemas.php:1410
+msgid "Product price valid until"
+msgstr "Цена товара действительна до"
+
+#: inc/admin/admin-metaboxes.php:1352
+#: inc/admin/admin-metaboxes-schemas.php:1403
+msgid "Default: active product price"
+msgstr "По умолчанию: цена товара"
+
+#: inc/admin/admin-metaboxes.php:1346
+#: inc/admin/admin-metaboxes-schemas.php:1395
+msgid "Default: product image"
+msgstr "По умолчанию: изображение товара"
+
+#: inc/admin/admin-metaboxes.php:1339
+#: inc/admin/admin-metaboxes-schemas.php:1387
+msgid "Default: product excerpt"
+msgstr "По умолчанию: содержание товара"
+
+#: inc/admin/admin-metaboxes.php:1334
+#: inc/admin/admin-metaboxes-schemas.php:1379
+msgid "Default: product title"
+msgstr "По умолчанию: название товара"
+
+#: seopress-pro.php:483
+msgid "Support"
+msgstr "Поддержка"
+
+#: seopress-pro.php:461
+msgid "Enable / Download now!"
+msgstr "Включить / Скачать сейчас!"
+
+#: seopress-pro.php:460
+msgid "Please enable <strong>SEOPress</strong> in order to use SEOPress PRO."
+msgstr "Пожалуйста, включите плагин <strong>SEOPress</strong>, чтобы использовать SEOPress PRO."
+
+#: inc/functions/options-rss.php:62
+msgid "No feed available."
+msgstr "Нет доступных каналов."
+
+#: inc/functions/options-breadcrumbs.php:537
+msgid "Page "
+msgstr "Страница"
+
+#: inc/functions/options-breadcrumbs.php:476
+msgid "Author: "
+msgstr "Автор:"
+
+#: inc/functions/options-breadcrumbs.php:231
+msgid "Attachments"
+msgstr "Вложения"
+
+#: inc/functions/bot/seopress-bot.php:133
+msgid "No scan"
+msgstr "Не сканировать"
+
+#: inc/functions/bot/seopress-bot.php:120
+msgid "Links found: "
+msgstr "Найденные ссылки:"
+
+#: inc/functions/bot/seopress-bot.php:117
+msgid "Latest scan: "
+msgstr "Последняя проверка:"
+
+#: inc/functions/bot/seopress-bot.php:99 seopress-pro.php:482
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/functions/bot/seopress-bot.php:98
+msgid "Scan"
+msgstr "Сканировать"
+
+#: inc/admin/updater/plugin-licence.php:251
+msgid "Your license key has reached its activation limit."
+msgstr "Ваш лицензионный ключ достиг лимита активаций."
+
+#: inc/admin/updater/plugin-licence.php:246
+msgid "This appears to be an invalid license key for %s."
+msgstr "Это недействительный лицензионный ключ для %s."
+
+#: inc/admin/updater/plugin-licence.php:241
+msgid "Your license is not active for this URL."
+msgstr "Ваша лицензия не активна для этого URL-адреса."
+
+#: inc/admin/updater/plugin-licence.php:235
+msgid "Invalid license."
+msgstr "Лицензия не действительна."
+
+#: inc/admin/updater/plugin-licence.php:230
+msgid "Your license key has been disabled."
+msgstr "Ваш лицензионный ключ деактивирован."
+
+#: inc/admin/updater/plugin-licence.php:222
+msgid "Your license key expired on %s."
+msgstr "Срок действия вашего лицензионного ключа истекает %s."
+
+#: inc/admin/updater/plugin-licence.php:107
+msgid "Deactivate License"
+msgstr "Деактивировать лицензию"
+
+#: inc/admin/updater/plugin-licence.php:105
+msgid "active"
+msgstr "активно"
+
+#: inc/admin/updater/plugin-licence.php:101
+#: inc/admin/updater/plugin-licence.php:111
+msgid "Activate License"
+msgstr "Активировать лицензию"
+
+#: inc/admin/updater/plugin-licence.php:95
+msgid "Enter your license key"
+msgstr "Введите Ваш лицензионный ключ"
+
+#: inc/admin/updater/plugin-licence.php:91
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+#: inc/admin/updater/plugin-licence.php:77
+msgid "Reset your license"
+msgstr "Сбросить Вашу лицензию"
+
+#: inc/admin/updater/plugin-licence.php:76
+msgid "View my account"
+msgstr "Просмотреть мою учетную запись"
+
+#: inc/admin/updater/plugin-licence.php:74
+msgid "The license key is used to access automatic updates and support."
+msgstr "Лицензионный ключ используется для доступа к автоматическим обновлениям и техподдержке."
+
+#: inc/admin/updater/plugin-licence.php:59
+msgid "Plugin License Options"
+msgstr "Настройки лицензии плагина"
+
+#: inc/admin/updater/plugin-licence.php:12
+msgid "<strong>Steps to follow to activate your license:</strong> <ul><li>1/ Paste your license key</li> <li>2/ Save changes</li> <li>3/ Activate License.</li> <li>That's it! Do NOT save changes after that!</li></ul>"
+msgstr "<strong>Шаги для активации вашей лицензии:</strong> <ul><li>1/ Вставить ключ лицензии </li> <li>2/ Сохранить изменения </li> <li>3/ Активировать лицензию.</li> <li>Это все! После этого не сохраняйте изменения!</li></ul>"
+
+#: inc/admin/schemas.php:487
+msgid "Select your data type:"
+msgstr "Выберите тип данных:"
+
+#: inc/admin/schemas.php:412
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: inc/admin/schemas.php:407
+msgid "Manual rating on each post"
+msgstr "Ручной рейтинг на каждой записи"
+
+#: inc/admin/schemas.php:406
+msgid "Manual rating"
+msgstr "Ручной рейтинг"
+
+#: inc/admin/schemas.php:401
+msgid "HH:MM"
+msgstr "ЧЧ:ММ"
+
+#: inc/admin/schemas.php:396
+msgid "Manual time on each post"
+msgstr "Ручное время на каждой записи"
+
+#: inc/admin/schemas.php:395
+msgid "Manual time"
+msgstr "Ручное время"
+
+#: inc/admin/schemas.php:390
+msgid "Global date"
+msgstr "Глобальная дата"
+
+#: inc/admin/schemas.php:385
+msgid "Manual date on each post"
+msgstr "Ручная дата на каждой записи"
+
+#: inc/admin/schemas.php:384
+msgid "Manual date"
+msgstr "Ручная дата"
+
+#: inc/admin/schemas.php:372
+msgid "Select your global image from the media library"
+msgstr "Выберите глобальное изображение из медиа библиотеки"
+
+#: inc/admin/schemas.php:359
+msgid "Manual Image from Library"
+msgstr "Ручное изображение из библиотеки"
+
+#: inc/admin/schemas.php:358 inc/admin/schemas.php:366
+#: inc/admin/schemas.php:372
+msgid "Manual Image URL"
+msgstr "Ручная ссылка изображения"
+
+#: inc/admin/schemas.php:352
+msgid "Post author picture"
+msgstr "Изображение автора записи"
+
+#: inc/admin/schemas.php:348
+msgid "Knowledge Graph logo (SEO > Social)"
+msgstr "Логопит Knowledge Graph (SEO > Соцсети)"
+
+#: inc/admin/schemas.php:341
+msgid "Manual value"
+msgstr "Ручное значение"
+
+#: inc/admin/schemas.php:341 inc/admin/schemas.php:366
+msgid "Enter a global value here"
+msgstr "Введите глобальное значение"
+
+#: inc/admin/schemas.php:336 inc/admin/schemas.php:360
+msgid "Manual text on each post"
+msgstr "Ручной текст на каждой записи"
+
+#: inc/admin/schemas.php:335
+msgid "Manual text"
+msgstr "Ручной текст"
+
+#: inc/admin/schemas.php:302 inc/admin/schemas.php:355
+msgid "Select your custom field"
+msgstr "Выберите пользовательское поле"
+
+#: inc/admin/schemas.php:285
+msgid "Last update"
+msgstr "Последнее обновление"
+
+#: inc/admin/schemas.php:284
+msgid "Publish date"
+msgstr "Дата публикации"
+
+#: inc/admin/schemas.php:283
+msgid "Author"
+msgstr "Автор"
+
+#: inc/admin/schemas.php:282
+msgid "Permalink"
+msgstr "Постоянная ссылка"
+
+#: inc/admin/schemas.php:281 inc/admin/elementor/widget-breadcrumbs.php:90
+msgid "Content"
+msgstr "Содержимое"
+
+#: inc/admin/schemas.php:276
+msgid "Site URL"
+msgstr "Ссылка сайта"
+
+#: inc/admin/schemas.php:275
+msgid "Tagline"
+msgstr "Подзаголовок"
+
+#: inc/admin/schemas.php:274
+msgid "Site Title"
+msgstr "Заголовок сайта"
+
+#: inc/admin/schemas.php:165 inc/admin/bot.php:200
+msgid "Post type"
+msgstr "Тип записи"
+
+#: inc/admin/schemas.php:164
+msgid "Data type"
+msgstr "Тип данных"
+
+#: inc/admin/schemas.php:101
+msgid "Enter the name of your schema"
+msgstr "Введите имя вашей схемы"
+
+#: inc/admin/schemas.php:75
+msgid "List of Schemas"
+msgstr "Список схем"
+
+#: inc/admin/schemas.php:71
+msgid "Filter schema list"
+msgstr "Отфильтровать список схем"
+
+#: inc/admin/schemas.php:70
+msgid "Schemas list navigation"
+msgstr "Навигация списка схем"
+
+#: inc/admin/schemas.php:69
+msgid "Schemas list"
+msgstr "Список схем"
+
+#: inc/admin/schemas.php:60
+msgid "Search schema"
+msgstr "Искать схему"
+
+#: inc/admin/schemas.php:59
+msgid "View schema"
+msgstr "Просмотреть схему"
+
+#: inc/admin/schemas.php:58
+msgid "Update schema"
+msgstr "Обновить схему"
+
+#: inc/admin/schemas.php:57
+msgid "Edit schema"
+msgstr "Редактировать схему"
+
+#: inc/admin/schemas.php:56
+msgid "New schema"
+msgstr "Новая схема"
+
+#: inc/admin/schemas.php:55
+msgid "Add schema"
+msgstr "Добавить схему"
+
+#: inc/admin/schemas.php:54
+msgid "Add New schema"
+msgstr "Добавить новую схему"
+
+#: inc/admin/schemas.php:53
+msgid "All schemas"
+msgstr "Все схемы"
+
+#: inc/admin/report-page-speed.php:334
+msgid "We can't retrieve your Google Page Speed. Make sure your site is accessible from everyone, and try again."
+msgstr "Мы не смогли получить отчет Google Page Speed. Убедитесь, что ваш сайт доступен через интернет, и повторите попытку."
+
+#: inc/admin/report-page-speed.php:288
+msgid "Passed audits"
+msgstr "Пройденные аудиты"
+
+#: inc/admin/report-page-speed.php:261
+msgid "Estimated Savings"
+msgstr "Расчетная экономия"
+
+#: inc/admin/report-page-speed.php:260
+msgid "Size/Time"
+msgstr "Размер/Время"
+
+#: inc/admin/report-page-speed.php:240
+msgid "More information about the performance of your application."
+msgstr "Больше информации о производительности вашего приложения."
+
+#: inc/admin/report-page-speed.php:239
+msgid "Diagnostics"
+msgstr "Диагностика"
+
+#: inc/admin/report-page-speed.php:221 inc/admin/report-page-speed.php:227
+#: inc/admin/report-page-speed.php:270 inc/admin/report-page-speed.php:276
+#: inc/admin/report-page-speed.php:314 inc/admin/report-page-speed.php:320
+msgid " KB"
+msgstr " KB"
+
+#: inc/admin/report-page-speed.php:196
+msgid "These optimizations can speed up your page load."
+msgstr "Эти оптимизации могут ускорить загрузку страницы."
+
+#: inc/admin/report-page-speed.php:195
+msgid "Opportunities"
+msgstr "Возможности"
+
+#: inc/admin/report-page-speed.php:176
+msgid "Estimated Input Latency: "
+msgstr "Расчетная входная задержка:"
+
+#: inc/admin/report-page-speed.php:171
+msgid "Time to Interactive: "
+msgstr "Время до интерактивности:"
+
+#: inc/admin/report-page-speed.php:165
+msgid "First CPU Idle: "
+msgstr "Простой первого процессора:"
+
+#: inc/admin/report-page-speed.php:159
+msgid "Speed Index: "
+msgstr "Индекс скорости:"
+
+#: inc/admin/report-page-speed.php:153
+msgid "First Meaningful Paint: "
+msgstr "Первое отображение содержимого:"
+
+#: inc/admin/report-page-speed.php:147
+msgid "First Contentful Paint: "
+msgstr "Первая отрисовка содержимого:"
+
+#: inc/admin/report-page-speed.php:141
+msgid "Lighthouse analysis of the current page on an emulated mobile network. Values are estimated and may vary."
+msgstr "Анализ Lighthouse текущей страницы на эмулированной мобильной сети. Значения приблизительны и могут отличаться."
+
+#: inc/admin/report-page-speed.php:140
+msgid "Lab Data"
+msgstr "Лабораторные данные"
+
+#: inc/admin/report-page-speed.php:120 inc/admin/report-page-speed.php:176
+#: inc/admin/report-page-speed.php:224 inc/admin/report-page-speed.php:273
+#: inc/admin/report-page-speed.php:317
+msgid " ms"
+msgstr "мсек"
+
+#: inc/admin/report-page-speed.php:120
+msgid "First Input Delay (FID): "
+msgstr "First Input Delay (FID): "
+
+#: inc/admin/report-page-speed.php:97 inc/admin/report-page-speed.php:147
+#: inc/admin/report-page-speed.php:153 inc/admin/report-page-speed.php:159
+#: inc/admin/report-page-speed.php:165 inc/admin/report-page-speed.php:171
+#: inc/admin/report-page-speed.php:187
+msgid " s"
+msgstr "сек"
+
+#: inc/admin/report-page-speed.php:97
+msgid "First Contentful Paint (FCP): "
+msgstr "Первая отрисовка содержимого (FCP): "
+
+#: inc/admin/report-page-speed.php:89
+msgid "Over the last 30 days, the field data shows that this page has a <span>%s</span> speed compared to other pages in the Chrome User Experience Report. We are showing the 90th percentile of FCP and the 95th percentile of FID."
+msgstr "Данные за последние 30 дней показывают, что эта страница имеет <span>%s</span> скорость по сравнению с другими страницами отчета Chrome User Experience Report. Мы показываем 90-процентную долю FCP и 95-процентную долю FID."
+
+#: inc/admin/report-page-speed.php:88
+msgid "Field Data"
+msgstr "Данные поля"
+
+#: inc/admin/report-page-speed.php:68
+msgid "Screenshot"
+msgstr "Снимок экрана"
+
+#: inc/admin/report-page-speed.php:56
+msgid "<strong>Scale:</strong> <span class=\"fast\"></span>90-100 (fast) <span class=\"average\"></span>50-89 (average) <span class=\"slow\"></span>0-49 (slow)"
+msgstr "<strong>Шкала:</strong> <span class=\"fast\"></span>90-100 (быстро) <span class=\"average\"></span>50-89 (средне) <span class=\"slow\"></span>0-49 (медленно)"
+
+#: inc/admin/report-page-speed.php:53
+msgid " at "
+msgstr " в "
+
+#: inc/admin/report-page-speed.php:53
+msgid "Analysis time: "
+msgstr "Время анализа:"
+
+#: inc/admin/report-page-speed.php:49
+msgid "The speed score is based on the lab data analyzed by Lighthouse."
+msgstr "Оценка скорости основана на лабораторных данных от Lighthouse."
+
+#: inc/admin/report-page-speed.php:47
+msgid "Title: "
+msgstr "Заголовок:"
+
+#: inc/admin/report-page-speed.php:46
+msgid "URL: "
+msgstr "URL:"
+
+#: inc/admin/report-page-speed.php:27
+msgid "Google Page Speed Score (Desktop)"
+msgstr "Оценка Google Page Speed (Для компьютеров)"
+
+#: inc/admin/redirections.php:973
+msgid "You are receiving this email because a new 404 error has been logged on your site. See below:"
+msgstr "Вы получили это письмо из-за ошибки 404, обнаруженной на вашем сайте. Детали:"
+
+#: inc/admin/redirections.php:955
+msgid "404 alert"
+msgstr "ошибка 404"
+
+#: inc/admin/redirections.php:445
+msgid "User agent"
+msgstr "Агент пользователя"
+
+#: inc/admin/redirections.php:443
+msgid "URL redirect"
+msgstr "URL переадресация"
+
+#: inc/admin/redirections.php:441
+msgid "Enable?"
+msgstr "Включить?"
+
+#: inc/admin/redirections.php:372
+msgid "Enter your <strong>relative</strong> URL above. Do not use anchors, they are not sent by your browser."
+msgstr "Введите <strong>относительную </strong> ссылку выше. Не используйте якорей, они не отправляются вашим браузером."
+
+#: inc/admin/redirections.php:356
+msgid "Enter the old URL here without domain name"
+msgstr "Введите старый URL-адрес без имени домена"
+
+#: inc/admin/redirections.php:316
+msgid "Disable redirection"
+msgstr "Отключить переадресацию"
+
+#: inc/admin/redirections.php:280
+msgid "Enable redirection"
+msgstr "Включить переадресацию"
+
+#: inc/admin/redirections.php:195
+msgid "All status"
+msgstr "Все статусы"
+
+#: inc/admin/bot.php:103 inc/admin/redirections.php:188
+msgid "Show All"
+msgstr "Показать все"
+
+#: inc/admin/redirections.php:160
+msgid "All categories"
+msgstr "Все категории"
+
+#: inc/admin/redirections.php:140 inc/admin/redirections.php:393
+msgid "Test redirection"
+msgstr "Проверить переадресацию"
+
+#: inc/admin/redirections.php:119
+msgid "Export your redirects"
+msgstr "Экспортировать переадресации"
+
+#: inc/admin/redirections.php:116
+msgid "Import your redirects"
+msgstr "Импортировать переадресации"
+
+#: inc/admin/redirections.php:113
+msgid "Manage categories redirects"
+msgstr "Управлять перенаправлениями категорий"
+
+#: inc/admin/redirections.php:86
+msgid "Categories list navigation"
+msgstr "Навигация списка категорий"
+
+#: inc/admin/redirections.php:85
+msgid "Categories list"
+msgstr "Список категорий"
+
+#: inc/admin/redirections.php:84
+msgid "No items"
+msgstr "Нет элементов"
+
+#: inc/admin/redirections.php:83
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: inc/admin/redirections.php:82
+msgid "Search Categories"
+msgstr "Искать категории"
+
+#: inc/admin/redirections.php:81
+msgid "Popular Categories"
+msgstr "Популярные категории"
+
+#: inc/admin/redirections.php:80
+msgid "Choose from the most used"
+msgstr "Выбрать среди популярных"
+
+#: inc/admin/redirections.php:79
+msgid "Add or remove categories"
+msgstr "Добавить или удалить категории"
+
+#: inc/admin/redirections.php:78
+msgid "Separate categories with commas"
+msgstr "Разделить категории запятыми"
+
+#: inc/admin/redirections.php:77
+msgid "View Category"
+msgstr "Просмотр категории"
+
+#: inc/admin/redirections.php:76
+msgid "Update Category"
+msgstr "Обновить категорию"
+
+#: inc/admin/redirections.php:75
+msgid "Edit Category"
+msgstr "Редактировать категорию"
+
+#: inc/admin/redirections.php:74
+msgid "Add New Category"
+msgstr "Добавить новую категорию"
+
+#: inc/admin/redirections.php:73
+msgid "New Category Name"
+msgstr "Имя новой категории"
+
+#: inc/admin/redirections.php:72
+msgid "Parent Category:"
+msgstr "Родительская категория:"
+
+#: inc/admin/redirections.php:71
+msgid "Parent Category"
+msgstr "Родительская категория"
+
+#: inc/admin/redirections.php:70
+msgid "All Categories"
+msgstr "Все категории"
+
+#: inc/admin/redirections.php:69
+msgid "Categories"
+msgstr "Категории"
+
+#: inc/admin/redirections.php:40
+msgid "Monitoring 404"
+msgstr "Отслеживание ошибок 404"
+
+#: inc/admin/redirections.php:25
+msgid "Search redirection"
+msgstr "Поиск переадресации"
+
+#: inc/admin/redirections.php:24
+msgid "View redirection"
+msgstr "Посмотреть переадресацию"
+
+#: inc/admin/redirections.php:23
+msgid "Update redirection"
+msgstr "Обновить переадресацию"
+
+#: inc/admin/redirections.php:22
+msgid "Edit redirection"
+msgstr "Редактировать переадресацию"
+
+#: inc/admin/redirections.php:21
+msgid "New redirection"
+msgstr "Новая переадресация"
+
+#: inc/admin/redirections.php:20
+msgid "Add redirection"
+msgstr "Добавить переадресацию"
+
+#: inc/admin/redirections.php:19
+msgid "Add New redirection"
+msgstr "Добавить новую переадресацию"
+
+#: inc/admin/redirections.php:18
+msgid "All 404 / 301"
+msgstr "Все 404 / 301"
+
+#: inc/admin/schemas.php:52 inc/admin/redirections.php:17
+msgid "Parent Item:"
+msgstr "Родительский элемент:"
+
+#: inc/admin/schemas.php:51 inc/admin/redirections.php:16
+msgid "Item Archives"
+msgstr "Архивы элементов"
+
+#: inc/admin/redirections.php:14 inc/admin/redirections.php:15
+#: inc/admin/admin.php:127
+msgid "404 / 301"
+msgstr "404 / 301"
+
+#: inc/admin/dashboard-google-analytics.php:290
+msgid "Page views per session"
+msgstr "Просмотров страницы на сессию"
+
+#: inc/admin/dashboard-google-analytics.php:276
+msgid "Stats"
+msgstr "Статистика"
+
+#: inc/admin/dashboard-google-analytics.php:270
+msgid "360 days ago"
+msgstr "360 дней назад"
+
+#: inc/admin/dashboard-google-analytics.php:267
+msgid "180 days ago"
+msgstr "180 дней назад"
+
+#: inc/admin/dashboard-google-analytics.php:264
+msgid "90 days ago"
+msgstr "90 дней назад"
+
+#: inc/admin/dashboard-google-analytics.php:261
+msgid "30 days ago"
+msgstr "30 дней назад"
+
+#: inc/admin/dashboard-google-analytics.php:258
+msgid "7 days ago"
+msgstr "7 дней назад"
+
+#: inc/admin/dashboard-google-analytics.php:255
+msgid "Yesterday"
+msgstr "Вчера"
+
+#: inc/admin/dashboard-google-analytics.php:252
+msgid "Today"
+msgstr "Сегодня"
+
+#: inc/admin/dashboard-google-analytics.php:247
+msgid "Period"
+msgstr "Период"
+
+#: inc/admin/dashboard-google-analytics.php:222
+msgid "Authenticate"
+msgstr "Доступ"
+
+#: inc/admin/dashboard-google-analytics.php:221
+msgid "You need to login to Google Analytics"
+msgstr "Вам необходимо войти в Google Analytics"
+
+#: inc/admin/dashboard-google-analytics.php:214
+msgid "Event label"
+msgstr "Метка события"
+
+#: inc/admin/dashboard-google-analytics.php:211
+msgid "Event action"
+msgstr "Действие события"
+
+#: inc/admin/dashboard-google-analytics.php:208
+msgid "Event category"
+msgstr "Категория события"
+
+#: inc/admin/dashboard-google-analytics.php:203
+msgid "Total unique events"
+msgstr "Всего уникальных событий"
+
+#: inc/admin/dashboard-google-analytics.php:197
+msgid "Total events"
+msgstr "Всего событий"
+
+#: inc/admin/dashboard-google-analytics.php:187
+#: inc/admin/dashboard-google-analytics.php:287
+msgid "Page views"
+msgstr "Просмотры страницы"
+
+#: inc/admin/dashboard-google-analytics.php:178
+msgid "Medium"
+msgstr "Медиа"
+
+#: inc/admin/dashboard-google-analytics.php:175
+msgid "Referrals"
+msgstr "Направления"
+
+#: inc/admin/dashboard-google-analytics.php:169 inc/admin/schemas.php:994
+#: inc/admin/admin-metaboxes.php:941 inc/admin/admin-metaboxes.php:942
+#: inc/admin/admin-metaboxes-schemas.php:978
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#: inc/admin/dashboard-google-analytics.php:166
+msgid "Channels"
+msgstr "Каналы"
+
+#: inc/admin/dashboard-google-analytics.php:156
+msgid "Screen resolution"
+msgstr "Разрешение экрана"
+
+#: inc/admin/dashboard-google-analytics.php:153
+msgid "Browser"
+msgstr "Браузер"
+
+#: inc/admin/dashboard-google-analytics.php:150
+msgid "Operating System"
+msgstr "Операционная система"
+
+#: inc/admin/dashboard-google-analytics.php:144
+msgid "Language"
+msgstr "Язык"
+
+#: inc/admin/dashboard-google-analytics.php:141
+msgid "Device category"
+msgstr "Категория устройств"
+
+#: inc/admin/dashboard-google-analytics.php:132
+msgid "New sessions"
+msgstr "Новые сессии"
+
+#: inc/admin/dashboard-google-analytics.php:126
+#: inc/admin/dashboard-google-analytics.php:296
+msgid "Bounce rate"
+msgstr "Показатель отказов"
+
+#: inc/admin/dashboard-google-analytics.php:120
+#: inc/admin/dashboard-google-analytics.php:293
+msgid "Average session duration"
+msgstr "Средняя продолжительность сеанса"
+
+#: inc/admin/dashboard-google-analytics.php:114
+msgid "Page view / session"
+msgstr "Просмотры страницы / сессии"
+
+#: inc/admin/dashboard-google-analytics.php:87
+msgid "Events"
+msgstr "События"
+
+#: inc/admin/dashboard-google-analytics.php:86
+msgid "Behavior"
+msgstr "Поведение"
+
+#: inc/admin/dashboard-google-analytics.php:85
+msgid "Acquisition"
+msgstr "Сбор"
+
+#: inc/admin/dashboard-google-analytics.php:84
+msgid "Audience"
+msgstr "Аудитория"
+
+#: inc/admin/dashboard-google-analytics.php:83
+msgid "Main"
+msgstr "Главная"
+
+#: inc/admin/dashboard-google-analytics.php:172 inc/admin/bot.php:199
+msgid "Source"
+msgstr "Источник"
+
+#: inc/admin/bot.php:198
+msgid "Anchor text"
+msgstr "Текст якоря ссылки"
+
+#: inc/admin/bot.php:197 inc/admin/redirections.php:442
+msgid "Type"
+msgstr "Тип"
+
+#: inc/admin/bot.php:196
+msgid "Status"
+msgstr "Статус"
+
+#: inc/admin/bot.php:195 inc/admin/redirections.php:440
+msgid "Count"
+msgstr "Посчитать"
+
+#: inc/admin/bot.php:194
+msgid "Broken link"
+msgstr "Неработающие ссылки"
+
+#: inc/admin/bot.php:179
+msgid "Scan broken links"
+msgstr "Сканировать неработающие ссылки"
+
+#: inc/admin/bot.php:78
+msgid "Edit source to fix link"
+msgstr "Редактировать источник для правки ссылки"
+
+#: inc/admin/bot.php:40
+msgid "List of broken links"
+msgstr "Список неработающих ссылок"
+
+#: inc/admin/bot.php:36 inc/admin/redirections.php:36
+msgid "Filter redirections list"
+msgstr "Отфильтровать список редиректов"
+
+#: inc/admin/bot.php:35 inc/admin/redirections.php:35
+msgid "Redirections list navigation"
+msgstr "Навигация по списку редиректов"
+
+#: inc/admin/bot.php:34 inc/admin/redirections.php:34
+msgid "Redirections list"
+msgstr "Список редиректов"
+
+#: inc/admin/bot.php:25
+msgid "Search Link"
+msgstr "Поиск ссылки"
+
+#: inc/admin/bot.php:24
+msgid "View Link"
+msgstr "Посмотреть ссылку"
+
+#: inc/admin/bot.php:23
+msgid "Update Link"
+msgstr "Обновить ссылку"
+
+#: inc/admin/bot.php:22
+msgid "Edit link"
+msgstr "Редактировать ссылку"
+
+#: inc/admin/bot.php:21
+msgid "New link"
+msgstr "Новая ссылка"
+
+#: inc/admin/bot.php:20
+msgid "Add link"
+msgstr "Добавить ссылку"
+
+#: inc/admin/bot.php:19
+msgid "Add New Link"
+msgstr "Добавить новую ссылку"
+
+#: inc/admin/bot.php:18
+msgid "All Broken links"
+msgstr "Все неработающие ссылки"
+
+#: inc/admin/backlinks.php:182
+msgid "Target URL"
+msgstr "Целевой URL"
+
+#: inc/admin/backlinks.php:182
+msgid "Open link in a new window"
+msgstr "Открыть ссылку в новом окне"
+
+#: inc/admin/backlinks.php:182
+msgid "Source URL"
+msgstr "URL источника"
+
+#: inc/admin/backlinks.php:174
+msgid "Last seen"
+msgstr "Последние просмотренные"
+
+#: inc/admin/backlinks.php:173
+msgid "First indexed"
+msgstr "Первые проиндексированные"
+
+#: inc/admin/backlinks.php:172
+msgid "URL TF"
+msgstr "URL TF"
+
+#: inc/admin/backlinks.php:171
+msgid "URL CF"
+msgstr "URL CF"
+
+#: inc/admin/backlinks.php:170
+msgid "Domain TF"
+msgstr "TF домена"
+
+#: inc/admin/backlinks.php:169
+msgid "Domain CF"
+msgstr "CF домена"
+
+#: inc/admin/backlinks.php:168
+msgid "Anchor Text"
+msgstr "Текст якоря ссылки"
+
+#: inc/admin/backlinks.php:109
+msgid "Enter an URL here"
+msgstr "Введите URL-адрес"
+
+#: inc/admin/backlinks.php:94
+msgid "Enter your Majestic key"
+msgstr "Введите ключ Majestic"
+
+#: inc/functions/bot/seopress-bot.php:127
+msgid "Export CSV"
+msgstr "Экспорт в CSV"
+
+#: inc/admin/backlinks.php:88
+msgid "Check your backlinks"
+msgstr "Проверьте ваши обратные ссылки"
+
+#: inc/admin/backlinks.php:41
+msgid "List of backlinks"
+msgstr "Список обратных ссылок"
+
+#: inc/admin/backlinks.php:37
+msgid "Filter backlinks list"
+msgstr "Отфильтровать список обратных ссылок"
+
+#: inc/admin/backlinks.php:36
+msgid "Backlinks list navigation"
+msgstr "Навигация по списку обратных ссылок"
+
+#: inc/admin/backlinks.php:35
+msgid "Backlinks list"
+msgstr "Список обратных ссылок"
+
+#: inc/admin/schemas.php:68 inc/admin/bot.php:33 inc/admin/backlinks.php:34
+#: inc/admin/redirections.php:33
+msgid "Uploaded to this item"
+msgstr "Загружено в текущий элемент"
+
+#: inc/admin/schemas.php:67 inc/admin/bot.php:32 inc/admin/backlinks.php:33
+#: inc/admin/redirections.php:32
+msgid "Insert into item"
+msgstr "Вставить в элемент"
+
+#: inc/admin/schemas.php:66 inc/admin/bot.php:31 inc/admin/backlinks.php:32
+#: inc/admin/redirections.php:31
+msgid "Use as featured image"
+msgstr "Использовать как изображение записи"
+
+#: inc/admin/schemas.php:65 inc/admin/bot.php:30 inc/admin/backlinks.php:31
+#: inc/admin/redirections.php:30
+msgid "Remove featured image"
+msgstr "Удалить изображение записи"
+
+#: inc/admin/schemas.php:64 inc/admin/bot.php:29 inc/admin/backlinks.php:30
+#: inc/admin/redirections.php:29
+msgid "Set featured image"
+msgstr "Установить изображение записи"
+
+#: inc/admin/schemas.php:63 inc/admin/bot.php:28 inc/admin/backlinks.php:29
+#: inc/admin/redirections.php:28
+msgid "Featured Image"
+msgstr "Изображение записи"
+
+#: inc/admin/schemas.php:62 inc/admin/bot.php:27 inc/admin/backlinks.php:28
+#: inc/admin/redirections.php:27
+msgid "Not found in Trash"
+msgstr "Не найдено в корзине"
+
+#: inc/admin/schemas.php:61 inc/admin/bot.php:26 inc/admin/backlinks.php:27
+#: inc/admin/redirections.php:26
+msgid "Not found"
+msgstr "Не найдено"
+
+#: inc/admin/backlinks.php:26
+msgid "Search backlink"
+msgstr "Поиск обратной ссылки"
+
+#: inc/admin/backlinks.php:25
+msgid "View backlink"
+msgstr "Посмотреть обратную ссылку"
+
+#: inc/admin/backlinks.php:24
+msgid "Update backlink"
+msgstr "Обновить обратную ссылку"
+
+#: inc/admin/backlinks.php:23
+msgid "Edit backlink"
+msgstr "Редактировать обратную ссылку"
+
+#: inc/admin/backlinks.php:22
+msgid "New backlink"
+msgstr "Новая обратная ссылка"
+
+#: inc/admin/backlinks.php:21
+msgid "Add backlink"
+msgstr "Добавить обратную ссылку"
+
+#: inc/admin/backlinks.php:20
+msgid "Add New backlink"
+msgstr "Добавить новую обратную ссылку"
+
+#: inc/admin/backlinks.php:19
+msgid "All Backlinks"
+msgstr "Все обратные ссылки"
+
+#: inc/admin/bot.php:17 inc/admin/backlinks.php:18
+msgid "Parent Link:"
+msgstr "Родительская ссылка:"
+
+#: inc/admin/bot.php:16 inc/admin/backlinks.php:17
+msgid "Item Links"
+msgstr "Ссылки элементов"
+
+#: inc/admin/ajax.php:773
+msgid "Your htaccess is not writable."
+msgstr "Ваш файл .htaccess не доступен для записи."
+
+#: inc/admin/ajax.php:768
+msgid "htaccess successfully updated!"
+msgstr ".htaccess успешно обновлен!"
+
+#: inc/admin/ajax.php:764
+msgid "Impossible to write in file: "
+msgstr "Ошибка записи в файл:"
+
+#: inc/admin/ajax.php:759
+msgid "Impossible to open file: "
+msgstr "Ошибка при открытии файла:"
+
+#: inc/admin/ajax.php:681 inc/admin/dashboard-google-analytics.php:299
+msgid "New Sessions"
+msgstr "Новые сессии"
+
+#: inc/admin/ajax.php:677
+msgid "Bounce Rate"
+msgstr "Показатель отказов"
+
+#: inc/admin/ajax.php:673
+msgid "Average Session Duration"
+msgstr "Средняя продолжительность сеанса"
+
+#: inc/admin/ajax.php:669
+msgid "Page Views Per Session"
+msgstr "Просмотров страницы на сессию"
+
+#: inc/admin/ajax.php:665 inc/admin/dashboard-google-analytics.php:108
+msgid "Page Views"
+msgstr "Просмотры страницы"
+
+#: inc/admin/ajax.php:661 inc/admin/dashboard-google-analytics.php:102
+#: inc/admin/dashboard-google-analytics.php:284
+msgid "Users"
+msgstr "Пользователи"
+
+#: inc/admin/ajax.php:657 inc/admin/ajax.php:685
+#: inc/admin/dashboard-google-analytics.php:96
+#: inc/admin/dashboard-google-analytics.php:281
+msgid "Sessions"
+msgstr "Сессии"
+
+#: inc/admin/ajax.php:329 inc/admin/ajax.php:811
+#: inc/admin/updater/plugin-licence.php:256
+#: inc/admin/updater/plugin-licence.php:315
+msgid "An error occurred, please try again."
+msgstr "Возникла ошибка, пожалуйста, попробуйте еще раз."
+
+#: inc/admin/admin.php:3572
+msgid "Hook to filter Structured data types metabox call by post type - new window"
+msgstr "Установить хук для фильтрации вызовов метабокса структурированных типов данных типами записи - новое окно"
+
+#: inc/admin/admin.php:3533
+msgid "Enter your secret ID"
+msgstr "Введите ваш секретный ID"
+
+#: inc/admin/admin.php:3524
+msgid "Guide to connect your WordPress site with Google Analytics - new window"
+msgstr "Справочник по подключению сайта к Google Analytics API - новое окно"
+
+#: inc/admin/admin.php:3518
+msgid "Enter your client ID"
+msgstr "Введите ваш клиентский ID"
+
+#: inc/admin/admin.php:3502
+msgid "Lock selection?"
+msgstr "Блокировать выделенное?"
+
+#: inc/admin/admin.php:3483
+msgid "Your Google Analytics view is locked. Log out from Google to unlocked it."
+msgstr "Виджет Google Analytics заблокирован. Выйдите из Google, чтобы разблокировать его."
+
+#: inc/admin/admin.php:3475
+msgid "Log out from Google"
+msgstr "Выйти из Google"
+
+#: inc/admin/admin.php:3455
+msgid "Connect with Google Analytics"
+msgstr "Подключитесь к Google Analytics"
+
+#: inc/admin/admin.php:3421
+msgid "To sign in with Google Analytics, you have to set a Client and Secret ID in the fields below:"
+msgstr "Чтобы войти в систему с помощью Google Analytics, вы должны вписать клиентский и секретный ID в следующих полях:"
+
+#: inc/admin/admin.php:3321
+msgid "Users with the \"manage_options\" capability will still see the menus."
+msgstr "Пользователи с правом \"manage_options\" смогут видеть меню."
+
+#: inc/admin/admin.php:3291
+msgid "License"
+msgstr "Лицензия"
+
+#: inc/functions/bot/seopress-bot.php:69 inc/admin/admin.php:3290
+msgid "BOT"
+msgstr "БОТ"
+
+#: inc/admin/admin.php:3289
+msgid "Tools"
+msgstr "Инструменты"
+
+#: inc/admin/admin.php:3288
+msgid "Advanced"
+msgstr "Расширенные"
+
+#: inc/admin/dashboard-google-analytics.php:163 inc/admin/admin.php:3286
+msgid "Social Networks"
+msgstr "Социальные сети"
+
+#: inc/admin/admin.php:3285
+msgid "XML / HTML Sitemap"
+msgstr "Карта сайта XML / HTML"
+
+#: inc/admin/admin.php:3284
+msgid "Titles & Metas"
+msgstr "Заголовки и мета"
+
+#: inc/admin/admin.php:3283
+msgid "SEO"
+msgstr "SEO"
+
+#: inc/admin/admin.php:3258 inc/admin/admin.php:3272
+msgid "Remove \"You like SEOPress? Don't forget to rate it 5 stars!\""
+msgstr "Убрать \"Нравится SEOPress? Не забудьте поставить 5 звезд!\""
+
+#: inc/admin/admin.php:3238 inc/admin/admin.php:3243
+msgid "Enter the absolute URL to your logo"
+msgstr "Введите абсолютную ссылку на ваш логотип"
+
+#: inc/admin/admin.php:3238 inc/admin/admin.php:3243
+msgid "eg: https://www.example.com/my-custom-image.png"
+msgstr "например: https://www.example.com/my-custom-image.png"
+
+#: inc/admin/admin.php:3222 inc/admin/admin.php:3227
+msgid "Enter the label of the link for admin bar"
+msgstr "Введите метку ссылки для панели администратора"
+
+#: inc/admin/admin.php:3222 inc/admin/admin.php:3227
+msgid "default value: <span class=\"ab-icon icon-seopress-seopress\"></span> SEO"
+msgstr "значение по умолчанию: <span class=\"ab-icon icon-seopress-seopress\"></span> SEO"
+
+#: inc/admin/admin.php:3206 inc/admin/admin.php:3211
+msgid "CSS Dashicons class name without quotes"
+msgstr " Имя класса CSS иконок консоли без кавычек"
+
+#: inc/admin/admin.php:3206 inc/admin/admin.php:3211
+msgid "Enter your dashicons CSS class name"
+msgstr "Редактировать имя класса CSS иконок консоли"
+
+#: inc/admin/admin.php:3178 inc/admin/admin.php:3192
+msgid "Remove SEOPress icons on the right in header (changelog, YouTube, Twitter...)"
+msgstr "Убрать иконку SEOPress из панели справа (список изменений, YouTube, Twitter...)"
+
+#: inc/admin/admin.php:3145 inc/admin/admin.php:3159
+msgid "Remove the SEOPress admin header including Notifications Center, SEO tools and Useful links"
+msgstr "Убрать заголовок панели администратора SEOPress, включая центр уведомлений, инструменты SEO и полезные ссылки"
+
+#: inc/admin/admin.php:3130
+msgid "Flush your permalinks each time you edit this setting."
+msgstr "Сбрасывайте постоянные ссылки каждый раз при редактировании этих настроек."
+
+#: inc/admin/admin.php:3128
+msgid "Search results base, eg: \"search-results\" without quotes"
+msgstr "База результатов поиска, например \"search-results\" без кавычек"
+
+#: inc/admin/admin.php:3128
+msgid "Search results base"
+msgstr "База результатов поиска"
+
+#: inc/admin/admin.php:3105
+msgid "Disable all WordPress RSS feeds (all feeds will no longer be accessible)"
+msgstr "Отключить все RSS-каналы WordPress (все каналы будут недоступны)"
+
+#: inc/admin/admin.php:3088
+msgid "Remove feed link in source code (author, categories, custom taxonomies, custom post type, comments feed for a single post...)"
+msgstr "Удалить ссылки на канал в исходном коде (автор, категории, пользовательские таксономии, пользовательский тип записи, лента комментариев для записи...)"
+
+#: inc/admin/admin.php:3071
+msgid "Remove feed link in source code (default WordPress RSS feed)"
+msgstr "Удалить ссылки на канал в исходном коде (стандартный RSS-канал WordPress)"
+
+#: inc/admin/admin.php:3054
+msgid "Remove feed link in source code"
+msgstr "Удалить ссылки на канал в исходном коде"
+
+#: inc/admin/admin.php:3027 inc/admin/admin.php:3041
+msgid "Dynamic variables: %%sitetitle%%, %%tagline%%, %%post_author%%, %%post_permalink%%, %%post_title%%"
+msgstr "Динамические переменные: %%sitetitle%%, %%tagline%%, %%post_author%%, %%post_permalink%%, %%post_title%%"
+
+#: inc/admin/admin.php:3025 inc/admin/admin.php:3040
+msgid "HTML tags allowed: strong, em, br, a href"
+msgstr "Допустимые теги HTML: strong, em, br, a href"
+
+#: inc/admin/admin.php:3022 inc/admin/admin.php:3037
+msgid "Enter your HTML content"
+msgstr "Введите ваше HTML содержание"
+
+#: inc/admin/admin.php:3008
+msgid "Your server is running Nginx, you don't have htaccess file."
+msgstr "Ваш сервер работает на Nginx, у вас нет файла .htaccess."
+
+#: inc/admin/admin.php:3005
+msgid "You don't have an htaccess file on your server."
+msgstr "У Вас на сервере нет файла htaccess."
+
+#: inc/admin/admin.php:3002
+msgid "Saves htaccess changes"
+msgstr "Сохранить изменения в htaccess"
+
+#: inc/admin/admin.php:2998
+msgid "301 redirection"
+msgstr "Редирект 301"
+
+#: inc/admin/admin.php:2996
+msgid "Protect wp-config.php file"
+msgstr "Защитить файл wp-config.php"
+
+#: inc/admin/admin.php:2991
+msgid "Block directory browsing"
+msgstr "Блокировать просмотр каталогов"
+
+#: inc/admin/admin.php:2983
+msgid "This is your htaccess file!"
+msgstr "Это ваш файл .htaccess!"
+
+#: inc/admin/admin.php:2973
+msgid "Multisite is enabled, go to network SEO settings to manage your .htaccess file."
+msgstr "Включен режим мультисайта, перейдите в сетевые настройки SEO, чтобы настроить .htaccess файл."
+
+#: inc/admin/admin.php:2960
+msgid "Enter your email"
+msgstr "Введите Ваш email"
+
+#: inc/admin/admin.php:2948
+msgid "1 mail each time a new 404 is created"
+msgstr "1 письмо при обнаружении каждого нового статуса 404"
+
+#: inc/admin/admin.php:2909
+msgid "Enter your custom url"
+msgstr "Введите пользовательский URL"
+
+#: inc/admin/admin.php:2872
+msgid "You must deactivate and reactivate SEOPress PRO to enable the scheduled task (CRON)"
+msgstr "Необходимо деактивировать и заново активировать SEOPress PRO, чтобы включить запланированные задачи (CRON)"
+
+#: inc/admin/admin.php:2870
+msgid "Automatically delete 404 after 30 days (useful if you have a lot of 404)"
+msgstr "Автоматически удалять статусы 404 через 30 дней (полезно, если у вас много ошибок 404)"
+
+#: inc/admin/admin.php:2853
+msgid "View your 404 / 301"
+msgstr "Посмотреть ваши 404 / 301"
+
+#: inc/admin/admin.php:2851
+msgid "Enable 404 monitoring"
+msgstr "Включить отслеживание ошибок 404"
+
+#: inc/admin/admin.php:2794
+msgid "Enter your Google News Publication Name"
+msgstr "Введите заголовок публикации для Google News"
+
+#: inc/admin/admin.php:2768
+msgid "Guide to edit your robots.txt file - new window"
+msgstr "Рекомендации по редактированию вашего файла robots.txt - новое окно"
+
+#: inc/admin/admin.php:2756
+msgid "Default WP rules"
+msgstr "Стандартные правила WP"
+
+#: inc/admin/admin.php:2752
+msgid "Allow Google Image bot"
+msgstr "Разрешить бота Google картинок"
+
+#: inc/admin/admin.php:2749
+msgid "Allow Google AdSense bot"
+msgstr "Разрешить бота Google AdSense"
+
+#: inc/admin/admin.php:2746
+msgid "Link to your sitemap"
+msgstr "Ссылка на вашу карту сайта"
+
+#: inc/admin/admin.php:2744
+msgid "Block AhrefsBot"
+msgstr "Блокировать  Ahrefs-бота"
+
+#: inc/admin/admin.php:2741
+msgid "Block MajesticSEOBot"
+msgstr "Блокировать бота MajesticSEOBot"
+
+#: inc/admin/admin.php:2738
+msgid "Block SemrushBot"
+msgstr "Блокировать бота SemrushBot"
+
+#: inc/admin/admin.php:2719 inc/admin/admin.php:2728
+msgid "This is your robots.txt file!"
+msgstr "Это ваш файл robots.txt!"
+
+#: inc/admin/admin.php:2687 inc/admin/admin.php:2701
+msgid "Enable robots.txt virtual file"
+msgstr "Включить виртуальный файл robots.txt"
+
+#: inc/admin/admin.php:2666
+msgid "My theme / Bootstrap is already displaying a separator in my breadcrumbs"
+msgstr "Моя тема / Bootstrap уже отображает разделитель для хлебных крошек"
+
+#: inc/admin/admin.php:2632
+msgid "Remove static Posts page defined in WordPress Reading settings"
+msgstr "Уберите статическую страницу с записями в настройках \"Чтение\" WordPress"
+
+#: inc/admin/admin.php:2616
+msgid "default: No results"
+msgstr "по умолчанию: Нет результатов"
+
+#: inc/functions/options-breadcrumbs.php:198 inc/admin/admin.php:2616
+msgid "No results"
+msgstr "Нет результатов"
+
+#: inc/admin/admin.php:2606
+msgid "default: Search results for: "
+msgstr "по умолчанию: Результаты поиска для:"
+
+#: inc/functions/options-breadcrumbs.php:192 inc/admin/admin.php:2606
+msgid "Search results for: "
+msgstr "Результаты поиска для:"
+
+#: inc/admin/admin.php:2595
+msgid "default: 404 error"
+msgstr "по умолчанию: Ошибка 404"
+
+#: inc/functions/options-breadcrumbs.php:186 inc/admin/admin.php:2595
+msgid "404 error"
+msgstr "Ошибка 404"
+
+#: inc/admin/admin.php:2584
+msgid "default: Home"
+msgstr "по умолчанию: Главная"
+
+#: inc/functions/options-breadcrumbs.php:180 inc/admin/admin.php:2584
+msgid "Home"
+msgstr "Главная"
+
+#: inc/admin/admin.php:2487
+msgid "Customize breadcrumbs separator with a hook"
+msgstr "Настройте разделитель хлебных крошек с помощью хука"
+
+#: inc/admin/admin.php:2476
+msgid "|"
+msgstr "|"
+
+#: inc/admin/admin.php:2475
+msgid "<"
+msgstr "<"
+
+#: inc/admin/admin.php:2474
+msgid ">"
+msgstr ">"
+
+#: inc/admin/admin.php:2473
+msgid "–"
+msgstr "–"
+
+#: inc/admin/admin.php:2472
+msgid "-"
+msgstr "-"
+
+#: inc/admin/admin.php:2466
+msgid "eg: \\ "
+msgstr "например: \\"
+
+#: inc/admin/report-page-speed.php:211 inc/admin/report-page-speed.php:255
+#: inc/admin/report-page-speed.php:304 inc/admin/admin.php:2391
+msgid "Learn more"
+msgstr "Подробнее..."
+
+#: inc/admin/admin.php:2389
+msgid "Logos with a solid background should include 6px minimum padding around the wordmark."
+msgstr "Логотипы со сплошным фоном должны содержать отступ не менее 6px по краям."
+
+#: inc/admin/admin.php:2388
+msgid "The text in word-based logos should be at most 48px tall and centered vertically against the 60px image height. Additional space should be added to pad the height to 60px."
+msgstr "Текст в текстовых логотипах должен быть не более 48px в высоту и отцентрирован по вертикали относительно высоты логотипа 60px. Дополнительные отступы должны быть добавлены для установки высоты ровно 60px."
+
+#: inc/admin/admin.php:2387
+msgid "The logo should fit in a 600x60px rectangle, and either be exactly 60px high (preferred), or exactly 600px wide. <br/>For example, 450x45px would not be acceptable, even though it fits in the 600x60px rectangle."
+msgstr "Логотип должен умещаться в прямоугольник 600x60px и быть высотой в 60px (предпочтительно) или шириной в 600px. <br/>К примеру, 450x45px недопустимо, хотя он и умещается в прямоугольник 600x60px."
+
+#: inc/admin/admin.php:2386
+msgid "The logo should be a rectangle, not a square."
+msgstr "Логотип должен быть прямоугольным, не квадратным."
+
+#: inc/admin/admin.php:2385
+msgid "The graphic must be legible on a white or light background"
+msgstr "Изображение должно быть разборчивым на белом или светлом фоне"
+
+#: inc/admin/admin.php:2384
+msgid "Use full wordmark or full logo; not an icon."
+msgstr "Используйте словесное название или полный логотип, а не значок."
+
+#: inc/admin/admin.php:2383
+msgid "Animation is not allowed."
+msgstr "Анимации не разрешены."
+
+#: inc/admin/admin.php:2382
+msgid "Files must be raster, such as .jpg, .png, or .gif, not vector, such as .svg."
+msgstr "Файлы должны быть в растровом формате (.jpg, .png, или .gif), но не в векторном (.svg)"
+
+#: inc/admin/admin.php:2354
+msgid "Select your logo"
+msgstr "Выберите Ваш логотип"
+
+#: inc/admin/admin.php:2336
+msgid "Enable Structured Data Types metabox for your posts, pages and custom post types"
+msgstr "Включить структурированные типы данных  метаполей для записей, страниц и пользовательских типов записей"
+
+#: inc/admin/admin.php:2318
+msgid "Enable Dublin Core meta tags (dc.title, dc.description, dc.source, dc.language, dc.relation, dc.subject)"
+msgstr "Включить метатеги Дублинского Ядра (dc.title, dc.description, dc.source, dc.language, dc.relation, dc.subject)"
+
+#: inc/admin/admin.php:2300
+msgid "Remove EDD meta generator"
+msgstr "Удалить генератор метатегов для EDD"
+
+#: inc/admin/admin.php:2212
+msgid "Remove WooCommerce meta generator"
+msgstr "Удалить генератор метатегов для WooCommerce"
+
+#: inc/admin/import/class-csv-controller.php:698 inc/admin/admin.php:2127
+#: inc/admin/admin.php:2144 inc/admin/admin.php:2161
+msgid "noindex"
+msgstr "noindex"
+
+#: inc/admin/admin.php:2038
+msgid "Closed?"
+msgstr "Закрыто?"
+
+#: inc/admin/admin.php:1969
+msgid "default:"
+msgstr "по умолчанию:"
+
+#: inc/admin/admin.php:1686
+msgid "If the request exceeds x seconds of delay, the link will be considered as down"
+msgstr "Если время запроса превышает X секунд, ссылка будет считаться недействительной"
+
+#: inc/admin/admin.php:1648 inc/admin/admin.php:1665 inc/admin/admin.php:1699
+msgid "Yes"
+msgstr "Да"
+
+#: inc/admin/admin.php:1547
+msgid "Watch our video guide to connect your WordPress site with Google Analytics API + common errors"
+msgstr "Посмотрите наше обучающее видео о том, как подключить сайт на WordPress с помощью Google Analytics API + распространенные ошибки "
+
+#: inc/admin/admin.php:1538
+msgid "Connect your WordPress site with Google Analytics API and get statistics right in your Dashboard."
+msgstr "Подключите Ваш сайт к Google Analytics API и отслеживайте статистику в консоли WordPress."
+
+#: inc/admin/admin.php:1263
+msgid "Enable White Label."
+msgstr "Включить Белую Метку"
+
+#: inc/admin/admin.php:1257
+msgid "Change the URL rewriting."
+msgstr "Изменить настройки переадресации URL."
+
+#: inc/admin/admin.php:1526
+msgid "View your backlinks"
+msgstr "Посмотреть Ваши обратные ссылки"
+
+#: inc/admin/admin.php:1251
+msgid "Check your backlinks with Majestic. You need to enter your own Majestic API key to use this feature."
+msgstr "Проверьте ваши обратные ссылки с помощью Majestic. Чтобы использовать эту функцию, вам нужно ввести свой ключ API Majestic."
+
+#: inc/admin/admin.php:1246
+msgid "Configure WordPress default feeds."
+msgstr "Настройте новостные каналы WordPress."
+
+#: inc/admin/admin.php:1517
+msgid "SAVE YOUR HTACCESS FILE BEFORE EDIT!"
+msgstr "СОХРАНИТЕ ФАЙЛ HTACCESS ПЕРЕД ИЗМЕНЕНИЕМ!"
+
+#: inc/admin/admin.php:1241
+msgid "Edit your htaccess file."
+msgstr "Редактирование вашего  .htaccess файла."
+
+#: inc/admin/admin.php:1511
+msgid "All these reasons degrade your SEO AND your conversion."
+msgstr "Все эти причины негативно влияют на SEO и конверсию."
+
+#: inc/admin/admin.php:1509
+msgid "Crawl budget allocated by Google"
+msgstr "Бюджет паука, выделенного Google"
+
+#: inc/admin/admin.php:1508
+msgid "Performances"
+msgstr "Производительности"
+
+#: inc/admin/admin.php:1507
+msgid "User experience"
+msgstr "Пользовательский опыт"
+
+#: inc/admin/admin.php:1505
+msgid "404 URLS are bad for:"
+msgstr "Ссылки 404 плохи для:"
+
+#: inc/admin/admin.php:1236
+msgid "Monitor 404 urls in your Dashboard. Crawlers (robots/spiders) will be automatically exclude (eg: Google Bot, Yahoo, Bing...)."
+msgstr "Отслеживайте ссылки 404 в консоли. Пауки (роботы) будут исключены автоматически ( Google Bot, Yahoo, Bing...)."
+
+#: inc/admin/admin.php:1497
+msgid "Ping Google manually"
+msgstr "Пинговать Google вручную"
+
+#: inc/admin/admin.php:1495
+msgid "View your sitemap"
+msgstr "Посмотреть Вашу карту сайта"
+
+#: inc/admin/admin.php:1492
+msgid "We respect the rules of Google News: Only articles published during the previous two days, and, to a limit of 1000 articles, are visible in the sitemap."
+msgstr "Мы соблюдаем правила Новостей Google: в файле карты сайта видны только статьи, опубликованные за предыдущие два дня, и не более 1000 статей на карту сайта."
+
+#: inc/admin/admin.php:1490
+msgid "To view your sitemap, enable permalinks (not default one), and save settings to flush them."
+msgstr "Чтобы просмотреть карту сайта, включите постоянные ссылки (не по умолчанию) и сохраните настройки, чтобы сбросить их."
+
+#: inc/admin/admin.php:1230
+msgid "Enable your Google News Sitemap."
+msgstr "Включить карту сайта Google Новости."
+
+#: inc/admin/admin.php:1473 inc/admin/admin.php:1499
+msgid "Flush permalinks"
+msgstr "Сбросить постоянные ссылки"
+
+#: inc/admin/admin.php:1471
+msgid "View your robots.txt"
+msgstr "Посмотреть Ваш robots.txt"
+
+#: inc/admin/admin.php:1484
+msgid "THIS VIRTUAL FILE WILL NOT BYPASS YOUR REAL ROBOTS.TXT FILE IF YOU HAVE ONE."
+msgstr "ЭТОТ ВИРТУАЛЬНЫЙ ФАЙЛ НЕ БУДЕТ ПЕРЕЗАПИСЫВАТЬ ВАШ РЕАЛЬНЫЙ ФАЙЛ ROBOTS.TXT, ЕСЛИ ОН У ВАС ЕСТЬ."
+
+#: inc/admin/admin.php:1224
+msgid "Configure your virtual robots.txt file."
+msgstr "Настройте виртуальный файл robots.txt"
+
+#: inc/admin/admin.php:1440
+msgid "Remove last analysis"
+msgstr "Удалить последний анализ"
+
+#: inc/admin/admin.php:1438
+msgid "Analyse homepage with Page Speed"
+msgstr "Анализировать домашнюю страницу с помощью Google Page Speed"
+
+#: inc/admin/admin.php:1436
+msgid "Get an insightful audit of your website's quality for better performances with Dareboost."
+msgstr "Получите глубокий аудит качества вашего сайта для лучшей производительности с Dareboost."
+
+#: inc/admin/admin.php:1433
+msgid "We recommend WP Rocket caching plugin to quickly and easily optimize your WordPress site. Starting from just $49."
+msgstr "Мы рекомендуем плагин для кеширования WP Rocket для быстрой и легкой настройки вашего сайта на WordPress. Цены начинаются от $49."
+
+#: inc/admin/admin.php:1218
+msgid "Check your site performance with Google Page Speed (beta)."
+msgstr "Проверьте производительность сайта в Google Page Speed (beta)"
+
+#: inc/admin/admin.php:1419
+msgid "You can also use this shortcode in your content (post, page, post type...):"
+msgstr "Вы можете использовать этот короткий код в вашем содержимом (записи, странице, типе записи...):"
+
+#: inc/admin/admin.php:1418
+msgid "This function accepts 1 parameter: <strong>true / false</strong> for <strong>echo / return</strong>. Default: <strong>true</strong>."
+msgstr "Функция принимает 1 параметр: <strong>true / false</strong> для <strong>вывода или возврата</strong>. По умолчанию: <strong>true</strong>."
+
+#: inc/admin/admin.php:1416
+msgid "Copy and paste this function into your theme (eg: header.php) to enable your breadcrumbs:"
+msgstr "Скопируйте и вставьте эту функцию в файл вашей темы (например: header.php), чтобы включить хлебные крошки:"
+
+#: inc/admin/admin.php:1182
+msgid "Lean more on Google developers website"
+msgstr "Узнать больше на сайте Google developers"
+
+#: inc/admin/admin.php:1182
+msgid "Google developers website (new window)"
+msgstr "Сайт Google developers (новое окно)"
+
+#: inc/admin/admin.php:1182
+msgid "Configure your breadcrumbs, using schema.org markup, allowing it to appear in Google's search results."
+msgstr "Настройте хлебные крошки с помощью разметки schema.org, добавляя их в поисковую выдачу Google."
+
+#: inc/admin/admin.php:1213
+msgid "Add Structured Data Types support, mark your content, and get better Google Search Results."
+msgstr "Добавьте поддержку структурированных типов данных, отметьте свой контент и получите лучшие результаты поиска Google."
+
+#: inc/admin/admin.php:1207
+msgid "Dublin Core is a set of meta tags to describe your content.<br> These tags are automatically generated. Recognized by states / governements, they are used by directories, Bing, Baidu and Yandex."
+msgstr "Дублинское Ядро - это набор метатегов для описания контента.<br> Эти теги генерируются автоматически. Распознаются по регионам / странам, они используются для директорий, Bing, Baidu и Yandex."
+
+#: inc/admin/admin.php:1195
+msgid "Improve Easy Digital Downloads SEO."
+msgstr "Улучшить Easy Digital Downloads SEO."
+
+#: inc/admin/admin.php:1384
+msgid "To edit your business name, visit this page."
+msgstr "Чтобы отредактировать название компании, посетите эту страницу."
+
+#: inc/admin/admin.php:1292 inc/admin/admin.php:1294
+msgid "Click to enable this feature"
+msgstr "Нажмите, чтобы включить эту функцию"
+
+#: inc/admin/admin.php:1291 inc/admin/admin.php:1295
+msgid "Click to disable this feature"
+msgstr "Нажмите, чтобы отключить эту функцию"
+
+#: inc/functions/options.php:82 inc/admin/admin.php:1381
+msgid "Fix this!"
+msgstr "Починить!"
+
+#: inc/admin/admin.php:1380
+msgid "You have to set an image in Knowledge Graph settings, otherwise, your Google Local Business data will not be valid."
+msgstr "Вы должны установить изображение в настройках Knowledge Graph, иначе данные Google Local Business будут недействительны."
+
+#: inc/admin/admin.php:1360
+msgid "<p>Broken links settings</p>"
+msgstr "<p>Настройки поврежденных ссылок</p>"
+
+#: inc/admin/admin.php:1355
+msgid "View scan results"
+msgstr "Посмотреть результаты сканирования"
+
+#: inc/admin/admin.php:1354
+msgid "Check our guide"
+msgstr "Изучите наше руководство"
+
+#: inc/admin/admin.php:1344
+msgid "You can increase this value in the settings tab just above."
+msgstr "Вы можете увеличить это значение во вкладке настроек сверху."
+
+#: inc/admin/admin.php:1342
+msgid "The bot scans links in your content to find errors (404...). We limit this search by default to the last 100 posts/pages/custom post types."
+msgstr "Бот сканирует ссылки в вашем содержимом, чтобы найти ошибки (404...). По умолганию мы ограничиваем этот поиск по 100 последним записям/страницам/типам пользовательских записей."
+
+#: inc/admin/admin.php:1110
+msgid "Remove SEOPress menu/submenu pages"
+msgstr "Убрать страницы меню и подменю SEOPress"
+
+#: inc/admin/admin.php:1102 inc/admin/admin.php:1166
+msgid "Remove SEOPress credits in footer admin pages"
+msgstr "Убрать иконки SEOPress из подвала страниц администратора"
+
+#: inc/admin/admin.php:1094 inc/admin/admin.php:1158
+msgid "Add your custom logo in SEOPress admin header"
+msgstr "Добавить пользовательский логотип SEOPress в панель администратора"
+
+#: inc/admin/admin.php:1086 inc/admin/admin.php:1150
+msgid "Edit SEOPress item in admin bar"
+msgstr "Редактировать элемент SEOPress в панели администратора"
+
+#: inc/admin/admin.php:1078 inc/admin/admin.php:1142
+msgid "Filter SEO admin menu dashicons"
+msgstr "Фильтровать иконки SEO в меню консоли"
+
+#: inc/admin/admin.php:1070 inc/admin/admin.php:1134
+msgid "Remove SEOPress icons in header"
+msgstr "Убрать иконки SEOPress из заголовка"
+
+#: inc/admin/admin.php:1062 inc/admin/admin.php:1126
+msgid "Remove SEOPress admin header"
+msgstr "Убрать администраторский заголовок SEOPress"
+
+#: inc/admin/admin.php:1044
+msgid "Custom URL for search results"
+msgstr "Пользовательская ссылка для поисковых результатов"
+
+#: inc/admin/admin.php:1027 inc/admin/admin.php:3119
+msgid "Enter your Majestic API key"
+msgstr "Введите API-ключ Majestic"
+
+#: inc/admin/admin.php:1010
+msgid "Block Structured Data Types metabox to user roles"
+msgstr "Блокировать поля структурированных типов данных для ролей пользователей"
+
+#: inc/admin/admin.php:1001 inc/admin/admin.php:3533
+msgid "Google Console Secret ID"
+msgstr "Секретный ID Google Console"
+
+#: inc/admin/admin.php:994 inc/admin/admin.php:3518
+msgid "Google Console Client ID"
+msgstr "Клиентский ID Google Console"
+
+#: inc/admin/admin.php:987
+msgid "Connect with Google Analytics API"
+msgstr "Подключитесь к Google Analytics API"
+
+#: inc/admin/admin.php:971
+msgid "Disable all RSS feeds"
+msgstr "Отключить все RSS-каналы"
+
+#: inc/admin/admin.php:963
+msgid "Disable extra RSS feed"
+msgstr "Отключить дополнительные RSS-каналы"
+
+#: inc/admin/admin.php:955
+msgid "Disable posts RSS feed"
+msgstr "Отключить RSS-канал записей"
+
+#: inc/admin/admin.php:947
+msgid "Disable comments RSS feed"
+msgstr "Отключить комментарии для RSS-каналов"
+
+#: inc/admin/admin.php:939 inc/admin/admin.php:3037
+msgid "Display content after each post"
+msgstr "Отображать содержимое после каждой записи"
+
+#: inc/admin/admin.php:931 inc/admin/admin.php:3022
+msgid "Display content before each post"
+msgstr "Отображать содержимое перед каждой записью"
+
+#: inc/admin/admin.php:914 inc/admin/admin.php:2983
+msgid "Edit your htaccess file"
+msgstr "Редактировать файл .htaccess"
+
+#: inc/admin/admin.php:897 inc/admin/admin.php:2960
+msgid "Send emails to"
+msgstr "Отправлять письма на"
+
+#: inc/admin/admin.php:889
+msgid "Email notifications"
+msgstr "Email-уведомления"
+
+#: inc/admin/admin.php:881
+msgid "Status code of redirections"
+msgstr "Код статуса переадресации"
+
+#: inc/admin/admin.php:873 inc/admin/admin.php:2909
+msgid "Redirect to specific URL"
+msgstr "Перенаправление на конкретный URL"
+
+#: inc/admin/admin.php:865
+msgid "Redirect 404 to"
+msgstr "Перенаправлять ошибки 404 на"
+
+#: inc/admin/admin.php:857
+msgid "404 cleaning"
+msgstr "Очистка 404"
+
+#: inc/admin/admin.php:849
+msgid "404 log"
+msgstr "Лог ошибок 404"
+
+#: inc/admin/admin.php:832
+msgid "Select your Custom Post Type to INCLUDE in your Google News Sitemap"
+msgstr "Выберите Ваш пользовательский тип записи для ДОБАВЛЕНИЯ в карту сайта для Google новостей"
+
+#: inc/admin/admin.php:824 inc/admin/admin.php:2794
+msgid "Publication Name (must be the same as used in Google News)"
+msgstr "Заголовок публикации (должен быть таким же, как и в Новостях Google)"
+
+#: inc/admin/admin.php:816 inc/admin/admin.php:2782
+msgid "Enable Google News Sitemap"
+msgstr "Включить карту Google News"
+
+#: inc/admin/admin.php:776 inc/admin/admin.php:798 inc/admin/admin.php:2719
+#: inc/admin/admin.php:2728
+msgid "Virtual Robots.txt file"
+msgstr "Виртуальный файл robots.txt"
+
+#: inc/admin/admin.php:769 inc/admin/admin.php:791
+msgid "Enable Robots"
+msgstr "Включить robots"
+
+#: inc/admin/admin.php:743
+msgid "Disable default breadcrumbs separator"
+msgstr "Разделитель для хлебных крошек по умолчанию"
+
+#: inc/admin/admin.php:727
+msgid "Remove Posts page"
+msgstr "Убрать страницу с записями"
+
+#: inc/admin/admin.php:719
+msgid "Translation for \"No results\""
+msgstr "Перевод \"Нет результатов\""
+
+#: inc/admin/admin.php:711
+msgid "Translation for \"Search results for\""
+msgstr "Перевода \"Результаты поиска для\""
+
+#: inc/admin/admin.php:703
+msgid "Translation for \"Error 404\""
+msgstr "Перевод \"Ошибка 404\""
+
+#: inc/admin/admin.php:695
+msgid "Translation for homepage"
+msgstr "Перевод домашней страницы"
+
+#: inc/admin/admin.php:671 inc/admin/admin.php:2466
+msgid "Breadcrumbs Separator"
+msgstr "Разделитель для хлебных крошек"
+
+#: inc/admin/admin.php:663 inc/admin/admin.php:2452
+msgid "Enable JSON-LD Breadcrumbs"
+msgstr "Включить хлебные крошки JSON-LD"
+
+#: inc/admin/admin.php:655
+msgid "Enable Breadcrumbs"
+msgstr "Включить хлебные крошки"
+
+#: inc/admin/admin.php:630 inc/admin/admin.php:2354
+msgid "Upload your publisher logo"
+msgstr "Загрузите логотип своего издателя"
+
+#: inc/admin/admin.php:622
+msgid "Enable Structured Data Types"
+msgstr "Включить структурированные типы данных"
+
+#: inc/admin/admin.php:605
+msgid "Enable Dublin Core"
+msgstr "Включить Дублинское Ядро"
+
+#: inc/admin/admin.php:588
+msgid "Remove Easy Digital Downloads generator tag in your head"
+msgstr "Удалить тег Easy Digital Downloads из заголовка"
+
+#: inc/admin/admin.php:539
+msgid "Remove WooCommerce generator tag in your head"
+msgstr "Удалить тег WooCommerce из заголовка"
+
+#: inc/admin/admin.php:531 inc/admin/admin.php:580
+msgid "OG Currency"
+msgstr "Валюта OG"
+
+#: inc/admin/admin.php:523 inc/admin/admin.php:572
+msgid "OG Price"
+msgstr "Цена OG"
+
+#: inc/admin/admin.php:515
+msgid "Customer account pages"
+msgstr "Страницы учетной записи клиента"
+
+#: inc/admin/admin.php:507
+msgid "Checkout page"
+msgstr "Страница оформления заказа"
+
+#: inc/admin/admin.php:499
+msgid "Cart page"
+msgstr "Страница корзины"
+
+#: inc/admin/admin.php:386
+msgid "Business type"
+msgstr "Тип бизнеса"
+
+#: inc/admin/admin.php:361
+msgid "Clean broken links list when requesting a new scan"
+msgstr "Очистить поврежденные ссылки при заказе нового сканирования"
+
+#: inc/admin/admin.php:353
+msgid "Request Timeout (default 5 sec)"
+msgstr "Время ожидания запроса (по умолчанию 5 сек)"
+
+#: inc/admin/admin.php:345
+msgid "Scan 404 only"
+msgstr "Сканировать только 404"
+
+#: inc/admin/admin.php:337
+msgid "Scan link type (slow down the bot)"
+msgstr "Тип сканирования ссылок (замедляет бота)"
+
+#: inc/admin/admin.php:329
+msgid "Number of posts / pages / post types to scan"
+msgstr "Количество записей\\страниц\\типов записей для сканирования"
+
+#: inc/admin/admin.php:313
+msgid "Post types to scan"
+msgstr "Сканируемые типы записей"
+
+#: inc/admin/admin.php:183
+msgid "Change this settings"
+msgstr "Изменить настройки"
+
+#: inc/admin/admin.php:182
+msgid "You need to enable XML Sitemap feature, in order to use Google News Sitemap."
+msgstr "Вам нужно включить XML-карту сайта, чтобы использовать карту сайта для Новостей Google."
+
+#: inc/admin/admin.php:1399
+msgid "You need to enable Easy Digital Downloads in order to view these settings."
+msgstr "Чтобы просмотреть эти параметры, вам необходимо включить Easy Digital Downloads."
+
+#: inc/admin/admin.php:1391
+msgid "You need to enable WooCommerce in order to view these settings."
+msgstr "Чтобы просмотреть эти параметры, вам необходимо включить WooCommerce."
+
+#: inc/admin/admin.php:132 inc/admin/admin.php:246 inc/admin/admin.php:1262
+msgid "White Label"
+msgstr "Белая Метка"
+
+#: inc/admin/admin.php:131
+msgid "URL Rewriting"
+msgstr "Перезапись URL"
+
+#: inc/admin/admin.php:129
+msgid "RSS"
+msgstr "RSS"
+
+#: inc/admin/admin.php:128 inc/admin/admin.php:245 inc/admin/admin.php:1240
+msgid ".htaccess"
+msgstr ".htaccess"
+
+#: inc/admin/redirections.php:39 inc/admin/redirections.php:482
+msgid "404"
+msgstr "404"
+
+#: inc/admin/admin.php:126 inc/admin/admin.php:1229
+msgid "Google News"
+msgstr "Google Новости"
+
+#: inc/admin/admin.php:125 inc/admin/admin.php:244 inc/admin/admin.php:1223
+msgid "robots.txt"
+msgstr "robots.txt"
+
+#: inc/admin/admin.php:124 inc/admin/admin.php:1217
+msgid "Page Speed"
+msgstr "Page Speed"
+
+#: inc/admin/admin.php:123 inc/admin/admin.php:1194
+msgid "Easy Digital Downloads"
+msgstr "Easy Digital Downloads"
+
+#: inc/admin/admin.php:122 inc/admin/admin.php:1200
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/elementor/widget-breadcrumbs.php:46 inc/admin/admin.php:121
+#: inc/admin/admin.php:1268
+msgid "Breadcrumbs"
+msgstr "Хлебные крошки"
+
+#: inc/admin/admin.php:1212
+msgid "Structured Data Types (schema.org)"
+msgstr "Структурированные типы данных (schema.org)"
+
+#: inc/admin/admin.php:119 inc/admin/admin.php:1206
+msgid "Dublin Core"
+msgstr "Дублинское Ядро"
+
+#: inc/admin/backlinks.php:15 inc/admin/backlinks.php:16
+#: inc/admin/backlinks.php:40 inc/admin/admin.php:83 inc/admin/admin.php:130
+#: inc/admin/admin.php:1250 inc/admin/admin.php:3295
+msgid "Backlinks"
+msgstr "Обратные ссылки"
+
+#: inc/functions/bot/seopress-bot.php:69 inc/admin/bot.php:14
+#: inc/admin/bot.php:15 inc/admin/bot.php:39 inc/admin/admin.php:81
+#: inc/admin/admin.php:3294
+msgid "Broken links"
+msgstr "Неработающие ссылки"
+
+#: inc/admin/admin.php:78 inc/admin/admin.php:3293
+msgid "Redirections"
+msgstr "Редиректы"
+
+#: inc/admin/schemas.php:49 inc/admin/schemas.php:50 inc/admin/schemas.php:74
+#: inc/admin/admin.php:75
+msgid "Schemas"
+msgstr "Схемы"
+
+#: inc/admin/admin.php:73 inc/admin/admin.php:3292
+msgid "PRO"
+msgstr "PRO"
+
+#: inc/admin/admin-metaboxes.php:1695
+msgid "Validate my schema"
+msgstr "Проверить мою схему"
+
+#: inc/admin/admin-metaboxes.php:1621
+msgid "A simple review about something. When Google finds valid reviews or ratings markup, they may show a rich snippet that includes stars and other summary info from reviews or ratings."
+msgstr "Простой отзыв о чем-то. Когда Google находит правильные отзывы или разметку с рейтингами, он может показывать расширенную карточку со звездами рейтинга и другой информацией из отзывов и рейтингов."
+
+#: inc/admin/admin-metaboxes.php:1460
+msgid "Pre Sale"
+msgstr "Предпродажа"
+
+#: inc/admin/admin-metaboxes.php:1458
+msgid "Discontinued"
+msgstr "Снят с продажи"
+
+#: inc/admin/admin-metaboxes.php:1457
+msgid "Out Of Stock"
+msgstr "Нет в наличии"
+
+#: inc/admin/admin-metaboxes.php:1455
+msgid "Limited Availability"
+msgstr "Ограниченное количество"
+
+#: inc/admin/admin-metaboxes.php:1454
+msgid "Online Only"
+msgstr "Только в интернет-магазине"
+
+#: inc/admin/admin-metaboxes.php:1453
+msgid "In Store Only"
+msgstr "Только в магазине"
+
+#: inc/admin/admin-metaboxes.php:1445
+msgid "Refurbished"
+msgstr "Восстановленный"
+
+#: inc/admin/admin-metaboxes.php:1444
+msgid "Damaged"
+msgstr "Поврежденный"
+
+#: inc/admin/admin-metaboxes.php:1443
+msgid "Used"
+msgstr "Использованный"
+
+#: inc/admin/admin-metaboxes.php:1442
+msgid "New"
+msgstr "Новый"
+
+#: inc/admin/admin-metaboxes.php:1343
+msgid "Pictures clearly showing the product, e.g. against a white background, are preferred."
+msgstr "Изображение четко показывающее ваш товар, н.п на белом фоне, отлично подойдет."
+
+#: inc/admin/admin-metaboxes.php:1327
+msgid "<strong>Adult-related products are not supported.</strong>"
+msgstr "<strong>Товары для взрослых не поддерживаются.</strong>"
+
+#: inc/admin/admin-metaboxes.php:1326
+msgid "<strong>Use markup for a specific product, not a category or list of products.</strong> For example, \"shoes in our shop\" is not a specific product."
+msgstr "<strong>Используйте разметку для определенного товара, а не категории или списка товаров.</strong> Например, «обувь в нашем магазине» не является конкретным товаром."
+
+#: inc/admin/admin-metaboxes.php:1323
+msgid "Add markup to your product pages so Google can provide detailed product information in rich Search results - including Image Search. Users can see price, availability... right on Search results."
+msgstr "Добавьте разметку на страницы товаров, чтобы Google мог предоставлять подробную информацию о товаре в расширенных результатах поиска, включая поиск изображений. Пользователи смогут увидеть цену, доступность и т.д. прямо на странице результатов поиска."
+
+#: inc/admin/admin-metaboxes.php:1279 inc/admin/admin-metaboxes.php:1459
+msgid "Pre Order"
+msgstr "Предзаказ"
+
+#: inc/admin/admin-metaboxes.php:1278 inc/admin/admin-metaboxes.php:1456
+msgid "Sold Out"
+msgstr "Распродано"
+
+#: inc/admin/admin-metaboxes.php:1277 inc/admin/admin-metaboxes.php:1452
+msgid "In Stock"
+msgstr "В наличии"
+
+#: inc/admin/admin-metaboxes.php:1271 inc/admin/admin-metaboxes.php:1436
+msgid "Vietnamese đồng"
+msgstr "Вьетнамский донг"
+
+#: inc/admin/admin-metaboxes.php:1270 inc/admin/admin-metaboxes.php:1435
+msgid "Ukrainian hryvnia"
+msgstr "Украинская гривна"
+
+#: inc/admin/admin-metaboxes.php:1269 inc/admin/admin-metaboxes.php:1434
+msgid "Thai Baht"
+msgstr "Тайский бат"
+
+#: inc/admin/admin-metaboxes.php:1268 inc/admin/admin-metaboxes.php:1433
+msgid "Taiwan New Dollar"
+msgstr "Новый тайваньский доллар"
+
+#: inc/admin/admin-metaboxes.php:1267 inc/admin/admin-metaboxes.php:1432
+msgid "Swiss Franc"
+msgstr "Швейцарский франк"
+
+#: inc/admin/admin-metaboxes.php:1266 inc/admin/admin-metaboxes.php:1431
+msgid "Swedish Krona"
+msgstr "Шведская крона"
+
+#: inc/admin/admin-metaboxes.php:1265 inc/admin/admin-metaboxes.php:1430
+msgid "South African Rand"
+msgstr "Южноафриканский ранд"
+
+#: inc/admin/admin-metaboxes.php:1264 inc/admin/admin-metaboxes.php:1429
+msgid "Singapore Dollar"
+msgstr "Сингапурский доллар"
+
+#: inc/admin/admin-metaboxes.php:1263 inc/admin/admin-metaboxes.php:1428
+msgid "Russian Ruble"
+msgstr "Российский рубль"
+
+#: inc/admin/admin-metaboxes.php:1262 inc/admin/admin-metaboxes.php:1427
+msgid "Indonesian rupiah"
+msgstr "Индонезийская рупия"
+
+#: inc/admin/admin-metaboxes.php:1261 inc/admin/admin-metaboxes.php:1426
+msgid "Polish Zloty"
+msgstr "Польский злотый"
+
+#: inc/admin/admin-metaboxes.php:1260 inc/admin/admin-metaboxes.php:1425
+msgid "Philippine Peso"
+msgstr "Филиппинское песо"
+
+#: inc/admin/admin-metaboxes.php:1259 inc/admin/admin-metaboxes.php:1424
+msgid "New Zealand Dollar"
+msgstr "Новозеландский доллар"
+
+#: inc/admin/admin-metaboxes.php:1258 inc/admin/admin-metaboxes.php:1423
+msgid "Norwegian Krone"
+msgstr "Норвежская крона"
+
+#: inc/admin/admin-metaboxes.php:1257 inc/admin/admin-metaboxes.php:1422
+msgid "Mexican Peso"
+msgstr "Мексиканский песо"
+
+#: inc/admin/admin-metaboxes.php:1256 inc/admin/admin-metaboxes.php:1421
+msgid "Malaysian Ringgit"
+msgstr "Малайзийский ринггит"
+
+#: inc/admin/admin-metaboxes.php:1255 inc/admin/admin-metaboxes.php:1420
+msgid "Japanese Yen"
+msgstr "Японская йена"
+
+#: inc/admin/admin-metaboxes.php:1254 inc/admin/admin-metaboxes.php:1419
+msgid "Israeli New Sheqel"
+msgstr "Новый израильский шекель"
+
+#: inc/admin/admin-metaboxes.php:1253 inc/admin/admin-metaboxes.php:1418
+msgid "Indian rupee"
+msgstr "Индийская рупия"
+
+#: inc/admin/admin-metaboxes.php:1252 inc/admin/admin-metaboxes.php:1417
+msgid "Hungarian Forint"
+msgstr "Венгерский форинт"
+
+#: inc/admin/admin-metaboxes.php:1251 inc/admin/admin-metaboxes.php:1416
+msgid "Hong Kong Dollar"
+msgstr "Гонконгский доллар"
+
+#: inc/admin/admin-metaboxes.php:1250 inc/admin/admin-metaboxes.php:1415
+msgid "Danish Krone"
+msgstr "Датская крона"
+
+#: inc/admin/admin-metaboxes.php:1249 inc/admin/admin-metaboxes.php:1414
+msgid "Czech Koruna"
+msgstr "Чешская крона"
+
+#: inc/admin/admin-metaboxes.php:1248 inc/admin/admin-metaboxes.php:1413
+msgid "Chilean Peso"
+msgstr "Мексиканский песо"
+
+#: inc/admin/admin-metaboxes.php:1247 inc/admin/admin-metaboxes.php:1412
+msgid "Canadian Dollar"
+msgstr "Канадский доллар"
+
+#: inc/admin/admin-metaboxes.php:1246 inc/admin/admin-metaboxes.php:1411
+msgid "Bulgarian lev"
+msgstr "Болгарский лев"
+
+#: inc/admin/admin-metaboxes.php:1245 inc/admin/admin-metaboxes.php:1410
+msgid "Brazilian Real"
+msgstr "Бразильский реал"
+
+#: inc/admin/admin-metaboxes.php:1244 inc/admin/admin-metaboxes.php:1409
+msgid "Australian Dollar"
+msgstr "Австралийский доллар"
+
+#: inc/admin/admin-metaboxes.php:1243 inc/admin/admin-metaboxes.php:1408
+msgid "Argentina Peso"
+msgstr "Аргентинский песо"
+
+#: inc/admin/admin-metaboxes.php:1242 inc/admin/admin-metaboxes.php:1407
+msgid "Euro"
+msgstr "Евро"
+
+#: inc/admin/admin-metaboxes.php:1241 inc/admin/admin-metaboxes.php:1406
+msgid "Pound Sterling"
+msgstr "Фунт стерлинг"
+
+#: inc/admin/admin-metaboxes.php:1240 inc/admin/admin-metaboxes.php:1405
+msgid "U.S. Dollar"
+msgstr "Доллар США"
+
+#: inc/admin/admin-metaboxes.php:1239 inc/admin/admin-metaboxes.php:1404
+msgid "Select a Currency"
+msgstr "Выберите валюту"
+
+#: inc/admin/schemas.php:1205 inc/admin/admin-metaboxes.php:1237
+msgid "Select your currency"
+msgstr "Выберите валюту"
+
+#: inc/admin/admin-metaboxes.php:1233
+msgid "The lowest available price, including service charges and fees, of this type of ticket."
+msgstr "Самая низкая доступная цена, включая плату за обслуживание и плату за этот тип билета."
+
+#: inc/admin/admin-metaboxes.php:1227
+msgid "Premium"
+msgstr "Премиум"
+
+#: inc/admin/admin-metaboxes.php:1226
+msgid "Presale"
+msgstr "Предпродажа"
+
+#: inc/admin/admin-metaboxes.php:1225
+msgid "Secondary"
+msgstr "Вторичный"
+
+#: inc/admin/admin-metaboxes.php:1224
+msgid "Primary"
+msgstr "Основной"
+
+#: inc/admin/admin-metaboxes.php:1167
+msgid "Minimum width: 720px - Recommended size: 1920px -  .jpg, .png, or. gif format - crawlable and indexable"
+msgstr "Минимальный размер: 720px, Рекомендуемый размер: 1920px - .jpg, .png, или. gif формат сканируемый и индексируемый"
+
+#: inc/admin/schemas.php:1138 inc/admin/admin-metaboxes.php:1162
+msgid "Event description (default excerpt, or beginning of the content)"
+msgstr "Описание события (отрывок по умолчанию либо начало содержимого)"
+
+#: inc/admin/admin-metaboxes.php:1152
+msgid "Visual Arts Event"
+msgstr "Событие изобразительного искусства"
+
+#: inc/admin/admin-metaboxes.php:1151
+msgid "Theater Event"
+msgstr "Театральное событие"
+
+#: inc/admin/admin-metaboxes.php:1150
+msgid "Sports Event"
+msgstr "Спортивное событие"
+
+#: inc/admin/admin-metaboxes.php:1149
+msgid "Social Event"
+msgstr "Социальное событие"
+
+#: inc/admin/admin-metaboxes.php:1148
+msgid "Screening Event"
+msgstr "Отборочное событие"
+
+#: inc/admin/admin-metaboxes.php:1147
+msgid "Sale Event"
+msgstr "Событие распродажи"
+
+#: inc/admin/admin-metaboxes.php:1146
+msgid "Publication Event"
+msgstr "Событие публикации"
+
+#: inc/admin/admin-metaboxes.php:1145
+msgid "Music Event"
+msgstr "Музыкальное событие"
+
+#: inc/admin/admin-metaboxes.php:1144
+msgid "Literary Event"
+msgstr "Театральное событие"
+
+#: inc/admin/admin-metaboxes.php:1143
+msgid "Food Event"
+msgstr "Гастрономическое событие"
+
+#: inc/admin/admin-metaboxes.php:1142
+msgid "Festival"
+msgstr "Фестиваль"
+
+#: inc/admin/admin-metaboxes.php:1141
+msgid "Exhibition Event"
+msgstr "Выставочное событие"
+
+#: inc/admin/admin-metaboxes.php:1140
+msgid "Education Event"
+msgstr "Музыкальное событие"
+
+#: inc/admin/admin-metaboxes.php:1139
+msgid "Delivery Event"
+msgstr "Театральное событие"
+
+#: inc/admin/admin-metaboxes.php:1138
+msgid "Dance Event"
+msgstr "Танцевальное событие"
+
+#: inc/admin/admin-metaboxes.php:1137
+msgid "Course Instance"
+msgstr "Описание курса"
+
+#: inc/admin/admin-metaboxes.php:1136
+msgid "Comedy Event"
+msgstr "Комедийное событие"
+
+#: inc/admin/admin-metaboxes.php:1135
+msgid "Children's Event"
+msgstr "Детское событие"
+
+#: inc/admin/admin-metaboxes.php:1134
+msgid "Business Event"
+msgstr "Музыкальное событие"
+
+#: inc/admin/admin-metaboxes.php:1129
+msgid "<strong>Multi-day events.</strong> If your event/ticket info is for the festival itself, specify both the start and end date of the festival. If your event/ticket info is for a specific performance that is part of the festival, specify the specific date of the performance. If the specific date is unavailable, specify both the start and end date of the festival."
+msgstr "<strong>Многодневные мероприятия.</strong> Если информация о событии/билете для всего мероприятия, укажите дату начала и окончания мероприятия. Если информация о событиях/билетах предназначена для определенного выступления, которое является частью мероприятия, укажите конкретную дату выступления. Если конкретная дата недоступна, укажите дату начала и окончания мероприятия."
+
+#: inc/admin/admin-metaboxes.php:1127
+msgid "Discounts or purchase opportunties, such as: \"Concert - buy your tickets now,\" or \"Concert - 50 percent off until Saturday!\""
+msgstr "Скидки или предложения покупки, например: \"Концерт — купи билет сейчас\" или \"Концерт — скидка 50% до субботы!\""
+
+#: inc/admin/admin-metaboxes.php:1126
+msgid "Using a non-event for a title, such as: \"Sale on dresses!\""
+msgstr "Использование не-события для заголовка, например: «Распродажа платьев!»"
+
+#: inc/admin/admin-metaboxes.php:1125
+msgid "Prices in event titles: \"Music festival - only $10!\" Instead, highlight ticket prices using the tickets property in your markup."
+msgstr "Цены в названиях мероприятий: «Музыкальный фестиваль - всего 10 долларов!» Вместо этого выделите цены билетов, используя свойство билетов в вашей разметке."
+
+#: inc/admin/admin-metaboxes.php:1124
+msgid "Promoting non-event products or services: \"Trip package: San Diego/LA, 7 nights\""
+msgstr "Продвижение продуктов или услуг, не связанных с событиями: «Пакет поездок: Сан-Диего / Лос-Анджелес, 7 ночей»"
+
+#: inc/admin/admin-metaboxes.php:1122
+msgid "<strong>Do not include promotional elements in the name.</strong>"
+msgstr "<strong>Не включайте рекламные элементы в название.</strong>"
+
+#: inc/admin/admin-metaboxes.php:1121
+msgid "<strong>Indicate the performer.</strong> Each event item must specify a performer property corresponding to the event's performer; that is, a musician, musical group, presenter, actor, and so on."
+msgstr "<strong>Укажите исполнителя.</strong> Каждое событие должно содержать свойство исполнителя, соответствующее исполнителю события; то есть музыкант, музыкальная группа, ведущий, актер и т. д."
+
+#: inc/admin/admin-metaboxes.php:1120
+msgid "<strong>Expired events.</strong> Events data for any feature will never be shown for expired events. However, you do not have to remove markup for expired events."
+msgstr "<strong>Завершенные события.</strong> Данные о завершенных событиях не будут отображаться. Однако вам не нужно удалять разметку для завершенных событий."
+
+#: inc/admin/admin-metaboxes.php:1117
+msgid "Event markup describes the details of organized events. When you use it in your content, that event becomes relevant for enhanced search results for relevant queries."
+msgstr "Разметка событий описывает детали организуемых событий. Когда вы используете разметку в своем контенте, событие становится доступным в расширенных результатах поиска для соответствующих запросов."
+
+#: inc/admin/admin-metaboxes.php:1098
+msgid "Minimum size: 160px by 90px - Max size: 1920x1080px - crawlable and indexable"
+msgstr "Минимальный размер: 160px ✕ 90px, максимальный размер: 1920px ✕ 1080px - сканируются и индексируются"
+
+#: inc/admin/admin-metaboxes.php:1085
+msgid "Mark up your video content with structured data to make Google Search an entry point for discovering and watching videos. "
+msgstr "Разметьте ваш видео-контент с помощью структурированных типов данных, чтобы сделать доступным для Google поиска нахождение и просмотр ваших видео."
+
+#: inc/admin/admin-metaboxes.php:927
+msgid "Eg: 45 min"
+msgstr "Например: 45 минут"
+
+#: inc/admin/admin-metaboxes.php:922
+msgid "Eg: 30 min"
+msgstr "Например: 30 минут"
+
+#: inc/admin/admin-metaboxes.php:915
+msgid "Minimum size: 185px by 185px, aspect ratio 1:1"
+msgstr "Минимальные размеры: 185px ✕ 185px, соотношение сторон 1:1"
+
+#: inc/admin/admin-metaboxes.php:897
+msgid "Use recipe markup for content about preparing a particular dish. For example, \"facial scrub\" or \"party ideas\" are not valid names for a dish."
+msgstr "Используйте разметку рецепта для записей, содержащих информацию о приготовлении определенного блюда. Например, «скраб для лица» или «идеи вечеринки» не являются допустимыми названиями для блюда."
+
+#: inc/admin/admin-metaboxes.php:894
+msgid "Mark up your recipe content with structured data to provide rich cards and host-specific lists for your recipes, such as cooking and preparation times, nutrition information..."
+msgstr "Разметьте ваши рецепты с помощью структурированных типов данных, чтобы предоставить данные для карточки рецепта, такие как время приготовления, информация о пищевой ценности продукта и т.п."
+
+#: inc/admin/admin-metaboxes.php:866
+msgid "A general public event such as \"Astronomy Day\" is not a course, and a single 2-minute \"How to make a Sandwich Video\" is not a course."
+msgstr "События, такие как, например, \"День астрономии\" или единичные видео-уроки типа \"Как приготовить сандвич\" не являются курсами."
+
+#: inc/admin/admin-metaboxes.php:865
+msgid "A course must have an explicit educational outcome of knowledge and/or skill in a particular subject and/or topic, and be led by one or more instructors with a roster of students."
+msgstr "Курс должен иметь явную образовательную направленность на получение знаний и/или умений по конкретному предмету и/или теме и должен возглавляться одним или несколькими инструкторами с реестром учащихся."
+
+#: inc/admin/admin-metaboxes.php:864
+msgid "Only use course markup for educational content that fits the following definition of a course: A series or unit of curriculum that contains lectures, lessons, or modules in a particular subject and/or topic."
+msgstr "Используйте разметку только для контента курсов соответствующего описанию: Серия занятий или занятие по учебной программе, которая содержит лекции, уроки или модули по конкретному предмету и/или теме."
+
+#: inc/admin/admin-metaboxes.php:861
+msgid "Mark up your course lists with structured data so prospective students find you through Google Search."
+msgstr "Разметьте ваши курсы с помощью структурированных типов данных, чтобы потенциальные ученики могли найти вас в поиске Google."
+
+#: inc/admin/admin-metaboxes.php:857
+msgid "Add question"
+msgstr "Добавить вопрос"
+
+#: inc/admin/admin-metaboxes.php:850
+msgid "Remove question"
+msgstr "Убрать вопрос"
+
+#: inc/admin/schemas.php:922 inc/admin/admin-metaboxes.php:847
+#: inc/admin/admin-metaboxes-schemas.php:878
+#: inc/admin/admin-metaboxes-schemas.php:879
+msgid "Answer"
+msgstr "Ответ"
+
+#: inc/admin/admin-metaboxes.php:847
+msgid "Enter your answer"
+msgstr "Введите ваш ответ"
+
+#: inc/admin/admin-metaboxes.php:846
+msgid "Answer (required)"
+msgstr "Ответ (обязателен)"
+
+#: inc/admin/schemas.php:917 inc/admin/admin-metaboxes.php:843
+#: inc/admin/admin-metaboxes-schemas.php:871
+#: inc/admin/admin-metaboxes-schemas.php:872
+msgid "Question"
+msgstr "Вопрос"
+
+#: inc/admin/admin-metaboxes.php:843
+msgid "Enter your question"
+msgstr "Введите ваш вопрос"
+
+#: inc/admin/admin-metaboxes.php:842
+msgid "Question (required)"
+msgstr "Вопрос (обязателен)"
+
+#: inc/admin/admin-metaboxes.php:819
+msgid "Mark up your Frequently Asked Questions page with JSON-LD to try to get the position 0 in search results. "
+msgstr "Чтобы попасть на 0-вую позицию в поисковой выдаче, используйте разметку JSON-LD для страницы с частыми вопросами и ответами."
+
+#: inc/admin/schemas.php:1201 inc/admin/admin-metaboxes.php:603
+#: inc/admin/admin-metaboxes.php:1232 inc/admin/admin-metaboxes.php:1234
+#: inc/admin/admin-metaboxes.php:1508
+#: inc/admin/admin-metaboxes-schemas.php:1649
+msgid "Price"
+msgstr "Цена"
+
+#: inc/admin/admin-metaboxes.php:545
+msgid ""
+"Every page must contain at least one image (whether or not you include markup). Google will pick the best image to display in Search results based on the aspect ratio and resolution.<br>\n"
+"Image URLs must be crawlable and indexable.<br>\n"
+"Images must represent the marked up content.<br>\n"
+"Images must be in .jpg, .png, or. gif format.<br>\n"
+"For best results, provide multiple high-resolution images (minimum of 50K pixels when multiplying width and height) with the following aspect ratios: 16x9, 4x3, and 1x1."
+msgstr ""
+"Каждая страница должна содержать по крайней мере одно изображение (не важно используется ли разметка или нет). Google выберет лучшее изображение для вывода в результатах поиска, основываясь на соотношении сторон и разрешении.<br>\n"
+"Ссылки на изображения должны быть рабочими и индексируемыми.<br>\n"
+"Изображения должны представлять содержимое.<br>\n"
+"Допустимый формат изображения: .jpg, .png или .gif.<br>\n"
+"Для лучших результатов используйте несколько изображений с большим расширением (минимум 50000 пикселей, если умножить высоту на ширину) с соотношением сторон: 16x9, 4x3 и 1x1."
+
+#: inc/admin/admin-metaboxes.php:544
+msgid "An image of the business."
+msgstr "Изображение компании"
+
+#: inc/admin/admin-metaboxes.php:378
+msgid "When users search for businesses on Google Search or Maps, Search results may display a prominent Knowledge Graph card with details about a business that matched the query. "
+msgstr "Когда пользователи ищут компании в Google Search или Maps, в результатах поиска может отображаться известная карточка Knowledge Graph с подробной информацией о компании, которая соответствует запросу."
+
+#: inc/admin/schemas.php:378 inc/admin/admin-metaboxes.php:349
+#: inc/admin/admin-metaboxes.php:553 inc/admin/admin-metaboxes.php:917
+#: inc/admin/admin-metaboxes.php:1028 inc/admin/admin-metaboxes.php:1102
+#: inc/admin/admin-metaboxes.php:1169 inc/admin/admin-metaboxes.php:1345
+#: inc/admin/admin-metaboxes.php:1546 inc/admin/admin-metaboxes.php:1561
+#: inc/admin/admin-metaboxes.php:1644 inc/admin/admin.php:2360
+msgid "Upload an Image"
+msgstr "Загрузите изображение"
+
+#: inc/admin/admin-metaboxes.php:345
+msgid "Minimum size: 696px wide, JPG, PNG or GIF, crawlable and indexable (default: post thumbnail if available)"
+msgstr "Минимальный размер: 696px в ширину, JPG, PNG или GIF, скачиваемый и индексируемый (по умолчанию: миниатюра публикации, если доступна)"
+
+#: inc/admin/admin-metaboxes.php:343
+msgid "The representative image of the article. Only a marked-up image that directly belongs to the article should be specified. "
+msgstr "Изображение, отражающее суть статьи. Должно быть указано изображение, принадлежащее статье."
+
+#: inc/admin/admin-metaboxes.php:338 inc/admin/admin-metaboxes.php:878
+msgid "(maximum limit)"
+msgstr "(макс. длина)"
+
+#: inc/admin/schemas.php:599 inc/admin/admin-metaboxes.php:321
+msgid "Tech Article"
+msgstr "Техническая Статья"
+
+#: inc/admin/schemas.php:597 inc/admin/admin-metaboxes.php:319
+msgid "Social Media Posting"
+msgstr "Публикация для социальных медиа"
+
+#: inc/admin/schemas.php:596 inc/admin/admin-metaboxes.php:318
+msgid "Scholarly Article"
+msgstr "Научная статья"
+
+#: inc/admin/schemas.php:594 inc/admin/admin-metaboxes.php:316
+msgid "Report"
+msgstr "Отчет"
+
+#: inc/admin/schemas.php:593 inc/admin/admin-metaboxes.php:315
+msgid "News Article"
+msgstr "Новостная статья"
+
+#: inc/admin/schemas.php:589 inc/admin/admin-metaboxes.php:311
+msgid "Select your article type"
+msgstr "Выберите тип статьи"
+
+#: inc/admin/schemas.php:584 inc/admin/admin-metaboxes.php:306
+msgid "You don't have set a publisher logo. It's required for Article content types."
+msgstr "Вы не установили логотип издателя. Он необходим для содержимого типа \"Статья\"."
+
+#: inc/admin/schemas.php:582 inc/admin/admin-metaboxes.php:304
+msgid "You have set a publisher logo. Good!"
+msgstr "Вы установили логотип издателя. Отлично!"
+
+#: inc/admin/admin-metaboxes.php:301
+msgid "Proper structured data in your news, blog, and sports article page can enhance your appearance in Google Search results."
+msgstr "Правильно настроенные структурированные типы данных для новостей, блога и страниц могут улучшить ваши позиции в результатах поиска Google."
+
+#: inc/admin/admin-metaboxes.php:287
+msgid "Make a test"
+msgstr "Запустить тест"
+
+#: inc/admin/admin-metaboxes.php:287
+msgid "You can test your page with Google Data Structure Test tool."
+msgstr "Вы можете проверить вашу страницу с помощью Инструмента проверки структурированных данных Google."
+
+#: inc/admin/admin-metaboxes.php:286
+msgid "Make sure you don't have already included structured data type with a theme or plugin (eg: the default WooCommerce Theme, Storefront, already implements this for single page products)."
+msgstr "Убедитесь, что вы еще не включили тип структуры данных с темой или плагином (например:  тема WooCommerce, Storefront по умолчанию уже реализуют это для одностраничных товаров)."
+
+#: inc/admin/admin-metaboxes.php:285
+msgid "When you choose one, fill all fields with the right format."
+msgstr "После выбора тип данных заполните поля с соблюдением формата."
+
+#: inc/admin/admin-metaboxes.php:284
+msgid "Be sure to select the right structure data type for your content."
+msgstr "Правильно выбирайте тип структурированных данных для вашего контента."
+
+#: inc/admin/admin-metaboxes.php:283
+msgid "WARNING"
+msgstr "ВНИМАНИЕ"
+
+#: inc/admin/schemas.php:501 inc/admin/admin-metaboxes.php:277
+msgid "Review"
+msgstr "Проверка"
+
+#: inc/admin/schemas.php:498 inc/admin/admin-metaboxes.php:274
+msgid "Product"
+msgstr "Продукт"
+
+#: inc/admin/schemas.php:497 inc/admin/admin-metaboxes.php:273
+msgid "Event"
+msgstr "Событие"
+
+#: inc/admin/schemas.php:496 inc/admin/admin-metaboxes.php:272
+msgid "Video"
+msgstr "Видео"
+
+#: inc/admin/schemas.php:494 inc/admin/admin-metaboxes.php:270
+msgid "Recipe"
+msgstr "Рецепт"
+
+#: inc/admin/schemas.php:493 inc/admin/admin-metaboxes.php:269
+msgid "Course"
+msgstr "Курс"
+
+#: inc/admin/schemas.php:492 inc/admin/admin-metaboxes.php:268
+msgid "FAQ"
+msgstr "ЧаВо"
+
+#: inc/admin/schemas.php:491 inc/admin/admin-metaboxes.php:267
+#: inc/admin/admin.php:118 inc/admin/admin.php:1188
+msgid "Local Business"
+msgstr "Локальный бизнес"
+
+#: inc/admin/schemas.php:490 inc/admin/admin-metaboxes.php:266
+msgid "Article"
+msgstr "Статья"
+
+#: inc/functions/options-woocommerce-admin.php:19 inc/admin/schemas.php:272
+#: inc/admin/schemas.php:346 inc/admin/schemas.php:489
+#: inc/admin/admin-metaboxes.php:265
+msgid "None"
+msgstr "Нет"
+
+#: inc/admin/admin-metaboxes.php:263
+msgid "Select your data type"
+msgstr "Выберите тип данных"
+
+#: inc/admin/admin-metaboxes.php:39 inc/admin/admin.php:120
+msgid "Structured Data Types"
+msgstr "Структурированные типы данных"
+
+#: inc/admin/admin-metaboxes.php:1518 inc/admin/admin-metaboxes.php:1649
+#: inc/admin/admin-metaboxes-schemas.php:1663
+#: inc/admin/admin-metaboxes-schemas.php:1704
+msgid "The item rating"
+msgstr "Рейтинг элемента"
+
+#: inc/admin/schemas.php:1376 inc/admin/schemas.php:1488
+#: inc/admin/admin-metaboxes.php:1517 inc/admin/admin-metaboxes.php:1518
+#: inc/admin/admin-metaboxes.php:1648 inc/admin/admin-metaboxes.php:1649
+#: inc/admin/admin-metaboxes-schemas.php:1662
+#: inc/admin/admin-metaboxes-schemas.php:1663
+#: inc/admin/admin-metaboxes-schemas.php:1703
+#: inc/admin/admin-metaboxes-schemas.php:1704
+msgid "Your rating"
+msgstr "Ваш рейтинг"
+
+#: inc/admin/schemas.php:1483 inc/admin/admin-metaboxes.php:1642
+#: inc/admin/admin-metaboxes-schemas.php:1696
+#: inc/admin/admin-metaboxes-schemas.php:1697
+msgid "Review item image"
+msgstr "Проверить изображение элемента"
+
+#: inc/admin/admin-metaboxes.php:1626
+#: inc/admin/admin-metaboxes-schemas.php:1674
+msgid "The item name reviewed"
+msgstr "Имя элемента проверено"
+
+#: inc/admin/schemas.php:1474 inc/admin/admin-metaboxes.php:1625
+#: inc/admin/admin-metaboxes.php:1626 inc/admin/admin-metaboxes.php:1643
+#: inc/admin/admin-metaboxes-schemas.php:1673
+#: inc/admin/admin-metaboxes-schemas.php:1674
+msgid "Review item name"
+msgstr "Проверить название элемента"
+
+#: inc/admin/admin-metaboxes-schemas.php:1463
+msgid "Eg: InStock, InStoreOnly..."
+msgstr "например: InStock, InStoreOnly..."
+
+#: inc/admin/schemas.php:1341 inc/admin/admin-metaboxes.php:1450
+#: inc/admin/admin-metaboxes-schemas.php:1462
+#: inc/admin/admin-metaboxes-schemas.php:1463
+msgid "Product Availability"
+msgstr "Наличие товара"
+
+#: inc/admin/admin-metaboxes-schemas.php:1455
+msgid "Eg: NewCondition, UsedCondition..."
+msgstr "например: NewCondition, UsedCondition..."
+
+#: inc/admin/schemas.php:1337 inc/admin/admin-metaboxes.php:1440
+#: inc/admin/admin-metaboxes-schemas.php:1454
+#: inc/admin/admin-metaboxes-schemas.php:1455
+msgid "Product Condition"
+msgstr "Состояние товара"
+
+#: inc/admin/admin-metaboxes-schemas.php:1447
+msgid "Eg: USD, EUR"
+msgstr "например: USD, EUR"
+
+#: inc/admin/schemas.php:1333 inc/admin/admin-metaboxes.php:1402
+#: inc/admin/admin-metaboxes-schemas.php:1446
+#: inc/admin/admin-metaboxes-schemas.php:1447
+msgid "Product currency"
+msgstr "Валюта товара"
+
+#: inc/admin/schemas.php:1304 inc/admin/admin-metaboxes.php:1350
+#: inc/admin/admin-metaboxes.php:1351
+#: inc/admin/admin-metaboxes-schemas.php:1401
+#: inc/admin/admin-metaboxes-schemas.php:1402
+msgid "Product price"
+msgstr "Цена товара"
+
+#: inc/admin/schemas.php:1299 inc/admin/admin-metaboxes.php:1342
+#: inc/admin/admin-metaboxes.php:1344 inc/admin/admin-metaboxes.php:1543
+#: inc/admin/admin-metaboxes.php:1544
+#: inc/admin/admin-metaboxes-schemas.php:1393
+#: inc/admin/admin-metaboxes-schemas.php:1394
+#: inc/admin/admin-metaboxes-schemas.php:1495
+msgid "Thumbnail"
+msgstr "Миниатюра изображения"
+
+#: inc/admin/admin-metaboxes.php:1338
+#: inc/admin/admin-metaboxes-schemas.php:1386
+msgid "The description of the product"
+msgstr "Описание вашего товара"
+
+#: inc/admin/schemas.php:1295 inc/admin/admin-metaboxes.php:1337
+#: inc/admin/admin-metaboxes.php:1338
+#: inc/admin/admin-metaboxes-schemas.php:1385
+#: inc/admin/admin-metaboxes-schemas.php:1386
+msgid "Product description"
+msgstr "Описание товара"
+
+#: inc/admin/admin-metaboxes.php:1333
+#: inc/admin/admin-metaboxes-schemas.php:1378
+msgid "The name of your product"
+msgstr "Название вашего товара"
+
+#: inc/admin/schemas.php:1291 inc/admin/admin-metaboxes.php:1332
+#: inc/admin/admin-metaboxes.php:1333
+#: inc/admin/admin-metaboxes-schemas.php:1377
+#: inc/admin/admin-metaboxes-schemas.php:1378
+msgid "Product name"
+msgstr "Название товара"
+
+#: inc/admin/admin-metaboxes.php:1298
+#: inc/admin/admin-metaboxes-schemas.php:1351
+msgid "Eg: Lana Del Rey"
+msgstr "Например: Лана Дел Рей"
+
+#: inc/admin/schemas.php:1227 inc/admin/admin-metaboxes.php:1297
+#: inc/admin/admin-metaboxes.php:1298
+#: inc/admin/admin-metaboxes-schemas.php:1350
+#: inc/admin/admin-metaboxes-schemas.php:1351
+msgid "Performer name"
+msgstr "Имя ведущего"
+
+#: inc/admin/admin-metaboxes.php:1293
+#: inc/admin/admin-metaboxes-schemas.php:1344
+msgid "Eg: https://fnac.com/"
+msgstr "Например: https://fnac.com/"
+
+#: inc/admin/schemas.php:1222 inc/admin/admin-metaboxes.php:1292
+#: inc/admin/admin-metaboxes.php:1293
+#: inc/admin/admin-metaboxes-schemas.php:1343
+#: inc/admin/admin-metaboxes-schemas.php:1344
+msgid "Website to buy tickets"
+msgstr "Адрес сайта продажи билетов"
+
+#: inc/admin/admin-metaboxes.php:1287 inc/admin/admin-metaboxes.php:1288
+#: inc/admin/admin-metaboxes-schemas.php:1337
+msgid "The time when tickets go on sale"
+msgstr "Время начала продажи билетов"
+
+#: inc/admin/schemas.php:401 inc/admin/schemas.php:1217
+#: inc/admin/admin-metaboxes.php:1286
+#: inc/admin/admin-metaboxes-schemas.php:1336
+#: inc/admin/admin-metaboxes-schemas.php:1337
+msgid "Time"
+msgstr "Время"
+
+#: inc/admin/admin-metaboxes.php:1284 inc/admin/admin-metaboxes.php:1285
+#: inc/admin/admin-metaboxes-schemas.php:1330
+msgid "The date when tickets go on sale"
+msgstr "Дата начала продажи билетов"
+
+#: inc/admin/schemas.php:1213 inc/admin/admin-metaboxes.php:1283
+#: inc/admin/admin-metaboxes-schemas.php:1329
+#: inc/admin/admin-metaboxes-schemas.php:1330
+msgid "Valid From"
+msgstr "Верно от"
+
+#: inc/admin/admin-metaboxes-schemas.php:1323
+msgid "Eg: InStock, SoldOut, PreOrder"
+msgstr "например: InStock, SoldOut, PreOrder"
+
+#: inc/admin/schemas.php:1209 inc/admin/admin-metaboxes.php:1275
+#: inc/admin/admin-metaboxes-schemas.php:1322
+#: inc/admin/admin-metaboxes-schemas.php:1323
+msgid "Availability"
+msgstr "Доступность"
+
+#: inc/admin/admin-metaboxes-schemas.php:1316
+msgid "Eg: USD, EUR..."
+msgstr "например: USD, EUR..."
+
+#: inc/admin/admin-metaboxes-schemas.php:1315
+#: inc/admin/admin-metaboxes-schemas.php:1316
+msgid "Offer price currency"
+msgstr "Предложить валюту"
+
+#: inc/admin/admin-metaboxes.php:1234
+#: inc/admin/admin-metaboxes-schemas.php:1309
+msgid "Eg: 10"
+msgstr "Например: 10"
+
+#: inc/admin/admin-metaboxes-schemas.php:1308
+#: inc/admin/admin-metaboxes-schemas.php:1309
+msgid "Offer price"
+msgstr "Предложить цену"
+
+#: inc/admin/schemas.php:1196 inc/admin/admin-metaboxes.php:1222
+#: inc/admin/admin-metaboxes-schemas.php:1302
+msgid "Select your offer category"
+msgstr "Выберите категорию предложения"
+
+#: inc/admin/admin-metaboxes-schemas.php:1301
+#: inc/admin/admin-metaboxes-schemas.php:1302
+msgid "Offer category"
+msgstr "Предложить категорию"
+
+#: inc/admin/admin-metaboxes.php:1219
+#: inc/admin/admin-metaboxes-schemas.php:1295
+msgid "Eg: General admission"
+msgstr "Например: доступно для всех"
+
+#: inc/admin/schemas.php:1192 inc/admin/admin-metaboxes.php:1218
+#: inc/admin/admin-metaboxes.php:1219
+#: inc/admin/admin-metaboxes-schemas.php:1294
+#: inc/admin/admin-metaboxes-schemas.php:1295
+msgid "Offer name"
+msgstr "Название предложения"
+
+#: inc/admin/admin-metaboxes.php:1214
+#: inc/admin/admin-metaboxes-schemas.php:1288
+msgid "Eg: 1 Avenue de l'Imperatrice, 64200 Biarritz"
+msgstr "Например: 1 Проспект Императрицы, 64200 Москва"
+
+#: inc/admin/schemas.php:1187 inc/admin/admin-metaboxes.php:1213
+#: inc/admin/admin-metaboxes.php:1214
+#: inc/admin/admin-metaboxes-schemas.php:1287
+#: inc/admin/admin-metaboxes-schemas.php:1288
+msgid "Location Address"
+msgstr "Адрес проведения"
+
+#: inc/admin/admin-metaboxes.php:1209
+#: inc/admin/admin-metaboxes-schemas.php:1281
+msgid "Eg: http://www.hotel-du-palais.com/"
+msgstr "Например: http://www.hotel-du-palais.com/"
+
+#: inc/admin/schemas.php:1182 inc/admin/admin-metaboxes.php:1208
+#: inc/admin/admin-metaboxes.php:1209
+#: inc/admin/admin-metaboxes-schemas.php:1280
+#: inc/admin/admin-metaboxes-schemas.php:1281
+msgid "Location Website"
+msgstr "Сайт места проведения"
+
+#: inc/admin/admin-metaboxes.php:1204
+#: inc/admin/admin-metaboxes-schemas.php:1274
+msgid "Eg: Hotel du Palais"
+msgstr "Например: Отель Palais"
+
+#: inc/admin/schemas.php:1177 inc/admin/admin-metaboxes.php:1203
+#: inc/admin/admin-metaboxes.php:1204
+#: inc/admin/admin-metaboxes-schemas.php:1273
+#: inc/admin/admin-metaboxes-schemas.php:1274
+msgid "Location name"
+msgstr "Место проведения"
+
+#: inc/admin/schemas.php:1162 inc/admin/admin-metaboxes.php:1188
+#: inc/admin/admin-metaboxes.php:1189
+#: inc/admin/admin-metaboxes-schemas.php:1252
+#: inc/admin/admin-metaboxes-schemas.php:1253
+msgid "End time"
+msgstr "Время завершения"
+
+#: inc/admin/schemas.php:1157 inc/admin/admin-metaboxes.php:1183
+#: inc/admin/admin-metaboxes.php:1184
+#: inc/admin/admin-metaboxes-schemas.php:1245
+#: inc/admin/admin-metaboxes-schemas.php:1246
+msgid "End date"
+msgstr "Дата завершения"
+
+#: inc/admin/admin-metaboxes.php:361 inc/admin/admin-metaboxes.php:373
+#: inc/admin/admin-metaboxes.php:1179 inc/admin/admin-metaboxes.php:1189
+#: inc/admin/admin-metaboxes.php:1199 inc/admin/admin-metaboxes-schemas.php:546
+#: inc/admin/admin-metaboxes-schemas.php:560
+#: inc/admin/admin-metaboxes-schemas.php:1239
+#: inc/admin/admin-metaboxes-schemas.php:1253
+#: inc/admin/admin-metaboxes-schemas.php:1267
+msgid "Eg: HH:MM"
+msgstr "Например: ЧЧ:ММ"
+
+#: inc/admin/schemas.php:1152 inc/admin/admin-metaboxes.php:1178
+#: inc/admin/admin-metaboxes.php:1179
+#: inc/admin/admin-metaboxes-schemas.php:1238
+#: inc/admin/admin-metaboxes-schemas.php:1239
+msgid "Start time"
+msgstr "Время начала"
+
+#: inc/admin/schemas.php:390 inc/admin/admin-metaboxes.php:1174
+#: inc/admin/admin-metaboxes.php:1184 inc/admin/admin-metaboxes.php:1194
+#: inc/admin/admin-metaboxes.php:1357 inc/admin/admin-metaboxes-schemas.php:539
+#: inc/admin/admin-metaboxes-schemas.php:553
+#: inc/admin/admin-metaboxes-schemas.php:1232
+#: inc/admin/admin-metaboxes-schemas.php:1246
+#: inc/admin/admin-metaboxes-schemas.php:1260
+#: inc/admin/admin-metaboxes-schemas.php:1410
+msgid "Eg: YYYY-MM-DD"
+msgstr "Например: ГГГГ-ММ-ДД"
+
+#: inc/admin/schemas.php:1147 inc/admin/admin-metaboxes.php:1173
+#: inc/admin/admin-metaboxes.php:1174
+#: inc/admin/admin-metaboxes-schemas.php:1231
+#: inc/admin/admin-metaboxes-schemas.php:1232
+msgid "Start date"
+msgstr "Дата начала события"
+
+#: inc/admin/schemas.php:1142 inc/admin/admin-metaboxes.php:1166
+#: inc/admin/admin-metaboxes.php:1168
+#: inc/admin/admin-metaboxes-schemas.php:1224
+#: inc/admin/admin-metaboxes-schemas.php:1225
+msgid "Image thumbnail"
+msgstr "Изображение миниатюры"
+
+#: inc/admin/admin-metaboxes.php:1163
+#: inc/admin/admin-metaboxes-schemas.php:1218
+msgid "Enter your event description"
+msgstr "Введите описание вашего события"
+
+#: inc/admin/admin-metaboxes.php:1163
+#: inc/admin/admin-metaboxes-schemas.php:1217
+#: inc/admin/admin-metaboxes-schemas.php:1218
+msgid "Event description"
+msgstr "Описание события"
+
+#: inc/admin/admin-metaboxes.php:1158
+#: inc/admin/admin-metaboxes-schemas.php:1211
+msgid "The name of your event"
+msgstr "Название события"
+
+#: inc/admin/schemas.php:1133 inc/admin/admin-metaboxes.php:1157
+#: inc/admin/admin-metaboxes.php:1158
+#: inc/admin/admin-metaboxes-schemas.php:1210
+#: inc/admin/admin-metaboxes-schemas.php:1211
+msgid "Event name"
+msgstr "Название события"
+
+#: inc/admin/schemas.php:1128 inc/admin/admin-metaboxes.php:1132
+#: inc/admin/admin-metaboxes-schemas.php:1204
+msgid "Select your event type"
+msgstr "Выберите тип события"
+
+#: inc/admin/admin-metaboxes-schemas.php:1203
+#: inc/admin/admin-metaboxes-schemas.php:1204
+msgid "Event type"
+msgstr "Тип события"
+
+#: inc/admin/admin-metaboxes.php:1112
+#: inc/admin/admin-metaboxes-schemas.php:1193
+msgid "Eg: https://example.com/video.mp4"
+msgstr "Например: https://example.com/video.mp4"
+
+#: inc/admin/schemas.php:1119 inc/admin/admin-metaboxes.php:1111
+#: inc/admin/admin-metaboxes.php:1112
+#: inc/admin/admin-metaboxes-schemas.php:1192
+#: inc/admin/admin-metaboxes-schemas.php:1193
+msgid "Video URL"
+msgstr "URL видео"
+
+#: inc/admin/admin-metaboxes.php:1107
+#: inc/admin/admin-metaboxes-schemas.php:1186
+msgid "eg: 120 min"
+msgstr "Например: 120 минут"
+
+#: inc/admin/schemas.php:1114 inc/admin/admin-metaboxes.php:1106
+#: inc/admin/admin-metaboxes.php:1107
+#: inc/admin/admin-metaboxes-schemas.php:1185
+#: inc/admin/admin-metaboxes-schemas.php:1186
+msgid "Duration of your video (in minutes)"
+msgstr "Длительность видео (минут)"
+
+#: inc/admin/schemas.php:1109 inc/admin/admin-metaboxes.php:1097
+#: inc/admin/admin-metaboxes.php:1099
+#: inc/admin/admin-metaboxes-schemas.php:1178
+#: inc/admin/admin-metaboxes-schemas.php:1179
+msgid "Video thumbnail"
+msgstr "Миниатюра видео"
+
+#: inc/admin/admin-metaboxes.php:1094
+#: inc/admin/admin-metaboxes-schemas.php:1172
+msgid "The description of the video"
+msgstr "Описание видеоролика"
+
+#: inc/admin/schemas.php:1105 inc/admin/admin-metaboxes.php:1093
+#: inc/admin/admin-metaboxes.php:1094
+#: inc/admin/admin-metaboxes-schemas.php:1171
+#: inc/admin/admin-metaboxes-schemas.php:1172
+msgid "Video description"
+msgstr "Описание видео"
+
+#: inc/admin/admin-metaboxes.php:1090
+#: inc/admin/admin-metaboxes-schemas.php:1165
+msgid "The title of your video"
+msgstr "Название вашего видеоролика"
+
+#: inc/admin/schemas.php:1101 inc/admin/admin-metaboxes.php:1089
+#: inc/admin/admin-metaboxes.php:1090
+#: inc/admin/admin-metaboxes-schemas.php:1164
+#: inc/admin/admin-metaboxes-schemas.php:1165
+msgid "Video name"
+msgstr "Название видео"
+
+#: inc/admin/admin-metaboxes.php:937 inc/admin/admin-metaboxes-schemas.php:971
+msgid "Eg: number of people served, or number of servings"
+msgstr "Например: количество обслуживаемых персон или количество порций"
+
+#: inc/admin/schemas.php:989 inc/admin/admin-metaboxes.php:936
+#: inc/admin/admin-metaboxes.php:937 inc/admin/admin-metaboxes-schemas.php:970
+#: inc/admin/admin-metaboxes-schemas.php:971
+msgid "Recipe yield"
+msgstr "Количество порций"
+
+#: inc/admin/admin-metaboxes.php:932 inc/admin/admin-metaboxes-schemas.php:964
+msgid "Number of calories"
+msgstr "Количество калорий"
+
+#: inc/admin/schemas.php:984 inc/admin/admin-metaboxes.php:931
+#: inc/admin/admin-metaboxes.php:932 inc/admin/admin-metaboxes-schemas.php:963
+#: inc/admin/admin-metaboxes-schemas.php:964
+msgid "Calories"
+msgstr "Калорийность"
+
+#: inc/admin/admin-metaboxes-schemas.php:957
+msgid "Eg: 45"
+msgstr "например: 45"
+
+#: inc/admin/schemas.php:979 inc/admin/admin-metaboxes.php:926
+#: inc/admin/admin-metaboxes.php:927 inc/admin/admin-metaboxes-schemas.php:956
+#: inc/admin/admin-metaboxes-schemas.php:957
+msgid "Cooking time (in minutes)"
+msgstr "Время приготовления (минут)"
+
+#: inc/admin/admin-metaboxes.php:1351 inc/admin/admin-metaboxes-schemas.php:950
+#: inc/admin/admin-metaboxes-schemas.php:1402
+msgid "Eg: 30"
+msgstr "Например: 30"
+
+#: inc/admin/schemas.php:974 inc/admin/admin-metaboxes.php:921
+#: inc/admin/admin-metaboxes.php:922 inc/admin/admin-metaboxes-schemas.php:949
+#: inc/admin/admin-metaboxes-schemas.php:950
+msgid "Preparation time (in minutes)"
+msgstr "Время подготовки (минут)"
+
+#: inc/admin/admin-metaboxes.php:911 inc/admin/admin-metaboxes-schemas.php:936
+msgid "Eg: appetizer, entree, or dessert"
+msgstr "Например: закуска, основное блюдо или десерт"
+
+#: inc/admin/schemas.php:965 inc/admin/admin-metaboxes.php:910
+#: inc/admin/admin-metaboxes.php:911 inc/admin/admin-metaboxes-schemas.php:935
+#: inc/admin/admin-metaboxes-schemas.php:936
+msgid "Recipe category"
+msgstr "Категория рецепта"
+
+#: inc/admin/admin-metaboxes.php:906 inc/admin/admin-metaboxes-schemas.php:929
+msgid "A short summary describing the dish."
+msgstr "Краткое описание блюда."
+
+#: inc/admin/schemas.php:960 inc/admin/admin-metaboxes.php:905
+#: inc/admin/admin-metaboxes.php:906 inc/admin/admin-metaboxes-schemas.php:928
+#: inc/admin/admin-metaboxes-schemas.php:929
+msgid "Short recipe description"
+msgstr "Краткое описание рецепта"
+
+#: inc/admin/admin-metaboxes.php:902 inc/admin/admin-metaboxes-schemas.php:922
+msgid "The name of your dish"
+msgstr "Название блюда"
+
+#: inc/admin/schemas.php:956 inc/admin/admin-metaboxes.php:901
+#: inc/admin/admin-metaboxes.php:902 inc/admin/admin-metaboxes-schemas.php:921
+#: inc/admin/admin-metaboxes-schemas.php:922
+msgid "Recipe name"
+msgstr "Название рецепта"
+
+#: inc/admin/admin-metaboxes.php:889 inc/admin/admin-metaboxes-schemas.php:911
+msgid "Enter the URL like https://example.com/"
+msgstr "Введите URL, например https://example.com/"
+
+#: inc/admin/schemas.php:946 inc/admin/admin-metaboxes.php:888
+#: inc/admin/admin-metaboxes.php:889 inc/admin/admin-metaboxes-schemas.php:910
+#: inc/admin/admin-metaboxes-schemas.php:911
+msgid "School/Organization Website"
+msgstr "Сайт школы/организации"
+
+#: inc/admin/admin-metaboxes.php:884 inc/admin/admin-metaboxes-schemas.php:904
+msgid "Name of university, organization..."
+msgstr "Название университета, организации и т.п."
+
+#: inc/admin/schemas.php:941 inc/admin/admin-metaboxes.php:883
+#: inc/admin/admin-metaboxes.php:884 inc/admin/admin-metaboxes-schemas.php:903
+#: inc/admin/admin-metaboxes-schemas.php:904
+msgid "School/Organization"
+msgstr "Школа/Организация"
+
+#: inc/admin/admin-metaboxes.php:875 inc/admin/admin-metaboxes-schemas.php:897
+msgid "Enter your course/lesson description"
+msgstr "Введите описание вашего курса/урока"
+
+#: inc/admin/schemas.php:936 inc/admin/admin-metaboxes.php:874
+#: inc/admin/admin-metaboxes.php:875 inc/admin/admin-metaboxes-schemas.php:896
+#: inc/admin/admin-metaboxes-schemas.php:897
+msgid "Course description"
+msgstr "Описание курса"
+
+#: inc/admin/admin-metaboxes.php:871 inc/admin/admin-metaboxes-schemas.php:890
+msgid "The title of your lesson, course..."
+msgstr "Название вашего урока, курса и т.п."
+
+#: inc/admin/import/mapping.php:19
+#: inc/admin/import/class-csv-controller.php:735 inc/admin/schemas.php:932
+#: inc/admin/admin-metaboxes.php:870 inc/admin/admin-metaboxes.php:871
+#: inc/admin/admin-metaboxes-schemas.php:889
+#: inc/admin/admin-metaboxes-schemas.php:890
+msgid "Title"
+msgstr "Название"
+
+#: inc/admin/schemas.php:832 inc/admin/admin-metaboxes.php:737
+#: inc/admin/admin-metaboxes-schemas.php:785
+msgid "Open in the afternoon?"
+msgstr "Открыто днем?"
+
+#: inc/admin/schemas.php:757 inc/admin/admin-metaboxes.php:662
+#: inc/admin/admin-metaboxes-schemas.php:710
+msgid "Open in the morning?"
+msgstr "Открыто утром?"
+
+#: inc/admin/schemas.php:744 inc/admin/admin-metaboxes.php:649
+#: inc/admin/admin-metaboxes-schemas.php:697
+msgid "Closed all the day?"
+msgstr "Закрыто весь день?"
+
+#: inc/admin/schemas.php:712 inc/admin/admin-metaboxes.php:617
+#: inc/admin/admin-metaboxes-schemas.php:665 inc/admin/admin.php:2014
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: inc/admin/schemas.php:712 inc/admin/admin-metaboxes.php:617
+#: inc/admin/admin-metaboxes-schemas.php:665 inc/admin/admin.php:2014
+msgid "Saturday"
+msgstr "Суббота"
+
+#: inc/admin/schemas.php:712 inc/admin/admin-metaboxes.php:617
+#: inc/admin/admin-metaboxes-schemas.php:665 inc/admin/admin.php:2014
+msgid "Friday"
+msgstr "Пятница"
+
+#: inc/admin/schemas.php:712 inc/admin/admin-metaboxes.php:617
+#: inc/admin/admin-metaboxes-schemas.php:665 inc/admin/admin.php:2014
+msgid "Thursday"
+msgstr "Четверг"
+
+#: inc/admin/schemas.php:712 inc/admin/admin-metaboxes.php:617
+#: inc/admin/admin-metaboxes-schemas.php:665 inc/admin/admin.php:2014
+msgid "Wednesday"
+msgstr "Среда"
+
+#: inc/admin/schemas.php:712 inc/admin/admin-metaboxes.php:617
+#: inc/admin/admin-metaboxes-schemas.php:665 inc/admin/admin.php:2014
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: inc/admin/schemas.php:712 inc/admin/admin-metaboxes.php:617
+#: inc/admin/admin-metaboxes-schemas.php:665 inc/admin/admin.php:2014
+msgid "Monday"
+msgstr "Понедельник"
+
+#: inc/admin/schemas.php:707 inc/admin/admin-metaboxes.php:612
+#: inc/admin/admin-metaboxes-schemas.php:660 inc/admin/admin.php:482
+msgid "Opening hours"
+msgstr "Часы работы"
+
+#: inc/admin/admin-metaboxes.php:603 inc/admin/admin-metaboxes-schemas.php:655
+#: inc/admin/admin.php:1991
+msgid "eg: $$, €€€, or ££££..."
+msgstr "например: $$, €€€ или ££££..."
+
+#: inc/admin/schemas.php:702 inc/admin/schemas.php:1464
+#: inc/admin/admin-metaboxes.php:602 inc/admin/admin-metaboxes.php:1615
+#: inc/admin/admin-metaboxes.php:1616 inc/admin/admin-metaboxes-schemas.php:654
+#: inc/admin/admin-metaboxes-schemas.php:655
+#: inc/admin/admin-metaboxes-schemas.php:1593
+#: inc/admin/admin-metaboxes-schemas.php:1594 inc/admin/admin.php:466
+#: inc/admin/admin.php:1991
+msgid "Price range"
+msgstr "Цена"
+
+#: inc/admin/admin-metaboxes.php:598 inc/admin/admin-metaboxes-schemas.php:648
+#: inc/admin/admin.php:1980
+msgid "eg: +33559240138"
+msgstr "например: +79871234567"
+
+#: inc/admin/schemas.php:697 inc/admin/schemas.php:1459
+#: inc/admin/admin-metaboxes.php:597 inc/admin/admin-metaboxes.php:598
+#: inc/admin/admin-metaboxes.php:1610 inc/admin/admin-metaboxes.php:1611
+#: inc/admin/admin-metaboxes-schemas.php:647
+#: inc/admin/admin-metaboxes-schemas.php:648
+#: inc/admin/admin-metaboxes-schemas.php:1586
+#: inc/admin/admin-metaboxes-schemas.php:1587 inc/admin/admin.php:458
+#: inc/admin/admin.php:1980
+msgid "Telephone"
+msgstr "Телефон"
+
+#: inc/admin/report-page-speed.php:259 inc/admin/schemas.php:692
+#: inc/admin/admin-metaboxes.php:592 inc/admin/admin-metaboxes.php:593
+#: inc/admin/admin-metaboxes-schemas.php:640
+#: inc/admin/admin-metaboxes-schemas.php:641 inc/admin/backlinks.php:167
+#: inc/admin/admin.php:450 inc/admin/admin.php:1969
+msgid "URL"
+msgstr "URL"
+
+#: inc/admin/admin-metaboxes.php:588 inc/admin/admin-metaboxes-schemas.php:634
+#: inc/admin/admin.php:1958
+msgid "eg: -1.5630987"
+msgstr "например: -1.5630987"
+
+#: inc/admin/schemas.php:687 inc/admin/schemas.php:1454
+#: inc/admin/admin-metaboxes.php:587 inc/admin/admin-metaboxes.php:588
+#: inc/admin/admin-metaboxes.php:1605 inc/admin/admin-metaboxes.php:1606
+#: inc/admin/admin-metaboxes-schemas.php:633
+#: inc/admin/admin-metaboxes-schemas.php:634
+#: inc/admin/admin-metaboxes-schemas.php:1579
+#: inc/admin/admin-metaboxes-schemas.php:1580 inc/admin/admin.php:442
+#: inc/admin/admin.php:1958
+msgid "Longitude"
+msgstr "Долгота"
+
+#: inc/admin/admin-metaboxes.php:583 inc/admin/admin-metaboxes-schemas.php:627
+#: inc/admin/admin.php:1947
+msgid "eg: 43.4831389"
+msgstr "например: 43.4831389"
+
+#: inc/admin/schemas.php:682 inc/admin/schemas.php:1449
+#: inc/admin/admin-metaboxes.php:582 inc/admin/admin-metaboxes.php:583
+#: inc/admin/admin-metaboxes.php:1600 inc/admin/admin-metaboxes.php:1601
+#: inc/admin/admin-metaboxes-schemas.php:626
+#: inc/admin/admin-metaboxes-schemas.php:627
+#: inc/admin/admin-metaboxes-schemas.php:1572
+#: inc/admin/admin-metaboxes-schemas.php:1573 inc/admin/admin.php:434
+#: inc/admin/admin.php:1947
+msgid "Latitude"
+msgstr "Широта"
+
+#: inc/admin/admin-metaboxes.php:578 inc/admin/admin-metaboxes-schemas.php:620
+#: inc/admin/admin.php:1936
+msgid "eg: France"
+msgstr "например: Франция"
+
+#: inc/admin/dashboard-google-analytics.php:147 inc/admin/schemas.php:677
+#: inc/admin/schemas.php:1075 inc/admin/schemas.php:1444
+#: inc/admin/admin-metaboxes.php:577 inc/admin/admin-metaboxes.php:578
+#: inc/admin/admin-metaboxes.php:1052 inc/admin/admin-metaboxes.php:1053
+#: inc/admin/admin-metaboxes.php:1595 inc/admin/admin-metaboxes.php:1596
+#: inc/admin/admin-metaboxes-schemas.php:619
+#: inc/admin/admin-metaboxes-schemas.php:620
+#: inc/admin/admin-metaboxes-schemas.php:1117
+#: inc/admin/admin-metaboxes-schemas.php:1118
+#: inc/admin/admin-metaboxes-schemas.php:1565
+#: inc/admin/admin-metaboxes-schemas.php:1566 inc/admin/admin.php:426
+#: inc/admin/admin.php:1936
+msgid "Country"
+msgstr "Страна"
+
+#: inc/admin/admin-metaboxes.php:573 inc/admin/admin-metaboxes-schemas.php:613
+#: inc/admin/admin.php:1925
+msgid "eg: 64200"
+msgstr "например: 64200"
+
+#: inc/admin/schemas.php:672 inc/admin/schemas.php:1071
+#: inc/admin/schemas.php:1439 inc/admin/admin-metaboxes.php:572
+#: inc/admin/admin-metaboxes.php:573 inc/admin/admin-metaboxes.php:1047
+#: inc/admin/admin-metaboxes.php:1048 inc/admin/admin-metaboxes.php:1590
+#: inc/admin/admin-metaboxes.php:1591 inc/admin/admin-metaboxes-schemas.php:612
+#: inc/admin/admin-metaboxes-schemas.php:613
+#: inc/admin/admin-metaboxes-schemas.php:1110
+#: inc/admin/admin-metaboxes-schemas.php:1111
+#: inc/admin/admin-metaboxes-schemas.php:1558
+#: inc/admin/admin-metaboxes-schemas.php:1559 inc/admin/admin.php:418
+#: inc/admin/admin.php:1925
+msgid "Postal code"
+msgstr "Почтовый индекс"
+
+#: inc/admin/admin-metaboxes.php:568 inc/admin/admin-metaboxes-schemas.php:606
+#: inc/admin/admin.php:1914
+msgid "eg: Pyrenees Atlantiques"
+msgstr "например: Атлантические Пиренеи"
+
+#: inc/admin/schemas.php:667 inc/admin/schemas.php:1434
+#: inc/admin/admin-metaboxes.php:567 inc/admin/admin-metaboxes.php:568
+#: inc/admin/admin-metaboxes.php:1585 inc/admin/admin-metaboxes.php:1586
+#: inc/admin/admin-metaboxes-schemas.php:605
+#: inc/admin/admin-metaboxes-schemas.php:606
+#: inc/admin/admin-metaboxes-schemas.php:1551
+#: inc/admin/admin-metaboxes-schemas.php:1552 inc/admin/admin.php:410
+#: inc/admin/admin.php:1914
+msgid "State"
+msgstr "Область"
+
+#: inc/admin/admin-metaboxes.php:563 inc/admin/admin-metaboxes-schemas.php:599
+#: inc/admin/admin.php:1903
+msgid "eg: Biarritz"
+msgstr "например: Москва"
+
+#: inc/admin/schemas.php:662 inc/admin/schemas.php:1429
+#: inc/admin/admin-metaboxes.php:562 inc/admin/admin-metaboxes.php:563
+#: inc/admin/admin-metaboxes.php:1580 inc/admin/admin-metaboxes.php:1581
+#: inc/admin/admin-metaboxes-schemas.php:598
+#: inc/admin/admin-metaboxes-schemas.php:599
+#: inc/admin/admin-metaboxes-schemas.php:1544
+#: inc/admin/admin-metaboxes-schemas.php:1545 inc/admin/admin.php:402
+#: inc/admin/admin.php:1903
+msgid "City"
+msgstr "Город"
+
+#: inc/admin/admin-metaboxes.php:558 inc/admin/admin-metaboxes-schemas.php:592
+#: inc/admin/admin.php:1892
+msgid "eg: Place Bellevue"
+msgstr "например: Москва"
+
+#: inc/admin/schemas.php:657 inc/admin/schemas.php:1424
+#: inc/admin/admin-metaboxes.php:557 inc/admin/admin-metaboxes.php:558
+#: inc/admin/admin-metaboxes.php:1575 inc/admin/admin-metaboxes.php:1576
+#: inc/admin/admin-metaboxes-schemas.php:591
+#: inc/admin/admin-metaboxes-schemas.php:592
+#: inc/admin/admin-metaboxes-schemas.php:1537
+#: inc/admin/admin-metaboxes-schemas.php:1538 inc/admin/admin.php:394
+#: inc/admin/admin.php:1892
+msgid "Street Address"
+msgstr "Адрес"
+
+#: inc/admin/admin-metaboxes-schemas.php:578
+msgid "eg: TravelAgency"
+msgstr "например: туристическое агенство"
+
+#: inc/admin/schemas.php:648 inc/admin/admin-metaboxes.php:386
+#: inc/admin/admin-metaboxes-schemas.php:577
+#: inc/admin/admin-metaboxes-schemas.php:578
+msgid "Select a business type"
+msgstr "Выберите тип бизнеса "
+
+#: inc/admin/admin-metaboxes.php:383 inc/admin/admin-metaboxes-schemas.php:571
+msgid "eg: SEOPress"
+msgstr "например: SEOPress"
+
+#: inc/admin/schemas.php:644 inc/admin/admin-metaboxes.php:382
+#: inc/admin/admin-metaboxes.php:383 inc/admin/admin-metaboxes-schemas.php:570
+#: inc/admin/admin-metaboxes-schemas.php:571
+msgid "Name of your business"
+msgstr "Название бизнеса"
+
+#: inc/admin/admin-metaboxes.php:346 inc/admin/admin-metaboxes.php:550
+#: inc/admin/admin-metaboxes.php:916 inc/admin/admin-metaboxes.php:1025
+#: inc/admin/admin-metaboxes.php:1099 inc/admin/admin-metaboxes.php:1168
+#: inc/admin/admin-metaboxes.php:1344 inc/admin/admin-metaboxes.php:1544
+#: inc/admin/admin-metaboxes.php:1643 inc/admin/admin-metaboxes-schemas.php:532
+#: inc/admin/admin-metaboxes-schemas.php:585
+#: inc/admin/admin-metaboxes-schemas.php:943
+#: inc/admin/admin-metaboxes-schemas.php:1179
+#: inc/admin/admin-metaboxes-schemas.php:1225
+#: inc/admin/admin-metaboxes-schemas.php:1394
+#: inc/admin/admin-metaboxes-schemas.php:1496
+#: inc/admin/admin-metaboxes-schemas.php:1697
+msgid "Select your image"
+msgstr "Выберите изображение"
+
+#: inc/admin/schemas.php:615 inc/admin/schemas.php:652
+#: inc/admin/schemas.php:969 inc/admin/schemas.php:1055
+#: inc/admin/schemas.php:1399 inc/admin/admin-metaboxes.php:342
+#: inc/admin/admin-metaboxes.php:346 inc/admin/admin-metaboxes.php:543
+#: inc/admin/admin-metaboxes.php:550 inc/admin/admin-metaboxes.php:914
+#: inc/admin/admin-metaboxes.php:916 inc/admin/admin-metaboxes-schemas.php:530
+#: inc/admin/admin-metaboxes-schemas.php:532
+#: inc/admin/admin-metaboxes-schemas.php:584
+#: inc/admin/admin-metaboxes-schemas.php:942
+#: inc/admin/admin-metaboxes-schemas.php:943
+#: inc/admin/admin-metaboxes-schemas.php:1496
+msgid "Image"
+msgstr "Изображение"
+
+#: inc/admin/admin-metaboxes.php:335 inc/admin/admin-metaboxes-schemas.php:524
+msgid "The headline of the article"
+msgstr "Заголовок статьи"
+
+#: inc/admin/schemas.php:611 inc/admin/admin-metaboxes.php:333
+#: inc/admin/admin-metaboxes.php:335 inc/admin/admin-metaboxes-schemas.php:522
+#: inc/admin/admin-metaboxes-schemas.php:524
+msgid "Headline <em>(max limit: 110)</em>"
+msgstr "Заголовок <em>(макс. длина 110)</em>"
+
+#: inc/admin/admin-metaboxes-schemas.php:511
+msgid "Edit"
+msgstr "Редактировать"
+
+#: inc/admin/admin-columns/acp-column-sp_title.php:10
+msgid "Meta title"
+msgstr "Заголовок мета"
+
+#: inc/admin/admin-columns/acp-column-sp_noindex.php:14
+msgid "noindex?"
+msgstr "noindex?"
+
+#: inc/admin/admin-columns/acp-column-sp_nofollow.php:10
+msgid "nofollow?"
+msgstr "nofollow?"
+
+#: inc/admin/import/class-csv-controller.php:691
+#: inc/admin/import/class-csv-controller.php:736
+#: inc/admin/admin-columns/acp-column-sp_desc.php:10
+msgid "Meta description"
+msgstr "Описание мета"

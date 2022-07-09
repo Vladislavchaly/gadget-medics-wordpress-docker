@@ -1,0 +1,29 @@
+# Translation of Plugins - Subscribers &#8211; Free Web Push Notifications - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Subscribers &#8211; Free Web Push Notifications - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-08-07 17:03:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Subscribers &#8211; Free Web Push Notifications - Development (trunk)\n"
+
+#. Author URI of the plugin
+msgid "https://subscribers.com"
+msgstr "https://subscribers.com"
+
+#. Description of the plugin
+msgid "Subscribers.com lets you send push notifications from your desktop or mobile website to your users."
+msgstr "Subscribers.com позволяет отправлять push-уведомления с вашего веб-сайта вашим пользователям."
+
+#. Plugin URI of the plugin
+msgid "https://subscribers.com/"
+msgstr "https://subscribers.com/"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+msgid "Subscribers.com"
+msgstr "Subscribers.com"

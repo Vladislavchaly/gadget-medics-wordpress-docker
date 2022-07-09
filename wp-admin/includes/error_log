@@ -1,0 +1,4 @@
+[28-Oct-2021 21:52:44 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_List_Table' not found in /home4/gadgeto0/public_html/wp-admin/includes/class-wp-comments-list-table.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/gadgeto0/public_html/wp-admin/includes/class-wp-comments-list-table.php on line 18

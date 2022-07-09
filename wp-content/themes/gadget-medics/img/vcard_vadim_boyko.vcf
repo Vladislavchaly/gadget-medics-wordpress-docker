@@ -1,0 +1,18 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//QR-Code-Generator.com//EN
+N:Boyko;Vadim;;;
+FN:Vadim Boyko
+ORG:Gadget Medics;
+TITLE:Owner / Lead Technician
+EMAIL;TYPE=PREF,INTERNET:vadim@gadgetmedics.com
+TEL;TYPE=CELL,voice:(561) 279-6888
+TEL;TYPE=WORK,voice:
+TEL;TYPE=WORK,fax:
+ADR;TYPE=WORK;type=pref:;;20449 State Road 7, STE A-6;Boca Raton;FL;33498;United States
+URL:https://gadgetmedics.com
+
+NOTE:
+
+REV:2008-04-24T19:52:43Z
+END:VCARD

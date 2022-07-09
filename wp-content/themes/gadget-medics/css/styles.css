@@ -1,0 +1,1202 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Italic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+.error {
+    color: red;
+}
+
+.model_SpaceGray, .model_SpaceGrey {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), #FFFFFF;
+}
+
+.model_RoseGold {
+    background: #b76e79;
+}
+
+.model_Silver {
+    background: #EFEFEF;
+}
+
+.model_Gold {
+     background: #ffd700;
+}
+
+.model_MidnightGreen {
+    background: #004953;
+}
+
+.model_Yellow {
+    background: #FFFF00;
+}
+
+.model_White {
+    background: #fff;
+}
+
+.model_Coral {
+    background: #ff7f50;
+}
+
+.model_Black {
+    background: #000;
+}
+
+.model_Blue {
+    background: #0000FF;
+}
+
+.model_RED, .model_Red {
+    background: #FF0000;
+}
+
+.model_White {
+    background: #FFFFFF;
+    border: 1px solid #111111;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    position: relative;
+}
+
+body.noScroll {
+    /*overflow: hidden;*/
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 91vw;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (min-width: 768px) {
+    .container {
+
+    }
+}
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1180px;
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        max-width: 80vw;
+    }
+}
+
+header {
+    border-bottom: 0.5px solid #000;
+    padding: 15px 20px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+}
+
+header .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mobile_order_btn {
+    display: none;
+}
+
+.blurBg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
+    z-index: -1;
+    opacity: 0;
+    transition: .5s;
+}
+
+.blurBg.active {
+    z-index: 1;
+    opacity: 1;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 220px;
+    width: 100%;
+    position: absolute;
+}
+
+.logo p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.contact_info, .contact_info .contact_info_point {
+    display: flex;
+    align-items: center;
+    width: 42.5%;
+}
+.contact_info_point.phone-header {
+    margin-left: 11%;
+}
+.contact_info .contact_info_point {
+    margin-right: 0;
+    width: auto;
+}
+
+.contact_info .contact_info_point img {
+    margin-right: 10px;
+}
+
+.phone_block .phone_block_title {
+    position: relative;
+}
+
+.phone_block .phone_block_title h1 {
+    font-size: 600px;
+    line-height: 100%;
+    letter-spacing: -0.1em;
+    user-select: none;
+    margin-top: -70px;
+}
+
+.currency_block {
+    font-weight: 600;
+    font-size: 43.2503px;
+    line-height: 100%;
+    font-family: Poppins, sans-serif;
+    border: 4px solid #111;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    /*left: -40px;*/
+    top: 48%;
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width: 1450px) {
+.contact_info_point.phone-header {
+    margin-left: 10px;
+}
+}
+
+@media screen and (max-width: 1300px) {
+    .phone_block .phone_block_title h1 {
+        font-size: 380px;
+    }
+    .contact_info_point.phone-header {
+        margin-left: 1px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .phone_block .phone_block_title h1 {
+        font-size: 460px;
+        font-weight: 600;
+        margin-top: -48px;
+        margin-left: 26px;
+    }
+    .main_content {
+        margin-top: 40px;
+    }
+    .currency_block {
+        transform: translateY(-46%);
+        left: -26px;
+        width: 70px;
+        height: 70px;
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .phone_block .phone_block_title h1 {
+        font-size: 300px;
+    }
+    .currency_block {
+        font-size: 30px;
+        width: 80px;
+        height: 80px;
+    }
+    .iphone_moving_pic img {
+        width: 220px;
+    }
+    .iphone_moving_pic {
+        left: 45%;
+    }
+}
+
+@media screen and (max-width: 988px) {
+    .phone_block .phone_block_title h1 {
+        font-size: 250px;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .phone_block .phone_block_title h1 {
+        font-size: 520px;
+        font-size: 38vw;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .phone_block .phone_block_title h1 {
+        font-size: 520px;
+        font-size: 38vw;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .phone_block .phone_block_title h1 {
+        font-size: 700px;
+        font-size: 36.5vw;
+        font-size: 37vw;
+        font-weight: 600;
+        margin-left: 30px;
+        line-height: 0.99;
+    }
+}
+
+.form_block {
+    width: 42.4%;
+}
+
+.phone_block {
+    width: 41.4%;
+    position: relative;
+}
+
+.form_block h3 {
+    font-weight: bold;
+    font-size: 74px;
+    line-height: 110%;
+    letter-spacing: -0.03em;
+}
+
+.main_screen .container {
+    position: relative;
+}
+
+.main_screen {
+    padding-bottom: 233px;
+    border-bottom: 0.5px solid #111;
+}
+
+.main_content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+@media screen and (max-width: 1280px) {
+    .main_content {
+        margin-top: 59px;
+    }
+
+    a.logo {
+        max-width: 169px;
+    }
+
+    a.logo img {
+        max-width: 32px;
+    }
+
+    .logo p {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 140%;
+    }
+
+    header {
+        padding: 8px 14px 11px;
+    }
+
+    .contact_info .contact_info_point img {
+        max-width: 18px;
+        margin-right: 6px;
+    }
+}
+.deflector_line {
+    background: #111;
+    width: 1px;
+    width: 0.5px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mouse_scroll {
+    position: absolute;
+    width: 25px;
+    height: 40px;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #111;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mouse_scroll:before {
+    content: '';
+    display: block;
+    background: #111;
+    width: 1px;
+    height: 10px;
+    margin-top: -10px;
+}
+
+.iphone_moving_pic {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-41%);
+    bottom: -422px;
+}
+@media screen and (max-width: 1280px) {
+    .iphone_moving_pic img {
+        max-width: 188px;
+    }
+    .iphone_moving_pic {
+        bottom: -221px;
+    }
+}
+.text_block {
+    padding: 140px 0;
+}
+
+.flex_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.info_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 75px;
+}
+.text_block .flex_container .info_item {
+    max-width: 400px;
+    padding: 0;
+    margin: 0 74px;
+}
+.info_item .info_item_image {
+    height: 80px;
+}
+
+.info_item .info_item_title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 110%;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.info_item p {
+    font-size: 18px;
+    line-height: 190%;
+    text-align: center;
+    text-align-last: center;
+}
+
+select {
+    appearance: none;
+    outline: none;
+    border: none;
+    position: relative;
+}
+
+.zero {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #111;
+    border-radius: 50px;
+}
+
+.repairMainForm {
+    margin-top: 73px;
+    max-width: 620px;
+}
+
+.repairMainForm .flex_container {
+    margin-bottom: 37px;
+}
+.flex_container.secondItemMarginMobile {
+    margin-bottom: 48px;
+}
+.repairMainForm input[type='text'] {
+    appearance: none;
+    border: none;
+    outline: none;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+    border-bottom: 1px solid #111;
+    padding-bottom: 30px;
+    margin-right: 9px;
+    max-width: 286px;
+    width: 100%;
+}
+
+.repairMainForm input.fullWidthInput {
+    max-width: 100%;
+}
+
+.repairMainForm input::placeholder {
+    color: #111;
+}
+
+.repairMainForm .triangleShown input[type='submit'] {
+    background: #000;
+    width: 100%;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    padding-left: 40px;
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-bottom-right-radius: 50px;
+    -webkit-border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    -webkit-border-top-right-radius: 50px;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    transition: .3s;
+}
+
+.triangleShown {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.triangleShown:after {
+    content: '';
+    background-image: url('../img/triangle.svg');
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-size: 10px 10px;
+}
+
+.repairMainForm .buttonBlock {
+    align-items: center;
+}
+
+.repairMainForm .buttonBlock p {
+    font-size: 16px;
+}
+.flex_container.buttonBlock {
+    margin-top: 65px;
+}
+/* The container must be positioned relative: */
+.custom-select {
+    position: relative;
+    font-style: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    color: #111;
+    width: 100%;
+    max-width: 290px;
+    border-bottom: 1px solid #111;
+    padding-bottom: 10px;
+    height: 62px;
+}
+
+.custom-select select {
+    display: none; /*hide original SELECT element: */
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 21px;
+    right: 17px;
+    width: 0;
+    height: 0;
+    border: 3px solid transparent;
+    border-color: #111 transparent transparent transparent;
+}
+
+.select-selected:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #111;
+    border-radius: 30px;
+}
+
+.select-arrow-active.select-selected {
+    background: #ffffff;
+    padding: 0 20px;
+    margin: 0 -40px;
+    /* border-bottom: 1px solid #111; */
+    z-index: 99;
+    position: relative;
+}
+
+.select-arrow-active.select-selected:before {
+    top: 10px;
+    right: 20px;
+    background: #000000;
+    opacity: 0.5;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 26px;
+    right: 38px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+    color: #111;
+    padding: 8px 0 0 0;
+    cursor: pointer;
+}
+
+.select-items div {
+    padding: 15px 20px;
+}
+
+/* Style items (options): */
+.select-items {
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    padding-top: 0px;
+    margin: 10px -40px;
+    overflow-x: auto;
+    height: 517px;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+    display: none;
+}
+
+.select-items div {
+    position: relative;
+    font-weight: 600;
+}
+
+.select-items div:hover, .select-items .same-as-selected {
+    background-color: #111;
+    color: #fff;
+    font-weight: 600;
+}
+
+.select-items .inside_content:hover {
+    background: initial;
+}
+
+.select-items .inside_content {
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    top: 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.select-selected .inside_content {
+    display: none;
+}
+
+.select-selected div {
+    width: 70%;
+}
+
+.select-arrow-active.select-selected div {
+    border-bottom: 0.5px solid #111;
+    width: 100%;
+    padding: 20px 0 25px;
+    font-weight: 600;
+}
+.payment_layout {
+    display: none;
+}
+
+.payment_layout.active {
+    display: block;
+}
+
+.payment_layout.active .blurBg-payment {
+    z-index: 200;
+    opacity: 1;
+}
+
+.payment {
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1000px;
+    margin: 0 30px;
+    width: 100%;
+    z-index: 300;
+    height: 200px;
+}
+
+.payment .close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url("../img/close.svg");
+    cursor: pointer;
+}
+
+.payment_block {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.payment_block .online, .payment_block .offline {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.payment_block .online {
+    border-right: 1px solid #111;
+    text-decoration: underline;
+}
+
+.payment_block input {
+    appearance: none;
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 110%;
+    cursor: pointer;
+}
+
+.mobileMail {
+    display: none;
+}
+
+.success_layout {
+    display: none;
+}
+
+.success_layout.active {
+    display: block;
+}
+
+.success_layout .payment {
+    max-width: 400px;
+}
+
+.success_layout .payment .payment_block {
+    flex-direction: column;
+}
+
+.success_layout .payment .payment_block p {
+    font-size: 18px;
+    line-height: 110%;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1600px) {
+    .info_item .info_item_title {
+        height: 150px;
+    }
+    .info_item {
+        padding: 0 50px;
+    }
+    .custom-select#model {
+        margin-right: 10px;
+    }
+    .triangleShown {
+        max-width: 360px;
+    }
+}
+input#desktop_email {
+    padding-bottom: 29px;
+}
+@media screen and (max-width: 1350px) {
+    .contact_info .contact_info_point p {
+        font-size: 11px;
+        line-height: 2;
+    }
+
+    .contact_info .contact_info_point {
+        margin-right: 20px;
+    }
+
+    .form_block h3 {
+        font-size: 50px;
+    }
+
+    .repairMainForm .buttonBlock p {
+        font-size: 13px;
+    }
+
+    .triangleShown {
+        max-width: 250px;
+    }
+
+    .repairMainForm input[type='submit'] {
+        font-size: 15px;
+    }
+
+    .info_item .info_item_title {
+        font-size: 24px;
+        height: 80px;
+    }
+
+    .info_item {
+        padding: 0 30px;
+    }
+
+    .info_item p {
+        font-size: 14px;
+    }
+
+    .custom-select, .repairMainForm input[type='text'] {
+        font-size: 13px;
+    }
+}
+    @media screen and (min-width: 800px) and (max-width: 1350px) {
+    .repairMainForm {
+        margin-top: 46px;
+        max-width: 444px;
+        padding-left: 5px;
+    }
+
+    .flex_container.secondItemMarginMobile {
+        margin-bottom: 17px;
+    }
+
+    .custom-select, .repairMainForm input[type='text'] {
+        padding-bottom: 19px;
+    }
+
+    .repairMainForm input[type='text'] {
+    }
+
+    input#name, input#phone {
+        max-width: 198px;
+    }
+
+    input#name {}
+
+    .flex_container.desktopMail {
+        margin-bottom: 21px;
+    }
+
+    input#desktop_email {
+        padding-bottom: 19px;
+        margin-top: 12px;
+    }
+
+    .custom-select {
+        padding-bottom: 15px;
+        max-width: 200px;
+        margin-right: 7px;
+        height: 43px;
+    }
+
+    .select-selected:before {
+        width: 26px;
+        height: 26px;
+        margin-top: 2px;
+    }
+
+    .select-selected:after {top: 15px;right: 11px;}
+
+    .flex_container.buttonBlock {margin-top: 46px;opacity: 0.5;}
+
+    .flex_container.buttonBlock {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+    }
+
+    .triangleShown {}
+
+    .flex_container.buttonBlock .triangleShown {
+        max-width: 267px;
+    }
+
+    .repairMainForm .triangleShown input[type='submit'] {
+        font-size: 15px;
+        height: 60px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .custom-select {
+        font-size: 13px;
+    }
+    .logo p {
+        font-size: 15px;
+    }
+    .logo {
+        max-width: 160px;
+    }
+    .logo img {
+        width: 32px;
+        height: 32px;
+    }
+    header .container {
+        max-width: 100%;
+    }
+    header .mobile_order_btn {
+        display: flex;
+        width: 90px;
+        font-size: 12px;
+        color: #000;
+        align-items: center;
+        justify-content: center;
+        height: 28px;
+        border: 1px solid #000;
+        border-radius: 25px;
+        appearance: none;
+        cursor: pointer;
+    }
+    .main_screen {
+        padding-bottom: 0;
+        border: none;
+    }
+    .main_content {
+        flex-direction: column;
+    }
+    .phone_block, .form_block {
+        width: 100%;
+    }
+    .phone_block .phone_block_title {
+        text-align: center;
+    }
+    .phone_block .phone_block_title h1 {
+        font-size: 460px;
+    }
+    .iphone_moving_pic {
+        bottom: -350px;
+    }
+    .currency_block {
+        left: 30px;
+    }
+    .form_block {
+        margin-top: 300px;
+    }
+    .form_block h3 {
+        text-align: center;
+    }
+    .deflector_line {
+        background: transparent;
+        height: 400px;
+        left: 80%;
+    }
+    .repairMainForm input[type='text'] {
+        font-size: 13px;
+    }
+    .container {
+        max-width: 90vw;
+    }
+    .desktopMail {
+        display: none;
+    }
+    .mobileMail {
+        display: block;
+    }
+    .secondItemMarginMobile input:nth-child(2) {
+        margin: 0 20px;
+    }
+    .triangleShown {
+        max-width: 100%;
+    }
+    .buttonBlock p {
+        position: absolute;
+        left: 200px;
+        color: #fff;
+    }
+    .buttonBlock p:before {
+        content: '';
+        display: block;
+        height: 100%;
+        width: 1px;
+        background: #fff;
+        position: absolute;
+        left: -10px;
+    }
+    .text_block {
+        padding-bottom: 70px;
+    }
+    .text_block .flex_container {
+        flex-direction: column;
+    }
+    .info_item .info_item_title {
+        height: auto;
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .info_item {
+        margin-bottom: 50px;
+    }
+    .payment {
+        max-width: 600px;
+        height: 130px;
+        margin: 0;
+    }
+    .payment_block input {
+        font-size: 16px;
+        text-decoration: none;
+    }
+    .success_layout .payment .payment_block {
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .success_layout .payment .payment_block p {
+        margin-top: 20px;
+    }
+    .contact_info {
+        width: auto;
+    }
+    .text_block .flex_container .info_item {
+        max-width: fit-content;
+        margin: 0 30px 28px;
+    }
+    .phone_block .phone_block_title h1 {
+        margin-left: 0;
+    }
+    .iphone_moving_pic {
+        transform: translateX(-50%);
+    }
+    .select-arrow-active.select-selected {
+        margin: 0 -30px;
+    }
+    .select-items {
+        margin: 10px -30px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .contact_info .contact_info_point:first-child {
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_info .contact_info_point:first-child p {
+        margin-top: 10px;
+    }
+    .main_content {
+        margin-top: 140px;
+    }
+    .deflector_line {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .phone_block .phone_block_title h1 {
+        font-size: 350px;
+    }
+    .currency_block {
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .contact_info .contact_info_point:nth-child(2) img {
+        display: none;
+    }
+
+    header .mobile_order_btn {
+        display: none;
+    }
+
+    .contact_info .contact_info_point {
+        margin-right: 0;
+    }
+
+    .phone_block .phone_block_title h1 {
+        font-size: 250px;
+    }
+
+    .iphone_moving_pic img {
+        width: 180px;
+    }
+
+    .currency_block {
+        font-size: 26px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .form_block h3 {
+        font-size: 40px;
+    }
+
+    .repairMainForm .flex_container {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .repairMainForm input[type='text'] {
+        max-width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .secondItemMarginMobile input:nth-child(2) {
+        margin: 0 0 25px 0;
+    }
+
+    .repairMainForm .buttonBlock p {
+        position: static;
+        color: #111;
+        margin-top: 20px;
+    }
+
+    .triangleShown:after {
+        display: none;
+    }
+
+    .repairMainForm input[type='submit'] {
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .main_screen {
+        padding-bottom: 100px;
+        border-bottom: 1px solid #111;
+    }
+
+    .text_block {
+        padding: 100px 0;
+    }
+
+    .custom-select {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .repairMainForm .triangleShown input[type='submit'] {
+        padding-left: 0;
+    }
+    .payment {
+        padding: 0 30px;
+    }
+    .payment_block {
+        flex-direction: column;
+        padding: 0;
+    }
+    .payment_block .online {
+        text-decoration: none;
+        border-bottom: 1px solid #111;
+        border-right: none;
+    }
+}
