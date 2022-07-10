@@ -14,15 +14,13 @@ services:
 #      - gadget_medics_postgres_data:/var/lib/postgresql/data
 
   mysql:
-    image: mysql:8
+    image: mysql:5.6
     ports:
       - "3306:3306"
+#    volumes:
+#      - ~/apps/mysql:/var/lib/mysql
     volumes:
-      - ~/apps/mysql:/var/lib/mysql
-    command: [
-        '--character-set-server=utf8mb4',
-        '--collation-server=utf8mb4_unicode_ci'
-      ]
+      - "./path/to/my.cnf:/etc/alternatives/my.cnf"
     environment:
       - MYSQL_ROOT_PASSWORD=Atkqrn8FNZHn
       - MYSQL_PASSWORD=Atkqrn8FNZHn
