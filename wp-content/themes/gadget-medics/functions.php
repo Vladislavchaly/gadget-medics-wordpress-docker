@@ -818,5 +818,5 @@ function myprefix_setting_callback_function($val)
             id="<?php echo $id; ?>"
             value="<?php echo esc_attr(get_option($option_name_clode)); ?>"
     />
-    <?
+    <?php
 }
