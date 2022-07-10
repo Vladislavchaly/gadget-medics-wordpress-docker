@@ -15,6 +15,6 @@ https://gadgetmedics.com {
     #log /var/log/caddy/access.log
     #errors /var/log/caddy/error.log
 
-    tls self_signed
-    #tls gadgetmedics1@gmail.com
+    #tls self_signed
+    tls gadgetmedics1@gmail.com
 }
