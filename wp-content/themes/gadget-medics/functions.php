@@ -814,9 +814,457 @@ function myprefix_setting_callback_function($val)
     ?>
     <input
             type="text"
-            name="<?php echo $option_name_clode; ?>"
-            id="<?php echo $id; ?>"
-            value="<?php echo esc_attr(get_option($option_name_clode)); ?>"
+            name="<? echo $option_name_clode ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($option_name_clode)) ?>"
     />
-    <?php
+    <?
 }
+
+function open_setting_callback_function($val)
+{
+    $id = $val['id'];
+    $option_name_open = $val['option_name'];
+    ?>
+    <input
+            type="text"
+            name="<? echo $option_name_open ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($option_name_open)) ?>"
+    />
+    <?
+}
+
+
+function monday_setting_callback_function($val)
+{
+    $id = $val['id'];
+    $monday_name = $val['option_name'];
+    ?>
+    <input
+            type="time"
+            name="<? echo $monday_name ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($monday_name)) ?>"
+    />
+    <?
+}
+
+function mondayend_setting_callback_function($val)
+{
+    $id = $val['id'];
+    $mondayend_name = $val['option_name'];
+    ?>
+    <input
+            type="time"
+            name="<? echo $mondayend_name ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($mondayend_name)) ?>"
+    />
+    <?
+}
+
+function tuesday_setting_callback_function($val)
+{
+    $id = $val['id'];
+    $tuesday_name = $val['option_name'];
+    ?>
+    <input
+            type="time"
+            name="<? echo $tuesday_name ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($tuesday_name)) ?>"
+    />
+    <?
+}
+
+function tuesdayend_setting_callback_function($val)
+{
+    $id = $val['id'];
+    $tuesdayend_name = $val['option_name'];
+    ?>
+    <input
+            type="time"
+            name="<? echo $tuesdayend_name ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($tuesdayend_name)) ?>"
+    />
+    <?
+}
+
+function wednesday_setting_callback_function($val)
+{
+    $id = $val['id'];
+    $wednesday_name = $val['option_name'];
+    ?>
+    <input
+            type="time"
+            name="<? echo $wednesday_name ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($wednesday_name)) ?>"
+    />
+    <?
+}
+
+function wednesdayend_setting_callback_function($val)
+{
+    $id = $val['id'];
+    $wednesdayend_name = $val['option_name'];
+    ?>
+    <input
+            type="time"
+            name="<? echo $wednesdayend_name ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($wednesdayend_name)) ?>"
+    />
+    <?
+}
+
+
+function thursday_setting_callback_function($val)
+{
+    $id = $val['id'];
+    $thursday_name = $val['option_name'];
+    ?>
+    <input
+            type="time"
+            name="<? echo $thursday_name ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($thursday_name)) ?>"
+    />
+    <?
+}
+
+function thursdayend_setting_callback_function($val)
+{
+    $id = $val['id'];
+    $thursdayend_name = $val['option_name'];
+    ?>
+    <input
+            type="time"
+            name="<? echo $thursdayend_name ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($thursdayend_name)) ?>"
+    />
+    <?
+}
+
+function fridays_setting_callback_function($val)
+{
+    $id = $val['id'];
+    $fridays_name = $val['option_name'];
+    ?>
+    <input
+            type="time"
+            name="<? echo $fridays_name ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($fridays_name)) ?>"
+    />
+    <?
+}
+
+function fridaysend_setting_callback_function($val)
+{
+    $id = $val['id'];
+    $fridaysend_name = $val['option_name'];
+    ?>
+    <input
+            type="time"
+            name="<? echo $fridaysend_name ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($fridaysend_name)) ?>"
+    />
+    <?
+}
+
+
+function saturday_setting_callback_function($val)
+{
+    $id = $val['id'];
+    $saturday_name = $val['option_name'];
+    ?>
+    <input
+            type="time"
+            name="<? echo $saturday_name ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($saturday_name)) ?>"
+    />
+    <?
+}
+
+function saturdayend_setting_callback_function($val)
+{
+    $id = $val['id'];
+    $saturdayend_name = $val['option_name'];
+    ?>
+    <input
+            type="time"
+            name="<? echo $saturdayend_name ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($saturdayend_name)) ?>"
+    />
+    <?
+}
+
+
+function sunday_setting_callback_function($val)
+{
+    $id = $val['id'];
+    $sunday_name = $val['option_name'];
+    ?>
+    <input
+            type="time"
+            name="<? echo $sunday_name ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($sunday_name)) ?>"
+    />
+    <?
+}
+
+function sundayend_setting_callback_function($val)
+{
+    $id = $val['id'];
+    $sundayend_name = $val['option_name'];
+    ?>
+    <input
+            type="time"
+            name="<? echo $sundayend_name ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($sundayend_name)) ?>"
+    />
+    <?
+}
+
+
+///////////////////
+
+// ------------------------------------------------------------------
+// Вешаем все блоки, поля и опции на хук admin_init
+// ------------------------------------------------------------------
+//
+add_action( 'admin_init', 'eg_settings_api_init' );
+function eg_settings_api_init() {
+    // Добавляем блок опций на базовую страницу "Чтение"
+    add_settings_section(
+        'eg_setting_section', // секция
+        'Настройка статуса магазина для определенных дней недели',
+        'eg_setting_section_callback_function',
+        'general' // страница
+    );
+
+    // Добавляем поля опций. Указываем название, описание,
+    // функцию выводящую html код поля опции.
+    add_settings_field(
+        'eg_setting_name_open',
+        'Статус магазина Открыт',
+        'eg_setting_callback_function', // можно указать ''
+        'general', // страница
+        'eg_setting_section' // секция
+    );
+    add_settings_field(
+        'eg_setting_name_close',
+        'Статус магазина Закрыт',
+        'eg_setting_callback_function1', // можно указать ''
+        'general', // страница
+        'eg_setting_section' // секция
+    );
+    add_settings_field(
+        'eg_setting_name2',
+        'Понедельник',
+        'eg_setting_callback_function2',
+        'general', // страница
+        'eg_setting_section' // секция
+    );
+    add_settings_field(
+        'eg_setting_name3',
+        'Вторник',
+        'eg_setting_callback_function3',
+        'general', // страница
+        'eg_setting_section' // секция
+    );
+    add_settings_field(
+        'eg_setting_name4',
+        'Среда',
+        'eg_setting_callback_function4',
+        'general', // страница
+        'eg_setting_section' // секция
+    );
+    add_settings_field(
+        'eg_setting_name5',
+        'Четверг',
+        'eg_setting_callback_function5',
+        'general', // страница
+        'eg_setting_section' // секция
+    );
+    add_settings_field(
+        'eg_setting_name6',
+        'Пятница',
+        'eg_setting_callback_function6',
+        'general', // страница
+        'eg_setting_section' // секция
+    );
+    add_settings_field(
+        'eg_setting_name7',
+        'Суббота',
+        'eg_setting_callback_function7',
+        'general', // страница
+        'eg_setting_section' // секция
+    );
+    add_settings_field(
+        'eg_setting_name8',
+        'Воскресенье',
+        'eg_setting_callback_function8',
+        'general', // страница
+        'eg_setting_section' // секция
+    );
+
+    // Регистрируем опции, чтобы они сохранялись при отправке
+    // $_POST параметров и чтобы callback функции опций выводили их значение.
+    register_setting( 'general', 'eg_setting_name_open' );
+    register_setting( 'general', 'eg_setting_name_close' );
+    register_setting( 'general', 'eg_setting_name2' );
+    register_setting( 'general', 'eg_setting_name3' );
+    register_setting( 'general', 'eg_setting_name4' );
+    register_setting( 'general', 'eg_setting_name5' );
+    register_setting( 'general', 'eg_setting_name6' );
+    register_setting( 'general', 'eg_setting_name7' );
+    register_setting( 'general', 'eg_setting_name8' );
+}
+
+// ------------------------------------------------------------------
+// Сallback функция для секции
+// ------------------------------------------------------------------
+//
+// Функция срабатывает в начале секции, если не нужно выводить
+// никакой текст или делать что-то еще до того как выводить опции,
+// то функцию можно не использовать для этого укажите '' в третьем
+// параметре add_settings_section
+//
+function eg_setting_section_callback_function() {
+    echo '<p>Заполните новый статус магазина и отметьте дни недели для которых должен примениться данный статус</p>';
+}
+
+// ------------------------------------------------------------------
+// Callback функции выводящие HTML код опций
+// ------------------------------------------------------------------
+//
+// Создаем checkbox и text input теги
+//
+function eg_setting_callback_function() {
+    echo '<input 
+		name="eg_setting_name_open"  
+		type="text" 
+		value="' . get_option( 'eg_setting_name_open' ) . '" 
+		class="code2"
+	 />';
+}
+function eg_setting_callback_function1() {
+    echo '<input 
+		name="eg_setting_name_close"  
+		type="text" 
+		value="' . get_option( 'eg_setting_name_close' ) . '" 
+		class="code2"
+	 />';
+}
+//function eg_setting_callback_function1() {
+//    echo '<input
+//		name="eg_setting_name_close"
+//		type="checkbox"
+//		' . checked( 1, get_option( 'eg_setting_name_close' ), false ) . '
+//		value="1"
+//		class="code"
+//	/>';
+//}
+function eg_setting_callback_function2() {
+    echo '<input 
+		name="eg_setting_name2" 
+		type="checkbox" 
+		' . checked( "Mon", get_option( 'eg_setting_name2' ), false ) . ' 
+		value="Mon" 
+		class="code" 
+	/>';
+}
+function eg_setting_callback_function3() {
+    echo '<input 
+		name="eg_setting_name3" 
+		type="checkbox" 
+		' . checked( "Tue", get_option( 'eg_setting_name3' ), false ) . ' 
+		value="Tue" 
+		class="code" 
+	/>';
+}
+function eg_setting_callback_function4() {
+    echo '<input 
+		name="eg_setting_name4" 
+		type="checkbox" 
+		' . checked( "Wed", get_option( 'eg_setting_name4' ), false ) . ' 
+		value="Wed" 
+		class="code" 
+	/>';
+}
+function eg_setting_callback_function5() {
+    echo '<input 
+		name="eg_setting_name5" 
+		type="checkbox" 
+		' . checked( "Thu", get_option( 'eg_setting_name5' ), false ) . ' 
+		value="Thu" 
+		class="code" 
+	/>';
+}
+function eg_setting_callback_function6() {
+    echo '<input 
+		name="eg_setting_name6" 
+		type="checkbox" 
+		' . checked( "Fri", get_option( 'eg_setting_name6' ), false ) . ' 
+		value="Fri" 
+		class="code" 
+	/>';
+}
+function eg_setting_callback_function7() {
+    echo '<input 
+		name="eg_setting_name7" 
+		type="checkbox" 
+		' . checked( "Sat", get_option( 'eg_setting_name7' ), false ) . ' 
+		value="Sat" 
+		class="code" 
+	/>';
+}
+function eg_setting_callback_function8() {
+    echo '<input 
+		name="eg_setting_name8" 
+		type="checkbox" 
+		' . checked( "Sun", get_option( 'eg_setting_name8' ), false ) . ' 
+		value="Sun" 
+		class="code" 
+	/>';
+}
+
+
+
+
+add_action('wp_ajax_nopriv_filter', 'filter');
+add_action('wp_ajax_filter', 'filter');
+function filter(){
+    $args = array(); // подготовим массив
+    $args['numberposts'] = -1;
+    $args['cat'] = ''.$_POST['term_id'].'';
+
+    $wp_query = new WP_Query( $args );
+    if (  $wp_query->have_posts() ) { ?>
+        <?php while ($wp_query->have_posts()) : $wp_query->the_post();
+            get_template_part('template/content-news');
+        endwhile;?>
+    <?php }
+    wp_reset_postdata();
+    die();
+}
+
+function wpb_imagelink_setup() {
+    $image_set = get_option( 'image_default_link_type' );
+
+    if ($image_set !== 'none') {
+        update_option('image_default_link_type', 'none');
+    }
+}
+add_action('admin_init', 'wpb_imagelink_setup', 10);
+
