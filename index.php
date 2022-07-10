@@ -10,8 +10,8 @@ $link = mysql_connect(
 if (!$link) {
     die('Ошибка соединения: ' . mysql_error());
 }
+mysql_close($link);
 die('Успешно соединились');
-//mysql_close($link);
 
 //var_dump(mysqli_connect(
 // ini_get("mysql"),
