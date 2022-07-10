@@ -804,3 +804,19 @@ function add_option_field_to_general_admin_page()
         )
     );
 }
+
+add_action('admin_menu', 'add_option_field_to_general_admin_page');
+
+function myprefix_setting_callback_function($val)
+{
+    $id = $val['id'];
+    $option_name_clode = $val['option_name'];
+    ?>
+    <input
+            type="text"
+            name="<? echo $option_name_clode ?>"
+            id="<? echo $id ?>"
+            value="<? echo esc_attr(get_option($option_name_clode)) ?>"
+    />
+    <?
+}
