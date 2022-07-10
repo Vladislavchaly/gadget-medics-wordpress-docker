@@ -49,9 +49,9 @@ RUN docker-php-ext-install \
     exif \
     bcmath \
     mysqli \
-    mysql
+    mysqli
 
-RUN docker-php-ext-enable mysqli \ mysql
+RUN docker-php-ext-enable mysqli
 
 # Register the COMPOSER_HOME environment variable
 ENV COMPOSER_HOME /composer
