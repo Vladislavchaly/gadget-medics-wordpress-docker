@@ -1,4 +1,4 @@
-https://18.217.126.54 {
+https://gadgetmedics.com {
     root /app/
     fastcgi / app:9000 php {
         connect_timeout 300s
