@@ -51,16 +51,6 @@ services:
       - mysql
     command: /usr/local/sbin/php-fpm --allow-to-run-as-root
 
-  cron:
-    build: ./docker/
-    container_name: "gadget_medics_cron"
-    volumes:
-      - ./:/app
-    depends_on:
-      - mysql
-      - app
-    command: ./cron_start.sh
-
 volumes:
   gadget_medics_mysql_data:
 
