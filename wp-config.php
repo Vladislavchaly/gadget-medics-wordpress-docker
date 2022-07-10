@@ -39,7 +39,7 @@ define('DB_USER', 'gadgeto0_GMDB');
 /** Пароль к базе данных MySQL */
 define('DB_PASSWORD', "Atkqrn8FNZHn");
 /** Имя сервера MySQL */
-define('DB_HOST', 'gadgetmedicscom-mysql-1');
+define('DB_HOST', '18.217.126.54');
 /** Кодировка базы данных для создания таблиц. */
 define('DB_CHARSET', 'utf8mb4');
 /** Схема сопоставления. Не меняйте, если не уверены. */
