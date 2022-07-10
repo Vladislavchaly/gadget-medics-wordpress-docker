@@ -81,7 +81,7 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 //svg
 define( 'WPMS_ON', true );
 define( 'WPMS_SMTP_PASS', 'your_password' );
