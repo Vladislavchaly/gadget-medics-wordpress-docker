@@ -19,8 +19,6 @@ services:
       - "3306:3306"
 #    volumes:
 #      - ~/apps/mysql:/var/lib/mysql
-    volumes:
-      - "./path/to/my.cnf:/etc/alternatives/my.cnf"
     environment:
       - MYSQL_ROOT_PASSWORD=Atkqrn8FNZHn
       - MYSQL_PASSWORD=Atkqrn8FNZHn
