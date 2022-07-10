@@ -41,7 +41,7 @@ define('DB_PASSWORD', "Atkqrn8FNZHn");
 /** Имя сервера MySQL */
 define('DB_HOST', 'mysql');
 /** Кодировка базы данных для создания таблиц. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 /** Схема сопоставления. Не меняйте, если не уверены. */
 define('DB_COLLATE', '');
 /**#@+
