@@ -1,12 +1,25 @@
 <?php
 
-var_dump(mysql_connect(
- ini_get("mysql"),
-ini_get("gadgeto0_GMDB"),
-ini_get("Atkqrn8FNZHn"),
-$new_link = false,
-$client_flags = 0
-));
+$link = mysql_connect(
+    ini_get("mysql"),
+    ini_get("gadgeto0_GMDB"),
+    ini_get("Atkqrn8FNZHn"),
+    $new_link = false,
+    $client_flags = 0
+);
+if (!$link) {
+    die('Ошибка соединения: ' . mysql_error());
+}
+die('Успешно соединились');
+//mysql_close($link);
+
+//var_dump(mysqli_connect(
+// ini_get("mysql"),
+//ini_get("gadgeto0_GMDB"),
+//ini_get("Atkqrn8FNZHn"),
+//$new_link = false,
+//$client_flags = 0
+//));
 
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
