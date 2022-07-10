@@ -814,9 +814,9 @@ function myprefix_setting_callback_function($val)
     ?>
     <input
             type="text"
-            name="<? echo $option_name_clode ?>"
-            id="<? echo $id ?>"
-            value="<? echo esc_attr(get_option($option_name_clode)) ?>"
+            name="<?php echo $option_name_clode ?>"
+            id="<?php echo $id ?>"
+            value="<?php echo esc_attr(get_option($option_name_clode)) ?>"
     />
     <?
 }
