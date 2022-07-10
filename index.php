@@ -1,7 +1,7 @@
 <?php
 
 $link = mysql_connect(
-    ini_get("mysql"),
+    ini_get("test"),
     ini_get("gadgeto0_GMDB"),
     ini_get("Atkqrn8FNZHn"),
     $new_link = false,
