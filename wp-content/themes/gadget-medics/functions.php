@@ -1242,22 +1242,22 @@ function eg_setting_callback_function8() {
 
 
 
-//add_action('wp_ajax_nopriv_filter', 'filter');
-//add_action('wp_ajax_filter', 'filter');
-//function filter(){
-//    $args = array(); // подготовим массив
-//    $args['numberposts'] = -1;
-//    $args['cat'] = ''.$_POST['term_id'].'';
-//
-//    $wp_query = new WP_Query( $args );
-//    if (  $wp_query->have_posts() ) { ?>
-<!--        --><?php //while ($wp_query->have_posts()) : $wp_query->the_post();
-//            get_template_part('template/content-news');
-//        endwhile;?>
-<!--    --><?php //}
-//    wp_reset_postdata();
-//    die();
-//}
+add_action('wp_ajax_nopriv_filter', 'filter');
+add_action('wp_ajax_filter', 'filter');
+function filter(){
+    $args = array(); // подготовим массив
+    $args['numberposts'] = -1;
+    $args['cat'] = ''.$_POST['term_id'].'';
+
+    $wp_query = new WP_Query( $args );
+    if (  $wp_query->have_posts() ) { ?>
+        <?php while ($wp_query->have_posts()) : $wp_query->the_post();
+            get_template_part('template/content-news');
+        endwhile;?>
+    <?php }
+    wp_reset_postdata();
+    die();
+}
 
 function wpb_imagelink_setup() {
     $image_set = get_option( 'image_default_link_type' );
@@ -1268,4 +1268,5 @@ function wpb_imagelink_setup() {
 }
 add_action('admin_init', 'wpb_imagelink_setup', 10);
 
+}
 ?>
