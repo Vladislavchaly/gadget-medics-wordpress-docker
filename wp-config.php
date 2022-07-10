@@ -86,8 +86,7 @@ define('WP_DEBUG', true);
 define( 'WPMS_ON', true );
 define( 'WPMS_SMTP_PASS', 'your_password' );
 define('ALLOW_UNFILTERED_UPLOADS', true);
-define (‘ALLOW_UNFILTERED_UPLOADS’, true);
-
+define('WP_USE_EXT_MYSQL', true);
 /* Это всё, дальше не редактируем. Успехов! */
 /** Абсолютный путь к директории WordPress. */
 if ( !defined('ABSPATH') )
