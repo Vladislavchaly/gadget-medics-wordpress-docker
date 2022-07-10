@@ -1,9 +1,9 @@
 <?php
 
 $link = mysql_connect(
-    ini_get("test"),
-    ini_get("gadgeto0_GMDB"),
-    ini_get("Atkqrn8FNZHn"),
+    "mysql",
+    "gadgeto0_GMDB",
+    "Atkqrn8FNZHn",
     $new_link = false,
     $client_flags = 0
 );
