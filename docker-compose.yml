@@ -18,7 +18,9 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - ~/apps/mysql:/var/lib/mysql
+      - gadget_medics_mysql_data:/var/lib/mysql
+#    volumes:
+#      - ~/apps/mysql:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD=Atkqrn8FNZHn
       - MYSQL_PASSWORD=Atkqrn8FNZHn
