@@ -8,7 +8,7 @@ $link = mysqli_connect(
     $client_flags = 0
 );
 if (!$link) {
-    die('Ошибка соединения: ' . mysqli_error());
+    die('Ошибка соединения: ' . mysqli_error($link));
 }
 mysqli_close($link);
 die('Успешно соединились');
