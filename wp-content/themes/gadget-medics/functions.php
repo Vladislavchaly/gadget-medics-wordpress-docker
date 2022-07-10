@@ -481,3 +481,326 @@ function codeless_remove_type_attr($tag, $handle)
 {
     return preg_replace("/type=['\"]text\/(javascript|css)['\"]/", '', $tag);
 }
+
+function add_option_field_to_general_admin_page()
+{
+    $option_name_clode = 'close_status_option';
+    $option_name_open = 'open_status_option';
+    $option_name_clodenew = 'closenew_status_option';
+    $option_name_opennew = 'opennew_status_option';
+//    $option_name_checkbox = 'checkbox_status_option';
+    //Weekday
+    $monday_name = 'monday_status_option';
+    $mondayend_name = 'mondayend_status_option';
+    $tuesday_name = 'tuesday_status_option';
+    $tuesdayend_name = 'tuesdayend_status_option';
+    $wednesday_name = 'wednesday_status_option';
+    $wednesdayend_name = 'wednesdayend_status_option';
+    $thursday_name = 'thursday_status_option';
+    $thursdayend_name = 'thursdayend_status_option';
+    $fridays_name = 'fridays_status_option';
+    $fridaysend_name = 'fridaysend_status_option';
+    $saturday_name = 'saturday_status_option';
+    $saturdayend_name = 'saturdayend_status_option';
+    $sunday_name = 'sunday_status_option';
+    $sundayend_name = 'sundayend_status_option';
+    // регистрируем опцию
+    register_setting('general', $option_name_clode);
+
+    // добавляем поле
+    add_settings_field(
+        'myprefix_setting-id',
+        'Статус магазина закрыт',
+        'myprefix_setting_callback_function',
+        'general',
+        'default',
+        array(
+            'id' => 'myprefix_setting-id',
+            'option_name' => 'close_status_option'
+        )
+    );
+    // регистрируем опцию
+    register_setting('general', $option_name_open);
+
+    // добавляем поле
+    add_settings_field(
+        'open_setting-id',
+        'Статус магазина открыт',
+        'open_setting_callback_function',
+        'general',
+        'default',
+        array(
+            'id' => 'open_setting-id',
+            'option_name' => 'open_status_option'
+        )
+    );
+//    // регистрируем опцию
+//    register_setting('general', $option_name_clodenew);
+//
+//    // добавляем поле
+//    add_settings_field(
+//        'myprefixnew_setting-id',
+//        'Статус магазина закрыт Новый',
+//        'myprefixnew_setting_callback_function',
+//        'general',
+//        'default',
+//        array(
+//            'id' => 'myprefixnew_setting-id',
+//            'option_name' => 'closenew_status_option'
+//        )
+//    );
+//    // регистрируем опцию
+//    register_setting('general', $option_name_opennew);
+//
+//    // добавляем поле
+//    add_settings_field(
+//        'opennew_setting-id',
+//        'Статус магазина открыт Новый',
+//        'opennew_setting_callback_function',
+//        'general',
+//        'default',
+//        array(
+//            'id' => 'opennew_setting-id',
+//            'option_name' => 'opennew_status_option'
+//        )
+//    );
+//    register_setting('general', $option_name_checkbox);
+//
+//    // добавляем поле
+//    add_settings_field(
+//        'checkbox_setting-id',
+//        'Выберете дни к которым будет применяться новый статус',
+//        'checkbox_setting_callback_function',
+//        'general',
+//        'default',
+//        array(
+//            'id' => 'checkbox_setting-id',
+//            'option_name' => 'checkbox_status_option'
+//        )
+//
+//    );
+    // регистрируем опцию
+    register_setting('general', $monday_name);
+
+    // добавляем поле
+    add_settings_field(
+        'monday_setting-id',
+        'Понедельник время открытия',
+        'monday_setting_callback_function',
+        'general',
+        'default',
+        array(
+            'id' => 'monday_setting-id',
+            'option_name' => 'monday_status_option'
+        )
+    );
+
+
+    // регистрируем опцию
+    register_setting('general', $mondayend_name);
+
+    // добавляем поле
+    add_settings_field(
+        'mondayend_setting-id',
+        'Понедельник время закрытия',
+        'mondayend_setting_callback_function',
+        'general',
+        'default',
+        array(
+            'id' => 'mondayend_setting-id',
+            'option_name' => 'mondayend_status_option'
+        )
+    );
+    // регистрируем опцию
+    register_setting('general', $tuesday_name);
+
+    // добавляем поле
+    add_settings_field(
+        'tuesday_setting-id',
+        'Втр время открытия',
+        'tuesday_setting_callback_function',
+        'general',
+        'default',
+        array(
+            'id' => 'tuesday_setting-id',
+            'option_name' => 'tuesday_status_option'
+        )
+    );
+
+
+    // регистрируем опцию
+    register_setting('general', $tuesdayend_name);
+
+    // добавляем поле
+    add_settings_field(
+        'tuesdayend_setting-id',
+        'Втр время закрытия',
+        'tuesdayend_setting_callback_function',
+        'general',
+        'default',
+        array(
+            'id' => 'tuesdayend_setting-id',
+            'option_name' => 'tuesdayend_status_option'
+        )
+    );
+
+// регистрируем опцию
+    register_setting('general', $wednesday_name);
+
+    // добавляем поле
+    add_settings_field(
+        'wednesday_setting-id',
+        'Срд время открытия',
+        'wednesday_setting_callback_function',
+        'general',
+        'default',
+        array(
+            'id' => 'wednesday_setting-id',
+            'option_name' => 'wednesday_status_option'
+        )
+    );
+
+
+    // регистрируем опцию
+    register_setting('general', $wednesdayend_name);
+
+    // добавляем поле
+    add_settings_field(
+        'wednesdayend_setting-id',
+        'Срд время закрытия',
+        'wednesdayend_setting_callback_function',
+        'general',
+        'default',
+        array(
+            'id' => 'wednesdayend_setting-id',
+            'option_name' => 'wednesdayend_status_option'
+        )
+    );
+    register_setting('general', $thursday_name);
+
+    // добавляем поле
+    add_settings_field(
+        'thursday_setting-id',
+        'Чт время открытия',
+        'thursday_setting_callback_function',
+        'general',
+        'default',
+        array(
+            'id' => 'thursday_setting-id',
+            'option_name' => 'thursday_status_option'
+        )
+    );
+
+
+    // регистрируем опцию
+    register_setting('general', $thursdayend_name);
+
+    // добавляем поле
+    add_settings_field(
+        'thursdayend_setting-id',
+        'Чт время закрытия',
+        'thursdayend_setting_callback_function',
+        'general',
+        'default',
+        array(
+            'id' => 'thursdayend_setting-id',
+            'option_name' => 'thursdayend_status_option'
+        )
+    );
+    // регистрируем опцию
+    register_setting('general', $fridays_name);
+
+    // добавляем поле
+    add_settings_field(
+        'fridays_setting-id',
+        'Пт время открытия',
+        'fridays_setting_callback_function',
+        'general',
+        'default',
+        array(
+            'id' => 'fridays_setting-id',
+            'option_name' => 'fridays_status_option'
+        )
+    );
+
+
+    // регистрируем опцию
+    register_setting('general', $fridaysend_name);
+
+    // добавляем поле
+    add_settings_field(
+        'fridaysend_setting-id',
+        'Пт время закрытия',
+        'fridaysend_setting_callback_function',
+        'general',
+        'default',
+        array(
+            'id' => 'fridaysend_setting-id',
+            'option_name' => 'fridaysend_status_option'
+        )
+    );
+    // регистрируем опцию
+    register_setting('general', $saturday_name);
+
+    // добавляем поле
+    add_settings_field(
+        'saturday_setting-id',
+        'Сб время открытия',
+        'saturday_setting_callback_function',
+        'general',
+        'default',
+        array(
+            'id' => 'saturday_setting-id',
+            'option_name' => 'saturday_status_option'
+        )
+    );
+
+
+    // регистрируем опцию
+    register_setting('general', $saturdayend_name);
+
+    // добавляем поле
+    add_settings_field(
+        'saturdayend_setting-id',
+        'Сб время закрытия',
+        'saturdayend_setting_callback_function',
+        'general',
+        'default',
+        array(
+            'id' => 'saturdayend_setting-id',
+            'option_name' => 'saturdayend_status_option'
+        )
+    );
+    // регистрируем опцию
+    register_setting('general', $sunday_name);
+
+    // добавляем поле
+    add_settings_field(
+        'sunday_setting-id',
+        'Вск время открытия',
+        'sunday_setting_callback_function',
+        'general',
+        'default',
+        array(
+            'id' => 'sunday_setting-id',
+            'option_name' => 'sunday_status_option'
+        )
+    );
+
+
+    // регистрируем опцию
+    register_setting('general', $sundayend_name);
+
+    // добавляем поле
+    add_settings_field(
+        'sundayend_setting-id',
+        'Вск время закрытия',
+        'sundayend_setting_callback_function',
+        'general',
+        'default',
+        array(
+            'id' => 'sundayend_setting-id',
+            'option_name' => 'sundayend_status_option'
+        )
+    );
+}
