@@ -1,4 +1,13 @@
 <?php
+
+var_dump(mysql_connect(
+ ini_get("mysql"),
+ini_get("gadgeto0_GMDB"),
+ini_get("Atkqrn8FNZHn"),
+$new_link = false,
+$client_flags = 0
+));
+
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
  * wp-blog-header.php which does and tells WordPress to load the theme.
