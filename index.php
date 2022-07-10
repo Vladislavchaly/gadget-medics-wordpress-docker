@@ -1,6 +1,6 @@
 <?php
 
-$link = mysql_connect(
+$link = mysqli_connect(
     "mysql",
     "gadgeto0_GMDB",
     "Atkqrn8FNZHn",
@@ -8,9 +8,9 @@ $link = mysql_connect(
     $client_flags = 0
 );
 if (!$link) {
-    die('Ошибка соединения: ' . mysql_error());
+    die('Ошибка соединения: ' . mysqli_error());
 }
-mysql_close($link);
+mysqli_close($link);
 die('Успешно соединились');
 
 //var_dump(mysqli_connect(
