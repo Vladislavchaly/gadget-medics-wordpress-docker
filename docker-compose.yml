@@ -14,11 +14,11 @@ services:
 #      - gadget_medics_postgres_data:/var/lib/postgresql/data
 
   mysql:
-    image: mysql:5.7
+    image: mysql:8
     ports:
       - "3306:3306"
-#    volumes:
-#      - ~/apps/mysql:/var/lib/mysql
+    volumes:
+      - ~/apps/mysql:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD=Atkqrn8FNZHn
       - MYSQL_PASSWORD=Atkqrn8FNZHn
