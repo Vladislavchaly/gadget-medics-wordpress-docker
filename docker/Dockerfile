@@ -51,7 +51,7 @@ RUN docker-php-ext-install \
     mysqli \
     mysql
 
-RUN docker-php-ext-enable mysqli \ mysql
+RUN docker-php-ext-enable mysqli
 
 # Register the COMPOSER_HOME environment variable
 ENV COMPOSER_HOME /composer
